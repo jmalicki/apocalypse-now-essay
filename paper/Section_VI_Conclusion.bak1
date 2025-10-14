@@ -1,3 +1,26 @@
+\documentclass[12pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage{csquotes}
+\usepackage{hyperref}
+\usepackage{fontspec} %% XeLaTeX or LuaLaTeX
+\usepackage[style=apa,backend=biber]{biblatex}
+\addbibresource{everyone.bib}
+
+\setmainfont{Libertinus Serif}
+\setsansfont{Libertinus Sans}
+\setmonofont{Libertinus Mono}
+\defaultfontfeatures{Ligatures=TeX}
+\linespread{1.5}
+
+\title{“Everyone Gets Everything He Wants”: Desire, Fulfillment, and the Tragic Logic of Will in \textit{Apocalypse Now}}
+\author{(Your Name)}
+\date{\today}
+
+\begin{document}
+\maketitle
+
 \section*{VI. Conclusion: The Mission and the Mirror}
 \label{sec:vi-conclusion-the-mission-and-the-mirror}
 
@@ -14,3 +37,6 @@ The traditions surveyed here do not counsel quietism but discipline. The biblica
 \subsection*{4. Last Words}
 \label{ssec:4-last-words}
 Poetry often says last things best. Eliot’s reflection that ``the end of all our exploring / Will be to arrive where we started / And know the place for the first time'' \parencite[Eliot, 1969, ``Little Gidding'']{EliotCollected1969} names the arc of this essay: the mission returns us to the origin of will. Rilke’s admonition---``You must change your life''---arrives in another register \parencite[Snow trans., 2009]{RilkeElegies2009}. If Willard’s sentence is the mission’s epitaph, this is its coda. The...
+
+\printbibliography
+\end{document}

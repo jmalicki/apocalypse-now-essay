@@ -1,3 +1,27 @@
+
+\documentclass[12pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage{csquotes}
+\usepackage{hyperref}
+\usepackage{fontspec} %% XeLaTeX or LuaLaTeX
+\usepackage[style=apa,backend=biber]{biblatex}
+\addbibresource{everyone.bib}
+
+\setmainfont{Libertinus Serif}
+\setsansfont{Libertinus Sans}
+\setmonofont{Libertinus Mono}
+\defaultfontfeatures{Ligatures=TeX}
+\linespread{1.5}
+
+\title{“Everyone Gets Everything He Wants”: Desire, Fulfillment, and the Tragic Logic of Will in \textit{Apocalypse Now}}
+\author{(Your Name)}
+\date{\today}
+
+\begin{document}
+\maketitle
+
 \section*{II. The Fulfillment of Desire as Punishment: Biblical and Buddhist Echoes (Revised, Integrated)}
 \label{sec:ii-the-fulfillment-of-desire-as-punishment-biblical-and-buddhist-echoes-revised-integrated}
 
@@ -33,3 +57,6 @@ Placed side by side, the traditions converge on fulfillment-as-exposure while di
 \emph{What heals?} Biblical teleology proposes grace re-ordering love into charity, so that desire becomes participation rather than possession (\parencite{AugustineCity2003}; \parencite{AquinasST1947}). Early Buddhism proposes cessation: disenchantment that cools the fires and breaks the chain (\parencite{BodhiSN2000}; \parencite{Rahula1959}). Gregory of Nyssa’s \emph{epektasis} complicates the contrast by imagining an infinite desire transformed into ascent (\parencite{GregoryMoses1978}; \parencite{GregoryBeatitudes1954}); Śāntideva’s ethical therapy reframes desire as reactivity to be trained (\parencite{SantidevaBCA1995}; \parencite{Gethin1998}). Maimonides adds a rationalist variant: fulfillment that multiplies passions obscures the intellect (\parencite{MaimonidesGuide1963}).
 
 Within this synthesis, Willard’s line is neither bravado nor cynicism. ``Everyone gets everything he wants'' states a universal structure: every finite ``everything'' cannot satisfy a will seeking ultimacy (Biblical teleology), and every conditioned ``everything'' renews the chain (Buddhist causality). ``For my sins I got one'' is the moral-psychological index of that structure: the administrative mission-form returns desire as assignment, and the return unveils the desiring as mis-aimed. The film’s images merely instantiate these logics: victories possessed as ultimates thin the soul; gratifications achieved re-seed grasping. Fulfillment thus punishes because it reveals the will or reproduces the chain---and, in either case, points beyond itself to reordered love or cessation as the only ways out.
+
+\printbibliography
+\end{document}

@@ -34,7 +34,7 @@ repos:
           - --emph=et al.
       # - id: csquotes
       #   files: '\.tex$'
-      # - id: ensure-labels-for-sections
+      # - id: ensure-labels-for-sections  # Disabled - all labels added and verified unique
       #   files: '\.tex$'
       - id: no-space-in-cite
         files: '\.tex$'

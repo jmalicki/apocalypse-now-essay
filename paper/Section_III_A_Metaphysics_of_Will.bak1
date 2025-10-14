@@ -1,3 +1,26 @@
+\documentclass[12pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage{csquotes}
+\usepackage{hyperref}
+\usepackage{fontspec} %% XeLaTeX or LuaLaTeX
+\usepackage[style=apa,backend=biber]{biblatex}
+\addbibresource{everyone.bib}
+
+\setmainfont{Libertinus Serif}
+\setsansfont{Libertinus Sans}
+\setmonofont{Libertinus Mono}
+\defaultfontfeatures{Ligatures=TeX}
+\linespread{1.5}
+
+\title{“Everyone Gets Everything He Wants”: Desire, Fulfillment, and the Tragic Logic of Will in \textit{Apocalypse Now}}
+\author{(Your Name)}
+\date{\today}
+
+\begin{document}
+\maketitle
+
 \section*{III–A. Metaphysics of Will: Lack, Power, and Law (Schopenhauer, Nietzsche, Kant)}
 \label{sec:iii-a-metaphysics-of-will-lack-power-and-law-schopenhauer-nietzsche-kant}
 
@@ -14,5 +37,8 @@ Nietzsche inverts renunciation: “man would rather will nothingness than not wi
 Kant separates moral worth from happiness: “only the good will is good without qualification” (\parencite{KantCPrR1996}, p.~27). Inclination’s fulfillment, even bureaucratically universalized, cannot justify the act. The mission’s \emph{legality} (dossiers, briefings) sits uneasily with \emph{morality}. The clause “for my sins” reads as self-indictment: I sought an inclination-friendly end; I received it; I remain bound by a law I risk violating.
 
 \subsection*{Comparative Friction}
-\label{ssec:comparative-friction-metaphysics}
+\label{ssec:comparative-friction}
 Schopenhauer and Nietzsche agree that fulfillment cannot end willing but diverge on response: renounce vs. create. Kant relocates value outside fulfillment, into a formal test of maxims. Willard’s aphorism holds all three in tension: the mission cannot satisfy (Schopenhauer); the will moves anyway (Nietzsche); completion lacks moral credit (Kant).
+
+\printbibliography
+\end{document}

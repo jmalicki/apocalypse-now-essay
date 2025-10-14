@@ -1,3 +1,26 @@
+\documentclass[12pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage{csquotes}
+\usepackage{hyperref}
+\usepackage{fontspec} %% XeLaTeX or LuaLaTeX
+\usepackage[style=apa,backend=biber]{biblatex}
+\addbibresource{everyone.bib}
+
+\setmainfont{Libertinus Serif}
+\setsansfont{Libertinus Sans}
+\setmonofont{Libertinus Mono}
+\defaultfontfeatures{Ligatures=TeX}
+\linespread{1.5}
+
+\title{“Everyone Gets Everything He Wants”: Desire, Fulfillment, and the Tragic Logic of Will in \textit{Apocalypse Now}}
+\author{(Your Name)}
+\date{\today}
+
+\begin{document}
+\maketitle
+
 \section*{V. Modern Psychology and Death: Desire, Symbolism, and the Shadow}
 \label{sec:v-modern-psychology-and-death-desire-symbolism-and-the-shadow}
 
@@ -24,3 +47,6 @@ As a corrective to psychopathology, Frankl’s logotherapy proposes meaning as t
 \subsection*{7. Synthesis: The Mission as Psychological Symptom}
 \label{ssec:7-synthesis-the-mission-as-psychological-symptom}
 Across these approaches, fulfillment functions as a diagnostic device. Psychoanalysis reads the ``mission'' as repetition and displacement; Rank and Becker interpret it as a defense against death; Jung and Lacan see in it the activation of shadow and the return of lack; Frankl reframes it as a failure of teleology. Willard receives exactly what he wants and thereby learns what he is. The diagnosis is severe but not hopeless: the only exit these traditions allow is not more fulfillment but a different rela...
+
+\printbibliography
+\end{document}

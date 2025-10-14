@@ -1,18 +1,40 @@
+\documentclass[12pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage{csquotes}
+\usepackage{hyperref}
+\usepackage{fontspec} %% XeLaTeX or LuaLaTeX
+\usepackage[style=apa,backend=biber]{biblatex}
+\addbibresource{everyone.bib}
+
+\setmainfont{Libertinus Serif}
+\setsansfont{Libertinus Sans}
+\setmonofont{Libertinus Mono}
+\defaultfontfeatures{Ligatures=TeX}
+\linespread{1.5}
+
+\title{“Everyone Gets Everything He Wants”: Desire, Fulfillment, and the Tragic Logic of Will in \textit{Apocalypse Now}}
+\author{(Your Name)}
+\date{\today}
+
+\begin{document}
+\maketitle
+
 \section*{III–A. Metaphysics of Will: Lack, Power, and Law (Schopenhauer, Nietzsche, Kant)}
-\label{sec:iii-a-metaphysics-of-will-lack-power-and-law-schopenhauer-nietzsche-kant}
 
 \subsection*{Schopenhauer: Fulfillment Reveals Lack}
-\label{ssec:schopenhauer-fulfillment-reveals-lack}
 “All willing springs from lack, from deficiency, and therefore from suffering” (\parencite{SchopenhauerWWR1969}, p.~196). Because the will is a ceaseless impulse, “every satisfied desire at once makes room for a new one” (\parencite{SchopenhauerWWR1969}, p.~319). Fulfillment therefore functions as punishment by \emph{de-revealing} the object: it cannot pacify the very structure that produced it. Read against Willard’s line, the \emph{form} of “mission” fits the will’s grammar better than any specific content; upriver episodes satisfy without pacifying, reproducing Schopenhauer’s cycle of striving $\rightarrow$ relief $\rightarrow$ boredom $\rightarrow$ renewed striving.
 
 \subsection*{Nietzsche: Fulfillment as Self-Overcoming, not Rest}
-\label{ssec:nietzsche-fulfillment-as-self-overcoming-not-rest}
 Nietzsche inverts renunciation: “man would rather will nothingness than not will at all” (\parencite[III.28, p.~162]{NietzscheGenealogy1994}). The will’s health is \emph{affirmation}, but affirmation means \emph{ever-new creation}. Hence the warning that “the desire for ‘truth’ has hitherto been the most dangerous of all possessions” (\parencite[\S 34]{NietzscheBGE1990}). What appears as “fulfillment” can mask domination under noble names. In Willard’s acceptance, the \emph{form} of willing (a Yes to project) is heroic; the \emph{content} (assassinate Kurtz) risks nihilistic “truth.” Fulfillment must become \emph{transvaluation}—a change of \emph{how} one wills—else it hardens into will-to-nothingness.
 
 \subsection*{Kant: Fulfillment Does Not Confer Worth}
-\label{ssec:kant-fulfillment-does-not-confer-worth}
 Kant separates moral worth from happiness: “only the good will is good without qualification” (\parencite{KantCPrR1996}, p.~27). Inclination’s fulfillment, even bureaucratically universalized, cannot justify the act. The mission’s \emph{legality} (dossiers, briefings) sits uneasily with \emph{morality}. The clause “for my sins” reads as self-indictment: I sought an inclination-friendly end; I received it; I remain bound by a law I risk violating.
 
 \subsection*{Comparative Friction}
-\label{ssec:comparative-friction-metaphysics}
 Schopenhauer and Nietzsche agree that fulfillment cannot end willing but diverge on response: renounce vs. create. Kant relocates value outside fulfillment, into a formal test of maxims. Willard’s aphorism holds all three in tension: the mission cannot satisfy (Schopenhauer); the will moves anyway (Nietzsche); completion lacks moral credit (Kant).
+
+
+\printbibliography
+\end{document}

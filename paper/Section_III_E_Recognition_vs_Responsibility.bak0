@@ -1,35 +1,56 @@
+\documentclass[12pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage{csquotes}
+\usepackage{hyperref}
+\usepackage{fontspec} %% XeLaTeX or LuaLaTeX
+\usepackage[style=apa,backend=biber]{biblatex}
+\addbibresource{everyone.bib}
+
+\setmainfont{Libertinus Serif}
+\setsansfont{Libertinus Sans}
+\setmonofont{Libertinus Mono}
+\defaultfontfeatures{Ligatures=TeX}
+\linespread{1.5}
+
+\title{“Everyone Gets Everything He Wants”: Desire, Fulfillment, and the Tragic Logic of Will in \textit{Apocalypse Now}}
+\author{(Your Name)}
+\date{\today}
+
+\begin{document}
+\maketitle
+
 \section*{III--E. Between Recognition and Responsibility: Hegel, Koj{\`e}ve, Levinas, Beauvoir (with Sartrean Pressure)}
-\label{sec:iii-e-between-recognition-and-responsibility-hegel-koj-e-ve-levinas-beauvoir-with-sartrean-pressure}
 
 Sections III--A through III--D showed that modern accounts of fulfillment converge on exposure: getting what one wants returns the truth of the will. This section articulates a tighter triangulation. Hegel and Koj{\`e}ve claim that fulfillment without \emph{recognition} is empty; Levinas argues that the first relation is not reciprocity but an ethical asymmetry to the Other; Beauvoir contends that my freedom is authentic only insofar as it \emph{wills} the freedom of others. Sartre exerts pressure on all t...
 \subsection*{1. What Counts as ``Fulfillment''? Recognition vs. Command}
-\label{ssec:1-what-counts-as-fulfillment-recognition-vs-command}
 Hegel names the criterion: satisfaction without mutual recognition collapses into the \emph{semblance} of fulfillment (\S\S 178--196; \parencite{HegelPhenomenology1977}). Koj{\`e}ve therfore reads history as the struggle to secure recognition robust enough to stabilize selfhood (\parencite{KojeveIRH1980}). Levinas, by contrast, dislocates the axis: before reciprocity there is the face that ``forbids us to kill''---an absolute ethical command (\parencite[p.~199]{LevinasTI1969}). Where Hegel judges the t...
 Beauvoir synthesizes a practical demand from both: freedom that does not will others free becomes \emph{bad faith} and domination (\parencite[p.~73]{Beauvoir1976}). In her register, the \emph{form} of fulfillment is \emph{co-liberation}. This triangulation reframes Willard’s mission. The State’s ``recognition'' (orders, dossiers) grants him an object and a role; Levinas exposes the missing ethical ground; Beauvoir provides the test: does the project will others free?
 
 \subsection*{2. Where Hegel Meets Levinas (and Where They Refuse Each Other)}
-\label{ssec:2-where-hegel-meets-levinas-and-where-they-refuse-each-other}
 Convergence: both insist that the \emph{Other} is constitutive of selfhood. Even in Hegel’s death-struggle, the other’s freedom is indispensable; in Levinas, the face arrives as an inassimilable height that constitutes me as responsible (\parencite{LevinasTI1969}). Divergence: Hegel \emph{mediates} alterity into reciprocity; Levinas preserves an asymmetry the dialectic must not absorb. Hence a practical dilemma: an \emph{institutional} world must stabilize recognition (Hegel), yet every institution risks ...
 Applied to Willard’s sentence: ``Everyone gets everything he wants'' names the institutional circulation of desires (missions assigned, roles recognized) that make selfhood legible (Hegel/Koj{\`e}ve); ``for my sins I got one'' registers the Levinasian \emph{rupture}---the command of the Other that the mission-form brackets, thereby revealing the project as \emph{sinful} even when successfully recognized.
 
 \subsection*{3. Beauvoir’s Reciprocity under Sartrean Pressure}
-\label{ssec:3-beauvoir-s-reciprocity-under-sartrean-pressure}
 Sartre insists that freedom has no essence to guarantee it (\parencite{SartreBN2003}); every project is an exposure. Beauvoir transforms this ontology into an ethic: to will oneself free is also to will others free (\parencite{Beauvoir1976}). The Sartrean pressure is double: (i) reciprocity cannot be deduced from ontology; it must be \emph{chosen}; (ii) projects that instrumentalize others will be revealed, in fulfillment, as \emph{bad faith}. In this light, the mission’s completion cannot vindicate the p...
 Thus Beauvoir supplies a bridge: she preserves Hegel’s intersubjective criterion (no solitary fulfillment) while honoring Levinas’s ethical primacy (others are not means). Under her view, Willard’s confession is not simply melancholic; it is a recognition that his project failed the reciprocity test that would have converted task into vocation.
 
 \subsection*{4. Minimal Norms for ``Non-Punitive'' Fulfillment}
-\label{ssec:4-minimal-norms-for-non-punitive-fulfillment}
 Gathering the threads yields three negative tests and one positive norm:
 
 \begin{enumerate}
-	\item \textbf{Anti-mastery (Hegel/Koj{\`e}ve):} Fulfillment that reduces the other to instrument secures only empty recognition; it will punish in exposure.
-	\item \textbf{Anti-violation (Levinas):} Fulfillment that ignores the face’s prohibition is ethically null; the punishment is accusation within the self.
-	\item \textbf{Anti-bad-faith (Sartre):} Fulfillment that disavows its own freedom is flight; exposure returns as nausea, not peace.
-	\item \textbf{Pro-reciprocity (Beauvoir):} Only projects that will others free transmute fulfillment from possession into \emph{co-realization}.
+  \item \textbf{Anti-mastery (Hegel/Koj{\`e}ve):} Fulfillment that reduces the other to instrument secures only empty recognition; it will punish in exposure.
+  \item \textbf{Anti-violation (Levinas):} Fulfillment that ignores the face’s prohibition is ethically null; the punishment is accusation within the self.
+  \item \textbf{Anti-bad-faith (Sartre):} Fulfillment that disavows its own freedom is flight; exposure returns as nausea, not peace.
+  \item \textbf{Pro-reciprocity (Beauvoir):} Only projects that will others free transmute fulfillment from possession into \emph{co-realization}.
 \end{enumerate}
 
 These norms do not reconcile the traditions; they articulate a practical sieve for projects. Under this sieve, the sentence “Everyone gets everything he wants” ceases to be fatalism and becomes a \emph{diagnostic}: in getting the project, one learns whether the project’s structure \emph{could} have yielded anything but punishment.
 
 \subsection*{5. Coda: Integrating with Sections II and IV}
-\label{ssec:5-coda-integrating-with-sections-ii-and-iv}
 Section II taught that fulfillment punishes as \emph{privation} (Biblical) or as \emph{causal renewal} (Buddhist). Sections III--A to III--D added that it punishes as \emph{self-exposure} of freedom. Section IV showed how modern institutions convert desire into mission and representation. The present triangulation sets a criterion across all frames: unless fulfillment is \emph{recognitive}, \emph{non-violent} toward the face, and \emph{reciprocal} in freedom, the gift of what one wants returns as judgment.
+
+
+\printbibliography
+\end{document}

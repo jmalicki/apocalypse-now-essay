@@ -32,7 +32,6 @@ This sheet previews the same paragraph in a wide range of serif, sans-serif, and
 Compile with \textbf{XeLaTeX} or \textbf{LuaLaTeX}. Any fonts not installed will be clearly indicated.
 
 \section*{Serif Families (Book/Academic)}
-\label{sec:serif-families-book-academic}
 
 \tryfont{Latin Modern Roman}{Latin Modern Roman}
 \tryfont{TeX Gyre Termes (Times-like)}{TeX Gyre Termes}
@@ -55,7 +54,6 @@ Compile with \textbf{XeLaTeX} or \textbf{LuaLaTeX}. Any fonts not installed will
 \tryfont{Book Antiqua}{Book Antiqua}
 
 \section*{Sans-Serif Families (Modern/Clean)}
-\label{sec:sans-serif-families-modern-clean}
 
 \tryfont{TeX Gyre Heros (Helvetica-like)}{TeX Gyre Heros}
 \tryfont{TeX Gyre Adventor (Avant Garde-like)}{TeX Gyre Adventor}
@@ -72,7 +70,6 @@ Compile with \textbf{XeLaTeX} or \textbf{LuaLaTeX}. Any fonts not installed will
 \tryfont{Gill Sans}{Gill Sans}
 
 \section*{Monospaced Families (Code/Typewriter)}
-\label{sec:monospaced-families-code-typewriter}
 
 \tryfont{Libertinus Mono}{Libertinus Mono}
 \tryfont{Inconsolata}{Inconsolata}

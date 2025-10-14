@@ -1,3 +1,26 @@
+\documentclass[12pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage{csquotes}
+\usepackage{hyperref}
+\usepackage{fontspec} %% XeLaTeX or LuaLaTeX
+\usepackage[style=apa,backend=biber]{biblatex}
+\addbibresource{everyone.bib}
+
+\setmainfont{Libertinus Serif}
+\setsansfont{Libertinus Sans}
+\setmonofont{Libertinus Mono}
+\defaultfontfeatures{Ligatures=TeX}
+\linespread{1.5}
+
+\title{“Everyone Gets Everything He Wants”: Desire, Fulfillment, and the Tragic Logic of Will in \textit{Apocalypse Now}}
+\author{(Your Name)}
+\date{\today}
+
+\begin{document}
+\maketitle
+
 \section*{III–C. Finitude \& Responsibility: Time, Death, and the Other (Heidegger, Levinas)}
 \label{sec:iii-c-finitude-responsibility-time-death-and-the-other-heidegger-levinas}
 
@@ -12,3 +35,6 @@ Authenticity requires “anticipatory resoluteness” toward death (\parencite[p
 \subsection*{Synthesis}
 \label{ssec:synthesis}
 Heidegger limits projects by \emph{time}; Levinas limits them by the \emph{Other}. Willard’s confession registers both limits: the project granted exposes finitude and summons responsibility. In either case, fulfillment is not closure but \emph{exposure}.
+
+\printbibliography
+\end{document}

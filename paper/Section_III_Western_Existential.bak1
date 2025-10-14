@@ -1,3 +1,27 @@
+
+\documentclass[12pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage{csquotes}
+\usepackage{hyperref}
+\usepackage{fontspec} %% XeLaTeX or LuaLaTeX
+\usepackage[style=apa,backend=biber]{biblatex}
+\addbibresource{everyone.bib}
+
+\setmainfont{Libertinus Serif}
+\setsansfont{Libertinus Sans}
+\setmonofont{Libertinus Mono}
+\defaultfontfeatures{Ligatures=TeX}
+\linespread{1.5}
+
+\title{“Everyone Gets Everything He Wants”: Desire, Fulfillment, and the Tragic Logic of Will in \textit{Apocalypse Now}}
+\author{(Your Name)}
+\date{\today}
+
+\begin{document}
+\maketitle
+
 \section*{III. Western Philosophy and Existentialism: Fulfillment as Exposure of Freedom (Revised, Integrated)}
 \label{sec:iii-western-philosophy-and-existentialism-fulfillment-as-exposure-of-freedom-revised-integrated}
 
@@ -47,3 +71,6 @@ Across these positions, ``getting what one wants'' functions as an \emph{experim
 \end{itemize}
 
 These are not identical; they are complementary exposures of the same knot: will, world, and other. Integrated back into Willard’s line: \emph{Everyone} (universality of structure) \emph{gets} (experiment of action) \emph{everything} (totalizing aims) he \emph{wants} (projected freedom). ``For my sins I got one'' translates into: the project fulfilled displayed, without alibi, what my willing had been all along.
+
+\printbibliography
+\end{document}

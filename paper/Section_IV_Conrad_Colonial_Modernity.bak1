@@ -1,3 +1,26 @@
+\documentclass[12pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage{csquotes}
+\usepackage{hyperref}
+\usepackage{fontspec} %% XeLaTeX or LuaLaTeX
+\usepackage[style=apa,backend=biber]{biblatex}
+\addbibresource{everyone.bib}
+
+\setmainfont{Libertinus Serif}
+\setsansfont{Libertinus Sans}
+\setmonofont{Libertinus Mono}
+\defaultfontfeatures{Ligatures=TeX}
+\linespread{1.5}
+
+\title{“Everyone Gets Everything He Wants”: Desire, Fulfillment, and the Tragic Logic of Will in \textit{Apocalypse Now}}
+\author{(Your Name)}
+\date{\today}
+
+\begin{document}
+\maketitle
+
 \section*{IV. Conrad, Colonialism, and Modernity}
 \label{sec:iv-conrad-colonialism-and-modernity}
 
@@ -28,3 +51,6 @@ Fanon reinterprets Hegelian recognition within colonial relation: the colonized 
 Read in this frame, Willard’s opening line is not merely mordant wit but a summary of the century’s critique. ``Everyone gets everything he wants''---because modern institutions exist to circulate wants as functions, and because representation manufactures the worlds those wants require. ``For my sins I got one''---because the system returns desire as assignment, and the assignment reveals desire’s complicity with domination. Conrad supplies the form (a journey into the center where fulfillment collapses into horror). Critical theory supplies the terms (reason as domination, vocation as compulsion, representation as power). Coppola supplies the image: the fulfilled mission as an illuminated ruin.
 
 What Willard learns upriver is what Conrad, Benjamin, and Fanon teach in theory: fulfillment is not closure but exposure. The prize of the modern will is to see itself in the world it has made.
+
+\printbibliography
+\end{document}

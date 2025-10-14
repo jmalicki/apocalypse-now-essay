@@ -1,3 +1,26 @@
+\documentclass[12pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage{csquotes}
+\usepackage{hyperref}
+\usepackage{fontspec} %% XeLaTeX or LuaLaTeX
+\usepackage[style=apa,backend=biber]{biblatex}
+\addbibresource{everyone.bib}
+
+\setmainfont{Libertinus Serif}
+\setsansfont{Libertinus Sans}
+\setmonofont{Libertinus Mono}
+\defaultfontfeatures{Ligatures=TeX}
+\linespread{1.5}
+
+\title{“Everyone Gets Everything He Wants”: Desire, Fulfillment, and the Tragic Logic of Will in \textit{Apocalypse Now}}
+\author{(Your Name)}
+\date{\today}
+
+\begin{document}
+\maketitle
+
 \section*{III--E. Between Recognition and Responsibility: Hegel, Koj{\`e}ve, Levinas, Beauvoir (with Sartrean Pressure)}
 \label{sec:iii-e-between-recognition-and-responsibility-hegel-koj-e-ve-levinas-beauvoir-with-sartrean-pressure}
 
@@ -33,3 +56,6 @@ These norms do not reconcile the traditions; they articulate a practical sieve f
 \subsection*{5. Coda: Integrating with Sections II and IV}
 \label{ssec:5-coda-integrating-with-sections-ii-and-iv}
 Section II taught that fulfillment punishes as \emph{privation} (Biblical) or as \emph{causal renewal} (Buddhist). Sections III--A to III--D added that it punishes as \emph{self-exposure} of freedom. Section IV showed how modern institutions convert desire into mission and representation. The present triangulation sets a criterion across all frames: unless fulfillment is \emph{recognitive}, \emph{non-violent} toward the face, and \emph{reciprocal} in freedom, the gift of what one wants returns as judgment.
+
+\printbibliography
+\end{document}

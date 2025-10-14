@@ -1,3 +1,30 @@
+\documentclass[12pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage{csquotes}
+\usepackage{hyperref}
+\usepackage{fontspec} %% Compile with XeLaTeX or LuaLaTeX
+\usepackage[style=apa,backend=biber]{biblatex}
+\addbibresource{everyone.bib}
+
+\setmainfont{Libertinus Serif}
+\setsansfont{Libertinus Sans}
+\setmonofont{Libertinus Mono}
+\defaultfontfeatures{Ligatures=TeX}
+\linespread{1.5}
+
+\title{“Everyone Gets Everything He Wants”: Desire, Fulfillment, and the Tragic Logic of Will in \textit{Apocalypse Now}}
+\author{(Your Name)}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+
 \section*{I. Introduction: The Paradox of Fulfilled Desire}
-\label{sec:i-introduction-the-paradox-of-fulfilled-desire}
 When Captain Willard opens \textit{Apocalypse Now} (1979) with the line, ``Everyone gets everything he wants. I wanted a mission, and for my sins they gave me one,'' he states a moral law. Beneath the soldier’s irony lies a metaphysical claim: that desire fulfilled is inseparable from punishment. The first clause universalizes fulfillment as an inevitable structure; the second localizes it as judgment. This essay traces that paradox across traditions: biblical justice and Buddhist causality; Western philosophy’s metaphysics of will; Conrad’s colonial modernity refracted through Coppola; and modern psychology’s confrontation with mortality. Willard’s line, stripped of theology but charged with fatalism, speaks for the modern self: one who always gets what he wants—and must live with what it means.
+
+
+\printbibliography
+\end{document}
