@@ -178,8 +178,9 @@ TSWLatexianTemp*
 .DS_Store
 Thumbs.db
 
-## Output PDF (optional - uncomment if you don't want to track PDFs)
+## Output PDF and Markdown (optional - uncomment if you don't want to track them)
 # *.pdf
+# *.md
 
 ## Python virtual environment
 .venv/

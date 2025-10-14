@@ -21,7 +21,7 @@ OUT_DIR = build
 TEX_FILES = $(wildcard $(PAPER_DIR)/*.tex)
 BIB_FILES = $(wildcard $(PAPER_DIR)/*.bib)
 
-.PHONY: all clean cleanall view help watch
+.PHONY: all clean cleanall view help watch markdown
 
 # Default target
 all: $(MAIN).pdf
@@ -39,6 +39,18 @@ quick: $(TEX_FILES)
 	@cd $(PAPER_DIR) && $(LATEX) $(LATEX_FLAGS) $(MAIN).tex
 	@cp $(PAPER_DIR)/$(MAIN).pdf .
 
+# Generate Markdown from LaTeX
+markdown: $(MAIN).pdf
+	@echo "==> Converting to Markdown..."
+	@cd $(PAPER_DIR) && pandoc $(MAIN).tex \
+		--from=latex \
+		--to=gfm \
+		--bibliography=everyone.bib \
+		--citeproc \
+		--output=$(MAIN).md
+	@cp $(PAPER_DIR)/$(MAIN).md .
+	@echo "==> Markdown file created: $(MAIN).md"
+
 # Clean auxiliary files
 clean:
 	@echo "==> Cleaning auxiliary files..."
@@ -49,7 +61,8 @@ clean:
 cleanall:
 	@echo "==> Cleaning all generated files..."
 	@cd $(PAPER_DIR) && latexmk -C $(MAIN).tex
-	@rm -f $(MAIN).pdf
+	@rm -f $(MAIN).pdf $(MAIN).md
+	@rm -f $(PAPER_DIR)/$(MAIN).md
 	@echo "==> Full clean complete"
 
 # View the PDF (tries common PDF viewers)
@@ -87,8 +100,9 @@ help:
 	@echo "Usage:"
 	@echo "  make          - Full compilation with bibliography (3 passes)"
 	@echo "  make quick    - Quick single-pass compilation (no bibliography)"
+	@echo "  make markdown - Convert to GitHub-flavored Markdown with citations"
 	@echo "  make clean    - Remove auxiliary files"
-	@echo "  make cleanall - Remove all generated files including PDF"
+	@echo "  make cleanall - Remove all generated files including PDF and Markdown"
 	@echo "  make view     - Open the PDF in default viewer"
 	@echo "  make watch    - Auto-recompile on file changes (requires inotify-tools)"
 	@echo "  make help     - Show this help message"
@@ -96,5 +110,6 @@ help:
 	@echo "Configuration:"
 	@echo "  LaTeX Compiler: $(LATEX)"
 	@echo "  Bibliography:   $(BIBTEX)"
+	@echo "  Markdown:       pandoc with citeproc"
 	@echo "  Source dir:     $(PAPER_DIR)/"
 	@echo "  Main file:      $(PAPER_DIR)/$(MAIN).tex"
