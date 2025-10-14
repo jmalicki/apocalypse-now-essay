@@ -39,17 +39,21 @@ quick: $(TEX_FILES)
 	@cd $(PAPER_DIR) && $(LATEX) $(LATEX_FLAGS) $(MAIN).tex
 	@cp $(PAPER_DIR)/$(MAIN).pdf .
 
-# Generate Markdown from LaTeX
+# Generate Markdown from LaTeX (optimized for VSCode preview)
 markdown: $(MAIN).pdf
 	@echo "==> Converting to Markdown..."
 	@cd $(PAPER_DIR) && pandoc $(MAIN).tex \
 		--from=latex \
 		--to=gfm \
+		--standalone \
 		--bibliography=everyone.bib \
 		--citeproc \
+		--wrap=preserve \
+		--markdown-headings=atx \
 		--output=$(MAIN).md
 	@cp $(PAPER_DIR)/$(MAIN).md .
 	@echo "==> Markdown file created: $(MAIN).md"
+	@echo "    Open in VSCode with: code $(MAIN).md"
 
 # Clean auxiliary files
 clean:

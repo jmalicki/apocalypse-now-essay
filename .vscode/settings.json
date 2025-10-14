@@ -1,0 +1,44 @@
+{
+  // Markdown preview settings
+  "markdown.preview.breaks": false,
+  "markdown.preview.linkify": true,
+  "markdown.preview.typographer": true,
+
+  // Recommended extensions for LaTeX + Markdown workflow
+  "recommendations": [
+    "james-yu.latex-workshop",
+    "yzhang.markdown-all-in-one"
+  ],
+
+  // File associations
+  "files.associations": {
+    "*.tex": "latex",
+    "*.bib": "bibtex"
+  },
+
+  // LaTeX Workshop settings
+  "latex-workshop.latex.autoBuild.run": "never",
+  "latex-workshop.latex.recipe.default": "latexmk (xelatex)",
+  "latex-workshop.latex.recipes": [
+    {
+      "name": "latexmk (xelatex)",
+      "tools": [
+        "latexmk-xelatex"
+      ]
+    }
+  ],
+  "latex-workshop.latex.tools": [
+    {
+      "name": "latexmk-xelatex",
+      "command": "latexmk",
+      "args": [
+        "-xelatex",
+        "-bibtex",
+        "-interaction=nonstopmode",
+        "-halt-on-error",
+        "%DOC%"
+      ],
+      "env": {}
+    }
+  ]
+}
