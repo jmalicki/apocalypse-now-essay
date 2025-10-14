@@ -11,13 +11,15 @@ repos:
         args: ['--maxkb=5000']
       - id: mixed-line-ending
 
-  # LaTeX specific linters
-  # - repo: https://github.com/cmhughes/latexindent.pl
-  #   rev: V3.23.5
-  #   hooks:
-  #     - id: latexindent
-  #       args: ['-s', '-w', '-m']
-  #       files: '\.tex$'
+  # LaTeX specific linters - use system latexindent
+  - repo: local
+    hooks:
+      - id: latexindent
+        name: latexindent
+        entry: latexindent
+        args: ['-s', '-w', '-m']
+        language: system
+        files: '\.tex$'
 
   - repo: https://github.com/jonasbb/pre-commit-latex-hooks
     rev: v1.4.0
