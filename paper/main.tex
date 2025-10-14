@@ -21,6 +21,19 @@
 \usepackage{../google-books-cite/google-books-cite}
 \addbibresource{everyone.bib}
 
+% Configure BibLaTeX to make titles clickable but hide URL text
+\DeclareFieldFormat{url}{\relax}  % Don't print URL as text
+\DeclareFieldFormat{title}{%
+  \iffieldundef{url}{%
+    \mkbibemph{#1}%  % No URL: italic title as normal
+  }{%
+    \href{\thefield{url}}{\mkbibemph{#1}}%  % Has URL: make title clickable
+  }%
+}
+
+% Google Books IDs for clickable page citations
+\input{google-books-ids.tex}
+
 \setmainfont{Libertinus Serif}
 \setsansfont{Libertinus Sans}
 \setmonofont{Libertinus Mono}
