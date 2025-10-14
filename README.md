@@ -57,8 +57,10 @@ make quick
 ```
 .
 ├── paper/                    # LaTeX source files
-│   ├── main.tex             # Main document file (to be created)
-│   └── references.bib       # Bibliography database
+│   ├── main.tex             # Main document file
+│   ├── everyone.bib         # Bibliography database
+│   ├── III_*.tex            # Per-philosopher analyses
+│   └── Section_*.tex        # Major sections
 ├── Makefile                 # Build automation
 ├── .gitignore               # Git ignore patterns
 ├── .pre-commit-config.yaml  # Pre-commit hooks configuration

@@ -2,7 +2,10 @@
 # For Apocalypse Now Analysis Paper
 
 # Main document name (without .tex extension)
-MAIN = Master_Apocalypse_Now_Essay
+# Source file in paper/ directory
+MAIN_TEX = main
+# Output file names (more descriptive)
+MAIN = apocalypse-now-desire-and-will
 
 # Paper source directory
 PAPER_DIR = paper
@@ -29,20 +32,22 @@ all: $(MAIN).pdf
 # Full compilation with bibliography (using latexmk for automatic dependency handling)
 $(MAIN).pdf: $(TEX_FILES) $(BIB_FILES)
 	@echo "==> Compiling with latexmk (auto-detects passes needed)..."
-	@cd $(PAPER_DIR) && latexmk -xelatex -bibtex -interaction=nonstopmode -halt-on-error $(MAIN).tex
-	@cp $(PAPER_DIR)/$(MAIN).pdf .
+	@cd $(PAPER_DIR) && latexmk -xelatex -bibtex -interaction=nonstopmode -halt-on-error $(MAIN_TEX).tex
+	@cp $(PAPER_DIR)/$(MAIN_TEX).pdf $(MAIN).pdf
+	@rm -f $(PAPER_DIR)/$(MAIN_TEX).pdf
 	@echo "==> PDF compilation complete: $(MAIN).pdf"
 
 # Quick compile (single pass, no bibliography)
 quick: $(TEX_FILES)
 	@echo "==> Quick XeLaTeX compile (single pass)..."
-	@cd $(PAPER_DIR) && $(LATEX) $(LATEX_FLAGS) $(MAIN).tex
-	@cp $(PAPER_DIR)/$(MAIN).pdf .
+	@cd $(PAPER_DIR) && $(LATEX) $(LATEX_FLAGS) $(MAIN_TEX).tex
+	@cp $(PAPER_DIR)/$(MAIN_TEX).pdf $(MAIN).pdf
+	@rm -f $(PAPER_DIR)/$(MAIN_TEX).pdf
 
 # Generate Markdown from LaTeX (optimized for VSCode preview)
 markdown: $(MAIN).pdf
 	@echo "==> Converting to Markdown..."
-	@cd $(PAPER_DIR) && pandoc $(MAIN).tex \
+	@cd $(PAPER_DIR) && pandoc $(MAIN_TEX).tex \
 		--from=latex \
 		--to=gfm \
 		--standalone \
@@ -58,15 +63,15 @@ markdown: $(MAIN).pdf
 # Clean auxiliary files
 clean:
 	@echo "==> Cleaning auxiliary files..."
-	@cd $(PAPER_DIR) && latexmk -c $(MAIN).tex
+	@cd $(PAPER_DIR) && latexmk -c $(MAIN_TEX).tex
 	@echo "==> Clean complete"
 
 # Clean everything including PDF
 cleanall:
 	@echo "==> Cleaning all generated files..."
-	@cd $(PAPER_DIR) && latexmk -C $(MAIN).tex
+	@cd $(PAPER_DIR) && latexmk -C $(MAIN_TEX).tex
 	@rm -f $(MAIN).pdf $(MAIN).md
-	@rm -f $(PAPER_DIR)/$(MAIN).md
+	@rm -f $(PAPER_DIR)/$(MAIN).md $(PAPER_DIR)/$(MAIN_TEX).pdf
 	@echo "==> Full clean complete"
 
 # View the PDF (tries common PDF viewers)
@@ -99,7 +104,7 @@ watch:
 
 # Display help
 help:
-	@echo "LaTeX Makefile for $(PAPER_DIR)/$(MAIN).tex"
+	@echo "LaTeX Makefile for Apocalypse Now Essay"
 	@echo ""
 	@echo "Usage:"
 	@echo "  make          - Full compilation with bibliography (3 passes)"
@@ -116,4 +121,5 @@ help:
 	@echo "  Bibliography:   $(BIBTEX)"
 	@echo "  Markdown:       pandoc with citeproc"
 	@echo "  Source dir:     $(PAPER_DIR)/"
-	@echo "  Main file:      $(PAPER_DIR)/$(MAIN).tex"
+	@echo "  Source file:    $(PAPER_DIR)/$(MAIN_TEX).tex"
+	@echo "  Output PDF:     $(MAIN).pdf"
