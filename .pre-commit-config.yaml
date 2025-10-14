@@ -20,6 +20,11 @@ repos:
         args: ['-s', '-w', '-m']
         language: system
         files: '\.tex$'
+      - id: check-tex-line-length
+        name: Check LaTeX line length (max 100 chars)
+        entry: .git-hooks/check-tex-line-length
+        language: script
+        files: '\.tex$'
 
   - repo: https://github.com/jonasbb/pre-commit-latex-hooks
     rev: v1.4.0

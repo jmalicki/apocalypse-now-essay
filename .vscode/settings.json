@@ -16,6 +16,27 @@
     "*.bib": "bibtex"
   },
 
+  // Hide backup and auxiliary files from explorer
+  "files.exclude": {
+    "**/*.bak": true,
+    "**/*.bak[0-9]": true,
+    "**/*.bak[0-9][0-9]": true,
+    "**/*.aux": true,
+    "**/*.log": true,
+    "**/*.out": true,
+    "**/*.toc": true,
+    "**/*.bcf": true,
+    "**/*.bbl": true,
+    "**/*.blg": true,
+    "**/*.fls": true,
+    "**/*.fdb_latexmk": true,
+    "**/*.synctex.gz": true,
+    "**/*.xdv": true,
+    "**/*.run.xml": true,
+    "**/__pycache__": true,
+    "**/.venv": true
+  },
+
   // LaTeX Workshop settings
   "latex-workshop.latex.autoBuild.run": "never",
   "latex-workshop.latex.recipe.default": "latexmk (xelatex)",
