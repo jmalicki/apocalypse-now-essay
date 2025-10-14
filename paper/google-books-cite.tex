@@ -1,0 +1,64 @@
+% Custom citation commands for Google Books page links
+% Usage: \gbparencite[p.~123]{CitationKey}
+% Requires: googlebooksid field in bibliography entry
+
+\RequirePackage{xparse}
+\RequirePackage{xstring}
+
+% Helper to extract page number from citation postnote
+% Handles formats like: p.~123, pp.~123-125, pp.~123--125
+\newcommand{\extractpagenumber}[1]{%
+	\IfBeginWith{#1}{p.~}{%
+		\StrBehind{#1}{p.~}[\pagenum]%
+		\StrBefore{\pagenum}{-}[\pagenum]% Remove range if present
+		\pagenum%
+	}{%
+		\IfBeginWith{#1}{pp.~}{%
+			\StrBehind{#1}{pp.~}[\pagenum]%
+			\StrBefore{\pagenum}{-}[\pagenum]% Remove range if present
+			\pagenum%
+		}{#1}% Fallback: return as-is
+	}%
+}
+
+% Main command: Google Books parenthetical citation
+\NewDocumentCommand{\gbparencite}{o m}{%
+	\IfNoValueTF{#1}{% No page number
+		\parencite{#2}%
+	}{% With page number
+		% Check if entry has googlebooksid
+		\ifcsundef{abx@field@googlebooksid@#2}{%
+			% No Google Books ID, use regular citation
+			\parencite[#1]{#2}%
+		}{%
+			% Has Google Books ID, make page clickable
+			\def\gbid{\csuse{abx@field@googlebooksid@#2}}%
+			\extractpagenumber{#1}%
+			\edef\pagenum{\extractpagenumber{#1}}%
+			(\citeauthor{#2},~\citeyear{#2}, \href{https://books.google.com/books?id=\gbid&pg=PA\pagenum}{#1})%
+		}%
+	}%
+}
+
+% Text version: Google Books text citation  
+\NewDocumentCommand{\gbtextcite}{o m}{%
+	\IfNoValueTF{#1}{% No page number
+		\textcite{#2}%
+	}{% With page number
+		\ifcsundef{abx@field@googlebooksid@#2}{%
+			\textcite[#1]{#2}%
+		}{%
+			\def\gbid{\csuse{abx@field@googlebooksid@#2}}%
+			\extractpagenumber{#1}%
+			\edef\pagenum{\extractpagenumber{#1}}%
+			\textcite{#2} (\href{https://books.google.com/books?id=\gbid&pg=PA\pagenum}{#1})%
+		}%
+	}%
+}
+
+% Note: This is a proof-of-concept implementation
+% Production version would need:
+% - Better error handling
+% - Support for roman numerals (PR prefix)
+% - Support for preliminary pages (PP prefix)
+% - Fallback when page number format is unexpected

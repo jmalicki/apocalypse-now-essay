@@ -1,0 +1,73 @@
+% Simplified Google Books citation commands
+% Based on standard LaTeX/BibLaTeX + hyperref approach
+% No existing package provides this functionality (verified 2025-10-14)
+
+\ProvidesPackage{google-books-cite}[2025/10/14 Google Books page-specific citations]
+
+\RequirePackage{xparse}
+
+% Store Google Books IDs - define before \begin{document}
+% Usage: \SetGoogleBooksID{CitationKey}{GoogleBooksID}
+\ExplSyntaxOn
+\seq_new:N \g_gb_ids_seq
+\cs_new:Npn \SetGoogleBooksID #1#2 {
+	\cs_gset:cpn { gb_id_#1: } { #2 }
+}
+\cs_new:Npn \GetGoogleBooksID #1 {
+	\cs_if_exist:cTF { gb_id_#1: } {
+		\use:c { gb_id_#1: }
+	}{
+		% Return empty if not found
+	}
+}
+\ExplSyntaxOff
+
+% Google Books parenthetical citation with page link
+% Usage: \gbparencite[p.~123]{CitationKey}
+\NewDocumentCommand{\gbparencite}{o m}{%
+	\IfNoValueTF{#1}{%
+		% No page number, use regular citation
+		\parencite{#2}%
+	}{%
+		% Extract just the page number (remove p.~, pp.~, etc.)
+		\def\pagetext{#1}%
+		\StrSubstitute{\pagetext}{p.~}{}[\cleanpage]%
+		\StrSubstitute{\cleanpage}{pp.~}{}[\cleanpage]%
+		\StrSubstitute{\cleanpage}{ }{}[\cleanpage]%
+		\StrBefore{\cleanpage}{-}[\firstpage]%
+		\StrBefore{\cleanpage}{--}[\firstpage]%
+		% Check if we have a Google Books ID
+		\edef\gbid{\GetGoogleBooksID{#2}}%
+		\ifx\gbid\empty%
+			% No Google Books ID, regular citation
+			\parencite[#1]{#2}%
+		\else%
+			% Has Google Books ID, make page clickable
+			(\citeauthor{#2}, \citeyear{#2}, %
+			\href{https://books.google.com/books?id=\gbid&pg=PA\firstpage}{#1})%
+		\fi%
+	}%
+}
+
+% Text citation variant
+\NewDocumentCommand{\gbtextcite}{o m}{%
+	\IfNoValueTF{#1}{%
+		\textcite{#2}%
+	}{%
+		\def\pagetext{#1}%
+		\StrSubstitute{\pagetext}{p.~}{}[\cleanpage]%
+		\StrSubstitute{\cleanpage}{pp.~}{}[\cleanpage]%
+		\StrSubstitute{\cleanpage}{ }{}[\cleanpage]%
+		\StrBefore{\cleanpage}{-}[\firstpage]%
+		\StrBefore{\cleanpage}{--}[\firstpage]%
+		\edef\gbid{\GetGoogleBooksID{#2}}%
+		\ifx\gbid\empty%
+			\textcite[#1]{#2}%
+		\else%
+			\citeauthor{#2} (\citeyear{#2}, %
+			\href{https://books.google.com/books?id=\gbid&pg=PA\firstpage}{#1})%
+		\fi%
+	}%
+}
+
+\endinput
