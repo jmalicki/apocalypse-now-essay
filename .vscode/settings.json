@@ -40,6 +40,12 @@
   // LaTeX Workshop settings
   "latex-workshop.latex.autoBuild.run": "never",
   "latex-workshop.latex.recipe.default": "latexmk (xelatex)",
+  "latex-workshop.latex.outDir": "./",
+  "latex-workshop.view.pdf.viewer": "tab",
+  "latex-workshop.view.pdf.internal.synctex.keybinding": "double-click",
+  "latex-workshop.view.pdf.zoom": "page-width",
+  "latex-workshop.view.pdf.scrollMode": 1,
+  "latex-workshop.view.pdf.spreadMode": 0,
   "latex-workshop.latex.recipes": [
     {
       "name": "latexmk (xelatex)",
@@ -61,5 +67,10 @@
       ],
       "env": {}
     }
-  ]
+  ],
+
+  // PDF viewer settings (for tomoki1207.pdf extension)
+  "pdf.default.scale": "page-width",
+  "pdf.default.scrollMode": "vertical",
+  "pdf.default.spreadMode": "none"
 }
