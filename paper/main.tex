@@ -4,17 +4,19 @@
 \usepackage{parskip}
 \usepackage{csquotes}
 \usepackage{fontspec} %% XeLaTeX or LuaLaTeX
-\usepackage[bookmarks=true,
+\usepackage[xetex,
+  bookmarks=true,
   bookmarksopen=true,
   bookmarksnumbered=true,
-  bookmarksopenlevel=1,
+  bookmarksopenlevel=2,
   pdfpagelabels=true,
   unicode=true,
   pdfstartview=FitH,
   colorlinks=true,
   linkcolor=black,
   citecolor=black,
-  urlcolor=blue]{hyperref}
+  urlcolor=blue,
+  breaklinks=true]{hyperref}
 \usepackage[style=apa,backend=biber]{biblatex}
 \addbibresource{everyone.bib}
 
@@ -33,6 +35,9 @@
 \begin{document}
 \maketitle
 
+\tableofcontents
+\newpage
+
 % --- Sections included ---
 \input{Section_I_Intro_content.tex}
 \newpage
@@ -49,5 +54,5 @@
 \newpage
 \input{Section_VI_Conclusion_content.tex}
 
-\printbibliography
+\printbibliography[heading=bibintoc]
 \end{document}
