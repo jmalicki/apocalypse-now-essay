@@ -44,120 +44,56 @@ Placed side by side, the traditions converge on fulfillment-as-exposure while di
 
 Within this synthesis, Willard’s line is neither bravado nor cynicism. “Everyone gets everything he wants” states a universal structure: every finite “everything” cannot satisfy a will seeking ultimacy (Biblical teleology), and every conditioned “everything” renews the chain (Buddhist causality). “For my sins I got one” is the moral-psychological index of that structure: the administrative mission-form returns desire as assignment, and the return unveils the desiring as mis-aimed. The film’s images merely instantiate these logics: victories possessed as ultimates thin the soul; gratifications achieved re-seed grasping. Fulfillment thus punishes because it reveals the will or reproduces the chain—and, in either case, points beyond itself to reordered love or cessation as the only ways out.
 
-# III–A. Metaphysics of Will: Lack, Power, and Law (Schopenhauer, Nietzsche, Kant)
+# III. Western Philosophy: Per-Philosopher Analyses
 
-## Schopenhauer: Fulfillment Reveals Lack
+## III—Schopenhauer: Will as Lack and Fulfillment as Deflation
 
-“All willing springs from lack, from deficiency, and therefore from suffering” ((Schopenhauer 1969), p. 196). Because the will is a ceaseless impulse, “every satisfied desire at once makes room for a new one” ((Schopenhauer 1969), p. 319). Fulfillment therefore functions as punishment by *de-revealing* the object: it cannot pacify the very structure that produced it. Read against Willard’s line, the *form* of “mission” fits the will’s grammar better than any specific content; upriver episodes satisfy without pacifying, reproducing Schopenhauer’s cycle of striving $\rightarrow$ relief $\rightarrow$ boredom $\rightarrow$ renewed striving.
+Schopenhauer’s analysis of willing gives the line’s first clause its basic grammar. Will is lack; representation supplies objects that momentarily still the pressure without curing it. Hence satisfaction “at once makes room for a new one,” and life “swings like a pendulum” between suffering and boredom ((Schopenhauer 1969, 312, 319)). The film’s “wins”—a beach secured, a sampan inspected, a bridge crossed—illustrate the structure. Each procedural success breeds the need for another. In this light, “everyone gets everything he wants” is descriptive of delivery, not redemption.
+On this view, “…and for my sins I got one” does not confess a single misdeed so much as the mistake of expecting from fulfillment what fulfillment cannot give. The “sin” is metaphysical: to confuse delivery with deliverance. The line’s two halves are internally connected. The first clause names the world’s competence at delivering objects; the second registers the punishment endemic to a will that takes attainment as cure.
 
-## Nietzsche: Fulfillment as Self-Overcoming, not Rest
+## III—Nietzsche: Transvaluation versus the Mask of “Truth”
 
-Nietzsche inverts renunciation: “man would rather will nothingness than not will at all” ((Nietzsche 1994, III.28, p. 162)). The will’s health is *affirmation*, but affirmation means *ever-new creation*. Hence the warning that “the desire for ‘truth’ has hitherto been the most dangerous of all possessions” ((Nietzsche 1990, sec. 34)). What appears as “fulfillment” can mask domination under noble names. In Willard’s acceptance, the *form* of willing (a Yes to project) is heroic; the *content* (assassinate Kurtz) risks nihilistic “truth.” Fulfillment must become *transvaluation*—a change of *how* one wills—else it hardens into will-to-nothingness.
+Nietzsche contests Schopenhauer’s resignation while preserving recurrence: what corrodes willing is not recurrence itself but a *valuation* that reduces willing to consumption. The task is transvaluation—recasting recurrence as creative affirmation. His warning that the “desire for ‘truth’ ” can operate as a disguised will to command ((Nietzsche 1990, sec. 34)) is dramatized by the Saigon dossier’s sanitary rhetoric: cognition as a mask for domination. In that light, “everyone gets everything he wants” reads as the triumph of a will to order; because no transvaluation occurs upriver, recurrence returns as nausea, not joy. “…for my sins I got one” marks the recognition that correct outcomes without revalued ends deepen rather than cure the malaise.
 
-## Kant: Fulfillment Does Not Confer Worth
+## III—Kant: Maxims, Humanity, and the Irrelevance of Outcomes
 
-Kant separates moral worth from happiness: “only the good will is good without qualification” ((Kant 1996), p. 27). Inclination’s fulfillment, even bureaucratically universalized, cannot justify the act. The mission’s *legality* (dossiers, briefings) sits uneasily with *morality*. The clause “for my sins” reads as self-indictment: I sought an inclination-friendly end; I received it; I remain bound by a law I risk violating.
+For Kant, no accumulation of successes can certify moral worth: the good will is “good … in itself,” not “because of what it effects” ((Kant 1996a, 27)). The decisive question is the maxim—can it be willed as universal law, and does it honor humanity “always as an end and never merely as a means” ((Kant 1996b, 27–33))? The sampan inspection is instructive: meticulous adherence to procedure cannot redeem a maxim that objectifies persons ((Kant 1996a, 30–33, 72–76)). The first clause is morally mute (efficacy, not legitimacy); the second names exposure of heteronomy in the moment of success.
 
-## Comparative Friction
+## III—Kierkegaard: Absolutized Projects and Defiant Despair
 
-Schopenhauer and Nietzsche agree that fulfillment cannot end willing but diverge on response: renounce vs. create. Kant relocates value outside fulfillment, into a formal test of maxims. Willard’s aphorism holds all three in tension: the mission cannot satisfy (Schopenhauer); the will moves anyway (Nietzsche); completion lacks moral credit (Kant).
+Kierkegaard defines the self as “a relation that relates itself to itself,” sick when it seeks to ground itself “in one’s own strength” ((Kierkegaard 1980, 49, 69–73)). The finite project—to be the one who *has a mission*—becomes absolute, and every success is then consumed as self-grounding. On this register, “everyone gets everything he wants” intensifies rather than relieves the sickness. “For my sins I got one” is not a discrete admission but a confession of wrong willing exposed by fulfillment.
 
-# III–B. Existential Freedom & Agency: Despair, Narrative, and Project (Kierkegaard, Dostoevsky, Sartre, Beauvoir, Camus)
+## III—Dostoevsky: Independent Desire and Anti-Mechanism
 
-## Kierkegaard: Absolutized Projects Produce Despair
+The Underground Man insists “man only wants independent desire,” refusing to be a “piano key” in a rational program ((Dostoevsky 1994, 115, 129–31)). The dossier-machine is the nightmare: an apparatus that *delivers* missions and interprets obedience as authorship. The line’s two halves catch the trap: the system supplies occasions to act (“everyone gets …”), and the agent, having sought agency *as such*, discovers in success only the mirror of compulsion. Mission-success reveals heteronomy in the form of efficacy.
 
-The self is “a relation that relates itself to itself” and can be “sick unto death” ((Kierkegaard 1980, 49–52)). Despair appears when a contingent project is *absolutized*. In that state, fulfillment mirrors misrelation: the more complete the success, the more acute the self-loss. Willard’s “sins” are this absolutization: identity collapses into being the one-with-a-mission; post-victory *thinning* signals despair, not purpose.
+## III—Sartre: Freedom, Bad Faith, and the Impossible Completion
 
-## Dostoevsky: Agency Prized over Outcome
+For Sartre, human reality is “what it is not and not what it is” ((Sartre 2003, 100–110)); projects tacitly aim at an impossible synthesis—the “project to be God” ((Sartre 2003, 586–604)). Completion cannot grant ontological closure; it exposes bad faith, whether as pure function (“I am my orders”) or as sovereign exception (“I am exempt”). The mission’s end therefore punishes by lucidity: the sequence “worked,” yet the lack constitutive of the *pour-soi* remains.
 
-“Man only wants independent desire, whatever that independence may cost” ((Dostoevsky 1994), p. 131). Against rational determinism—“To hell with two times two makes four!” ((Dostoevsky 1994, 129))—the Underground Man preserves unpredictable willing. Willard’s upriver insistence echoes this valuation of agency even against comfort. But unmeasured assertion risks Kierkegaardian despair when it refuses any standard beyond itself.
+## III—Beauvoir: Reciprocity as Freedom’s Form
 
-## Sartre: Condemnation to Project
+Beauvoir internalizes ethics to the structure of freedom: “To will oneself free is also to will others free” ((Beauvoir 1976, 73)). Authentic projects *open* situations in which others can transcend; efficient means that *close* horizons convict themselves by their very success ((Beauvoir 1976, 134–47, 157–61, 164–73)). The first clause reports reliable means; the second is the ethical verdict that reciprocity was excluded from the end.
 
-“Man is condemned to be free” ((Sartre 2003), p. 34). Without given essences, each project is a self-portrait; the secret temptation is the “project to be God,” a synthesis of facticity and transcendence that is impossible ((Sartre 2003, 604)). Fulfillment punishes by revealing that the project cannot make one whole. Willard must own the act that exposes what he wills to be.
+## III—Camus: Absurd Lucidity and Action without Appeal
 
-## Beauvoir: Reciprocity as the Ethical Criterion
+The absurd is “born of the confrontation between the human need and the unreasonable silence of the world” ((Camus 1991, 28)). To live “without appeal” ((Camus 1991, 54)) is to abandon the hope that completion provides a final court of justification. The Do Lung Bridge cycle—building and erasure—reads like a Sisyphean figure; completion yields knowledge, not meaning ((Camus 1991, 121–23)). Thus the sentence’s first clause can be true; the second names fulfillment as the world’s silence.
 
-“To will oneself free is also to will others free” ((Beauvoir 1976, 73))). Projects pursued as solitary sovereignty decay into domination. The mission-form structurally suspends reciprocity; hence its “success” is ethically suspect even when tactically sound.
+## III—Heidegger: Finitude and the Category Error of Wholeness
 
-## Camus: Lucidity without Consolation
+Heidegger’s claim is ontological: Dasein’s “wholeness” is disclosed only in being-toward-death; narrative consummation is a category mistake for finite existence ((Heidegger 1962, 294–307)). Average everydayness (*das Man*) supplies the rhetoric of necessity that authorizes such fantasies ((Heidegger 1962, 149–68)). When the sequence “works,” the alibi disappears. The first clause names a world of operable equipment; the second registers, in the key of finitude, that such operability cannot yield existential completion.
 
-“The absurd is born of the confrontation between the human need and the unreasonable silence of the world” ((Camus 1991, 28)). Fulfillment cannot supply meaning; one acts without appeal and “must imagine Sisyphus happy” ((Camus 1991, 123)). The endgame offers completion without consolation: punishment as knowledge.
+## III—Levinas: The Face, Asymmetry, and the First Relation
 
-## Comparative Friction
+The face confronts me with an asymmetrical injunction—“Thou shalt not kill”—that resists absorption into my plans ((Levinas 1969, 33, 199)). The dossier/protocol grammar belongs to *totality*, which reduces alterity to the Same ((Levinas 1969, 21–24, 33–36)). Within such a grammar, even successful action confirms refusal of the first relation ((Levinas 1969, 215–19)). “Everyone gets …” states totality’s power to furnish effects; “…for my sins I got one” is the accusation that such power presupposes the Other’s reduction.
 
-Kierkegaard demands a transcendent measure; Dostoevsky defends negative freedom. Sartre provides ontology (freedom’s burden), Beauvoir ethics (reciprocity), Camus mood (lucid revolt). Together they construe fulfillment as *disclosure* rather than closure.
+## III—Hegel: Recognition Against Possession
 
-# III–C. Finitude & Responsibility: Time, Death, and the Other (Heidegger, Levinas)
+Desire is not finally of things but of recognition: “self-consciousness achieves its satisfaction only in another self-consciousness” ((Hegel 1977, sec. 175)). Lordship “gets” obedience and finds it void—submission is not free acknowledgment ((Hegel 1977, secs. 187–189)); the “truth” lies with formative work that builds a common world ((Hegel 1977, sec. 196)). The first clause describes accumulation in the wrong currency; the second is the recognitive bill coming due.
 
-## Heidegger: Being-toward-Death and the Failure of Completion
+## III—Kojève: Desire of Desire and Historical Stakes
 
-Authenticity requires “anticipatory resoluteness” toward death ((Heidegger 1962, 307)); “as soon as man comes to life, he is at once old enough to die” ((Heidegger 1962, 298)). A project that promises wholeness is structurally self-deceiving; fulfillment cannot complete Dasein. The river’s time—serial “nows” without totalization—exposes this futility.
-
-## Levinas: The Face Forbids Me
-
-“Desire is desire for the absolutely other” ((Levinas 1969, 33)); the face “forbids us to kill” ((Levinas 1969, 199)). Fulfillment fails ethically because the Other’s claim interrupts every sovereign end. Late encounters (prisoners, villagers, Kurtz as victim-perpetrator) dramatize this interruption: the mission-form cannot integrate the demand without ceasing to be *that* mission.
-
-## Synthesis
-
-Heidegger limits projects by *time*; Levinas limits them by the *Other*. Willard’s confession registers both limits: the project granted exposes finitude and summons responsibility. In either case, fulfillment is not closure but *exposure*.
-
-# III–D. Recognition, Desire, and the Death–Struggle (Hegel & Kojève)
-
-Hegel argues that desire ultimately seeks recognition rather than mere consumption of objects. In the *Phenomenology of Spirit*, self-consciousness first appears as a desiring negativity that aims to cancel otherness. Yet self-certainty cannot be secured by destroying or absorbing things; it requires acknowledgment from another free subject ((Hegel 1977, secs. 167–175)). Thus the drama of self-consciousness develops into a struggle for recognition.
-
-## 1. Desire beyond objects: from negation to recognition
-
-Object-directed desire eliminates the very alterity it needs to test itself. Hegel therefore claims that “self-consciousness achieves its satisfaction only in another self-consciousness” ((Hegel 1977)). Fulfillment becomes recognitive: it depends on the freedom of the other. Kojève makes this explicit by stating that human desire is desire for the other’s desire, that is, desire for recognition ((Kojève 1980, 6)). In this light, Willard’s want of a “mission” can be read as a search for institutional recognition of competence and meaning.
-
-## 2. The death–struggle and the emptiness of mastery
-
-The well-known duel that yields lordship and bondage shows why coercion fails as fulfillment. The Lord wins submission but not genuine recognition, because the Bondsman does not freely affirm him. Mastery therefore “gets what it wants” in appearance and finds the result empty. The Bondsman, fearing death, enters service and undertakes formative activity (*Bildung*). Through labor the Bondsman mediates self and world and attains a truth the Lord lacks ((Hegel 1977, sec. 175)). Kojève emphasizes that the Master’s enjoyment is unmediated and sterile, whereas the Slave’s work and time produce a human world ((Kojève 1980)).
-
-## 3. Work, time, and the slow fulfillment that is not possession
-
-Hegel’s analysis culminates in a notion of fulfillment as a process rather than possession. The Bondsman’s education transforms desire into world-shaping activity that stabilizes recognition in institutions and norms. Kojève redescribes history as the temporal unfolding of this logic, where the end of history would be universal recognition rather than maximal consumption ((Kojève 1980, 27–34)). Read this way, Willard’s sentence is double: “Everyone gets everything he wants” names the Master’s fantasy of immediate satisfaction; “for my sins I got one” signals the Bondsman’s discovery that mediated fulfillment is slow, dangerous, and ethically fraught.
-
-## 4. Synthesis and contrast with prior sections
-
-Hegel and Kojève mediate between analyses of will’s structure (Schopenhauer, Nietzsche) and analyses of freedom and the Other (Sartre, Levinas). Against Schopenhauer’s cycling lack, they propose a teleology toward recognition. Against Nietzsche’s sovereign self-overcoming, they insist on dependence on another’s freedom. Against Sartre’s solitary condemnation, they offer an intersubjective criterion of success. With Levinas they share the priority of the other, but where Levinas stresses ethical asymmetry, Hegel seeks reciprocal recognition. On this view, fulfillment becomes punishment when it secures only the appearance of recognition or when institutions that should stabilize reciprocity collapse into violence.
-
-# III–E. Between Recognition and Responsibility: Hegel, Kojève, Levinas, Beauvoir (with Sartrean Pressure)
-
-Sections III–A through III–D showed that modern accounts of fulfillment converge on exposure: getting what one wants returns the truth of the will. This section articulates a tighter triangulation. Hegel and Kojève claim that fulfillment without *recognition* is empty; Levinas argues that the first relation is not reciprocity but an ethical asymmetry to the Other; Beauvoir contends that my freedom is authentic only insofar as it *wills* the freedom of others. Sartre exerts pressure on all t...
-
-## 1. What Counts as “Fulfillment”? Recognition vs. Command
-
-Hegel names the criterion: satisfaction without mutual recognition collapses into the *semblance* of fulfillment (§§178–196; (Hegel 1977)). Kojève therfore reads history as the struggle to secure recognition robust enough to stabilize selfhood ((Kojève 1980)). Levinas, by contrast, dislocates the axis: before reciprocity there is the face that “forbids us to kill”—an absolute ethical command ((Levinas 1969, 199)). Where Hegel judges the t...
-Beauvoir synthesizes a practical demand from both: freedom that does not will others free becomes *bad faith* and domination ((Beauvoir 1976, 73)). In her register, the *form* of fulfillment is *co-liberation*. This triangulation reframes Willard’s mission. The State’s “recognition” (orders, dossiers) grants him an object and a role; Levinas exposes the missing ethical ground; Beauvoir provides the test: does the project will others free?
-
-## 2. Where Hegel Meets Levinas (and Where They Refuse Each Other)
-
-Convergence: both insist that the *Other* is constitutive of selfhood. Even in Hegel’s death-struggle, the other’s freedom is indispensable; in Levinas, the face arrives as an inassimilable height that constitutes me as responsible ((Levinas 1969)). Divergence: Hegel *mediates* alterity into reciprocity; Levinas preserves an asymmetry the dialectic must not absorb. Hence a practical dilemma: an *institutional* world must stabilize recognition (Hegel), yet every institution risks ...
-Applied to Willard’s sentence: “Everyone gets everything he wants” names the institutional circulation of desires (missions assigned, roles recognized) that make selfhood legible (Hegel/Kojève); “for my sins I got one” registers the Levinasian *rupture*—the command of the Other that the mission-form brackets, thereby revealing the project as *sinful* even when successfully recognized.
-
-## 3. Beauvoir’s Reciprocity under Sartrean Pressure
-
-Sartre insists that freedom has no essence to guarantee it ((Sartre 2003)); every project is an exposure. Beauvoir transforms this ontology into an ethic: to will oneself free is also to will others free ((Beauvoir 1976)). The Sartrean pressure is double: (i) reciprocity cannot be deduced from ontology; it must be *chosen*; (ii) projects that instrumentalize others will be revealed, in fulfillment, as *bad faith*. In this light, the mission’s completion cannot vindicate the p...
-Thus Beauvoir supplies a bridge: she preserves Hegel’s intersubjective criterion (no solitary fulfillment) while honoring Levinas’s ethical primacy (others are not means). Under her view, Willard’s confession is not simply melancholic; it is a recognition that his project failed the reciprocity test that would have converted task into vocation.
-
-## 4. Minimal Norms for “Non-Punitive” Fulfillment
-
-Gathering the threads yields three negative tests and one positive norm:
-
-1.  **Anti-mastery (Hegel/Kojève):** Fulfillment that reduces the other to instrument secures only empty recognition; it will punish in exposure.
-
-2.  **Anti-violation (Levinas):** Fulfillment that ignores the face’s prohibition is ethically null; the punishment is accusation within the self.
-
-3.  **Anti-bad-faith (Sartre):** Fulfillment that disavows its own freedom is flight; exposure returns as nausea, not peace.
-
-4.  **Pro-reciprocity (Beauvoir):** Only projects that will others free transmute fulfillment from possession into *co-realization*.
-
-These norms do not reconcile the traditions; they articulate a practical sieve for projects. Under this sieve, the sentence “Everyone gets everything he wants” ceases to be fatalism and becomes a *diagnostic*: in getting the project, one learns whether the project’s structure *could* have yielded anything but punishment.
-
-## 5. Coda: Integrating with Sections II and IV
-
-Section II taught that fulfillment punishes as *privation* (Biblical) or as *causal renewal* (Buddhist). Sections III–A to III–D added that it punishes as *self-exposure* of freedom. Section IV showed how modern institutions convert desire into mission and representation. The present triangulation sets a criterion across all frames: unless fulfillment is *recognitive*, *non-violent* toward the face, and *reciprocal* in freedom, the gift of what one wants returns as judgment.
+Human desire is the desire of another’s desire; satisfaction requires being recognized as free by a free other, not merely possessing objects ((Kojève 1980, 6, 27–34)). Hence the master’s “victory” is empty: coerced recognition is not recognition ((Kojève 1980, 158–64)). “Everyone gets everything he wants” marks an apparatus expert at distributing missions; “…and for my sins I got one” is the discovery that such distribution cannot secure the recognitive relation the human wants.
 
 # IV. Conrad, Colonialism, and Modernity
 
@@ -310,9 +246,9 @@ Buddharakkhita, Acharya. 1993. *The Dhammapada*. Revised. Kandy: Buddhist Public
 
 </div>
 
-<div id="ref-CamusMyth1991" class="csl-entry">
+<div id="ref-CamusSisyphus1991" class="csl-entry">
 
-Camus, Albert. 1991. *The Myth of Sisyphus*. Translated by Justin O’Brien. New York: Vintage.
+Camus, Albert. 1991. *The Myth of Sisyphus and Other Essays*. New York: Vintage.
 
 </div>
 
@@ -402,7 +338,13 @@ Jung, Carl Gustav. 1969. *The Archetypes and the Collective Unconscious*. Edited
 
 <div id="ref-KantCPrR1996" class="csl-entry">
 
-Kant, Immanuel. 1996. *Critique of Practical Reason*. Translated by Mary Gregor. Cambridge: Cambridge University Press.
+Kant, Immanuel. 1996a. *Critique of Practical Reason*. Translated by Mary Gregor. Cambridge: Cambridge University Press.
+
+</div>
+
+<div id="ref-KantGroundwork1996" class="csl-entry">
+
+———. 1996b. *Groundwork of the Metaphysics of Morals*. Cambridge: Cambridge University Press.
 
 </div>
 
@@ -463,12 +405,6 @@ Nāgārjuna. 2013. *Nāgārjuna’s Middle Way: Mūlamadhyamakakārikā*. Edited
 <div id="ref-NietzscheBGE1990" class="csl-entry">
 
 Nietzsche, Friedrich. 1990. *Beyond Good and Evil*. Translated by Walter Kaufmann. New York: Vintage.
-
-</div>
-
-<div id="ref-NietzscheGenealogy1994" class="csl-entry">
-
-———. 1994. *On the Genealogy of Morals*. Translated by Walter Kaufmann. New York: Vintage.
 
 </div>
 
