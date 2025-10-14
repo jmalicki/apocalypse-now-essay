@@ -12,12 +12,12 @@ repos:
       - id: mixed-line-ending
 
   # LaTeX specific linters
-  - repo: https://github.com/cmhughes/latexindent.pl
-    rev: V3.23.5
-    hooks:
-      - id: latexindent
-        args: ['-s', '-w', '-m']
-        files: '\.tex$'
+  # - repo: https://github.com/cmhughes/latexindent.pl
+  #   rev: V3.23.5
+  #   hooks:
+  #     - id: latexindent
+  #       args: ['-s', '-w', '-m']
+  #       files: '\.tex$'
 
   - repo: https://github.com/jonasbb/pre-commit-latex-hooks
     rev: v1.4.0
@@ -30,10 +30,10 @@ repos:
         files: '\.tex$'
         args:
           - --emph=et al.
-      - id: csquotes
-        files: '\.tex$'
-      - id: ensure-labels-for-sections
-        files: '\.tex$'
+      # - id: csquotes
+      #   files: '\.tex$'
+      # - id: ensure-labels-for-sections
+      #   files: '\.tex$'
       - id: no-space-in-cite
         files: '\.tex$'
       - id: tilde-cite

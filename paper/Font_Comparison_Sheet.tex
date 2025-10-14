@@ -1,0 +1,86 @@
+
+\documentclass[12pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{setspace}
+\usepackage{hyperref}
+\usepackage{parskip}
+\usepackage{fontspec} % Compile with XeLaTeX or LuaLaTeX
+\setstretch{1.25}
+
+% Helper: sample paragraph (edit if you like)
+\newcommand{\sampletext}{When Captain Willard opens \textit{Apocalypse Now} (1979) with the line, ``Everyone gets everything he wants. I wanted a mission, and for my sins they gave me one,'' he states a moral law. Beneath the soldier’s irony lies a metaphysical claim: that desire fulfilled is inseparable from punishment. The first clause universalizes fulfillment as an inevitable structure; the second localizes it as judgment.}
+
+% Helper: print a sample in a font if available
+\newcommand{\tryfont}[2]{%
+  \IfFontExistsTF{#2}{%
+    \par\noindent{\large\bfseries #1 \normalfont\ (``#2'')}\par
+    {\fontspec{#2}\sampletext}\par\medskip
+  }{%
+    \par\noindent{\large\bfseries #1}\par
+    \textit{Font ``#2'' not installed on this system.}\par\medskip
+  }%
+}
+
+\title{Font Comparison Sheet for Essay Typesetting}
+\author{(Your Name)}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+This sheet previews the same paragraph in a wide range of serif, sans-serif, and monospaced fonts.
+Compile with \textbf{XeLaTeX} or \textbf{LuaLaTeX}. Any fonts not installed will be clearly indicated.
+
+\section*{Serif Families (Book/Academic)}
+
+\tryfont{Latin Modern Roman}{Latin Modern Roman}
+\tryfont{TeX Gyre Termes (Times-like)}{TeX Gyre Termes}
+\tryfont{TeX Gyre Pagella (Palatino-like)}{TeX Gyre Pagella}
+\tryfont{TeX Gyre Schola (Century Schoolbook-like)}{TeX Gyre Schola}
+\tryfont{TeX Gyre Bonum (Bookman-like)}{TeX Gyre Bonum}
+\tryfont{Libertinus Serif}{Libertinus Serif}
+\tryfont{Charter}{Charter}
+\tryfont{EB Garamond}{EB Garamond}
+\tryfont{Cormorant Garamond}{Cormorant Garamond}
+\tryfont{DejaVu Serif}{DejaVu Serif}
+\tryfont{Times New Roman}{Times New Roman}
+\tryfont{Palatino Linotype}{Palatino Linotype}
+\tryfont{Georgia}{Georgia}
+\tryfont{Baskerville}{Baskerville}
+\tryfont{Minion Pro}{Minion Pro}
+\tryfont{Garamond (Adobe/Apple)}{Garamond}
+\tryfont{Cambria}{Cambria}
+\tryfont{Constantia}{Constantia}
+\tryfont{Book Antiqua}{Book Antiqua}
+
+\section*{Sans-Serif Families (Modern/Clean)}
+
+\tryfont{TeX Gyre Heros (Helvetica-like)}{TeX Gyre Heros}
+\tryfont{TeX Gyre Adventor (Avant Garde-like)}{TeX Gyre Adventor}
+\tryfont{TeX Gyre Chorus (script)}{TeX Gyre Chorus}
+\tryfont{DejaVu Sans}{DejaVu Sans}
+\tryfont{Helvetica Neue}{Helvetica Neue}
+\tryfont{Arial}{Arial}
+\tryfont{Source Sans Pro}{Source Sans Pro}
+\tryfont{Fira Sans}{Fira Sans}
+\tryfont{Open Sans}{Open Sans}
+\tryfont{Noto Sans}{Noto Sans}
+\tryfont{Roboto}{Roboto}
+\tryfont{Myriad Pro}{Myriad Pro}
+\tryfont{Gill Sans}{Gill Sans}
+
+\section*{Monospaced Families (Code/Typewriter)}
+
+\tryfont{Libertinus Mono}{Libertinus Mono}
+\tryfont{Inconsolata}{Inconsolata}
+\tryfont{DejaVu Sans Mono}{DejaVu Sans Mono}
+\tryfont{Courier New}{Courier New}
+\tryfont{Fira Code}{Fira Code}
+\tryfont{JetBrains Mono}{JetBrains Mono}
+\tryfont{Source Code Pro}{Source Code Pro}
+
+\bigskip
+\noindent\textit{Tip:} If a favorite font shows as ``not installed,'' install it on your system, then recompile.
+TeX Gyre and Libertinus families are free and high-quality for academic work.
+
+\end{document}

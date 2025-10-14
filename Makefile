@@ -26,18 +26,10 @@ BIB_FILES = $(wildcard $(PAPER_DIR)/*.bib)
 # Default target
 all: $(MAIN).pdf
 
-# Full compilation with bibliography
+# Full compilation with bibliography (using latexmk for automatic dependency handling)
 $(MAIN).pdf: $(TEX_FILES) $(BIB_FILES)
-	@echo "==> First XeLaTeX pass..."
-	@cd $(PAPER_DIR) && $(LATEX) $(LATEX_FLAGS) $(MAIN).tex
-	@if grep -q '\\citation' $(PAPER_DIR)/$(MAIN).aux 2>/dev/null; then \
-		echo "==> Running Biber..."; \
-		cd $(PAPER_DIR) && $(BIBTEX) $(MAIN); \
-		echo "==> Second XeLaTeX pass..."; \
-		cd $(PAPER_DIR) && $(LATEX) $(LATEX_FLAGS) $(MAIN).tex; \
-	fi
-	@echo "==> Final XeLaTeX pass..."
-	@cd $(PAPER_DIR) && $(LATEX) $(LATEX_FLAGS) $(MAIN).tex
+	@echo "==> Compiling with latexmk (auto-detects passes needed)..."
+	@cd $(PAPER_DIR) && latexmk -xelatex -bibtex -interaction=nonstopmode -halt-on-error $(MAIN).tex
 	@cp $(PAPER_DIR)/$(MAIN).pdf .
 	@echo "==> PDF compilation complete: $(MAIN).pdf"
 
@@ -50,16 +42,14 @@ quick: $(TEX_FILES)
 # Clean auxiliary files
 clean:
 	@echo "==> Cleaning auxiliary files..."
-	@cd $(PAPER_DIR) && rm -f *.aux *.log *.bbl *.blg *.bcf *.run.xml *.toc *.out
-	@cd $(PAPER_DIR) && rm -f *.lof *.lot *.fls *.fdb_latexmk *.synctex.gz *.xdv
-	@cd $(PAPER_DIR) && rm -f *.nav *.snm *.vrb
+	@cd $(PAPER_DIR) && latexmk -c $(MAIN).tex
 	@echo "==> Clean complete"
 
 # Clean everything including PDF
-cleanall: clean
-	@echo "==> Removing PDF output..."
+cleanall:
+	@echo "==> Cleaning all generated files..."
+	@cd $(PAPER_DIR) && latexmk -C $(MAIN).tex
 	@rm -f $(MAIN).pdf
-	@rm -f $(PAPER_DIR)/$(MAIN).pdf
 	@echo "==> Full clean complete"
 
 # View the PDF (tries common PDF viewers)
