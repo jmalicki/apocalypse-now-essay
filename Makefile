@@ -24,7 +24,7 @@ OUT_DIR = build
 TEX_FILES = $(wildcard $(PAPER_DIR)/*.tex)
 BIB_FILES = $(wildcard $(PAPER_DIR)/*.bib)
 
-.PHONY: all clean cleanall view help watch markdown
+.PHONY: all clean cleanall view help watch markdown optimize-pdf
 
 # Default target
 all: $(MAIN).pdf
@@ -59,6 +59,20 @@ markdown: $(MAIN).pdf
 	@cp $(PAPER_DIR)/$(MAIN).md .
 	@echo "==> Markdown file created: $(MAIN).md"
 	@echo "    Open in VSCode with: code $(MAIN).md"
+
+# Optimize PDF for better viewer compatibility (optional)
+optimize-pdf: $(MAIN).pdf
+	@if command -v gs >/dev/null 2>&1; then \
+		echo "==> Optimizing PDF with Ghostscript for better compatibility..."; \
+		gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.7 -dPDFSETTINGS=/prepress \
+		   -dNOPAUSE -dQUIET -dBATCH \
+		   -sOutputFile=$(MAIN)-optimized.pdf $(MAIN).pdf; \
+		mv $(MAIN)-optimized.pdf $(MAIN).pdf; \
+		echo "==> PDF optimized: $(MAIN).pdf"; \
+	else \
+		echo "Error: ghostscript (gs) not found. Install with: sudo apt install ghostscript"; \
+		exit 1; \
+	fi
 
 # Clean auxiliary files
 clean:
@@ -110,6 +124,7 @@ help:
 	@echo "  make          - Full compilation with bibliography (3 passes)"
 	@echo "  make quick    - Quick single-pass compilation (no bibliography)"
 	@echo "  make markdown - Convert to GitHub-flavored Markdown with citations"
+	@echo "  make optimize-pdf - Optimize PDF for better viewer compatibility (requires gs)"
 	@echo "  make clean    - Remove auxiliary files"
 	@echo "  make cleanall - Remove all generated files including PDF and Markdown"
 	@echo "  make view     - Open the PDF in default viewer"
