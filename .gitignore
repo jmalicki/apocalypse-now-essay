@@ -1,0 +1,186 @@
+## Core LaTeX auxiliary files
+*.aux
+*.lof
+*.log
+*.lot
+*.fls
+*.out
+*.toc
+*.fmt
+*.fot
+*.cb
+*.cb2
+.*.lb
+
+## Intermediate documents
+*.dvi
+*.xdv
+*-converted-to.*
+
+## Bibliography auxiliary files (bibtex/biber/biblatex)
+*.bbl
+*.bcf
+*.blg
+*-blx.aux
+*-blx.bib
+*.run.xml
+
+## Build tool auxiliary files
+*.fdb_latexmk
+*.synctex
+*.synctex(busy)
+*.synctex.gz
+*.synctex.gz(busy)
+*.pdfsync
+
+## Build tool directories
+latex.out/
+
+## Auxiliary and intermediate files from other packages
+*.makefile
+*.dpth
+*.md5
+*.auxlock
+
+## Glossaries
+*.acn
+*.acr
+*.glg
+*.glo
+*.gls
+*.glsdefs
+*.lzo
+*.lzs
+*.slg
+*.slo
+*.sls
+
+## Uncomment this if you use the glossary package and you also use \makeindex
+# *.alg
+
+## gnuplot
+*.gnuplot
+*.table
+
+## hyperref
+*.brf
+
+## knitr
+*-concordance.tex
+
+## listings
+*.lol
+
+## makeidx
+*.idx
+*.ilg
+*.ind
+
+## minitoc
+*.maf
+*.mlf
+*.mlt
+*.mtc[0-9]*
+*.slf[0-9]*
+*.slt[0-9]*
+*.stc[0-9]*
+
+## minted
+_minted*
+*.pyg
+
+## morewrites
+*.mw
+
+## nomencl
+*.nlg
+*.nlo
+*.nls
+
+## pax
+*.pax
+
+## pdfpcnotes
+*.pdfpc
+
+## sagetex
+*.sagetex.sage
+*.sagetex.py
+*.sagetex.scmd
+
+## scrwfile
+*.wrt
+
+## sympy
+*.sout
+*.sympy
+sympy-plots-for-*.tex/
+
+## pdfcomment
+*.upa
+*.upb
+
+## pythontex
+*.pytxcode
+pythontex-files-*/
+
+## tcolorbox
+*.listing
+
+## thmtools
+*.loe
+
+## TikZ & PGF
+*.dpth
+*.md5
+*.auxlock
+
+## todonotes
+*.tdo
+
+## vhistory
+*.hst
+*.ver
+
+## easy-todo
+*.lod
+
+## xcolor
+*.xcp
+
+## xmpincl
+*.xmpi
+
+## xindy
+*.xdy
+
+## xypic precompiled matrices and outlines
+*.xyc
+*.xyd
+
+## endfloat
+*.ttt
+*.fff
+
+## Latexian
+TSWLatexianTemp*
+
+## Editors
+*~
+.*.swp
+.*.swo
+*.backup
+*.bak
+
+## OS Files
+.DS_Store
+Thumbs.db
+
+## Output PDF (optional - uncomment if you don't want to track PDFs)
+# *.pdf
+
+## Python virtual environment
+.venv/
+venv/
+__pycache__/
+*.pyc
