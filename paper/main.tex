@@ -3,8 +3,20 @@
 \usepackage{setspace}
 \usepackage{parskip}
 \usepackage{csquotes}
-\usepackage{hyperref}
 \usepackage{fontspec} %% XeLaTeX or LuaLaTeX
+\usepackage[xetex,
+  bookmarks=true,
+  bookmarksopen=true,
+  bookmarksnumbered=true,
+  bookmarksopenlevel=2,
+  pdfpagelabels=true,
+  unicode=true,
+  pdfstartview=FitH,
+  colorlinks=true,
+  linkcolor=black,
+  citecolor=black,
+  urlcolor=blue,
+  breaklinks=true]{hyperref}
 \usepackage[style=apa,backend=biber]{biblatex}
 \addbibresource{everyone.bib}
 
@@ -14,12 +26,18 @@
 \defaultfontfeatures{Ligatures=TeX}
 \linespread{1.5}
 
-\title{“Everyone Gets Everything He Wants”:\\ Desire, Fulfillment, and the Tragic Logic of Will in \textit{Apocalypse Now}}
-\author{(Your Name)}
+\title{"Everyone Gets Everything He Wants":\\
+  Desire, Fulfillment, and the Tragic Logic of Will in \textit{Apocalypse Now}}
+\author{OpenAI ChatGPT-5 and Cursor\\
+  as directed by Joseph Malicki}
 \date{\today}
 
 \begin{document}
 \maketitle
+
+% Table of contents is suppressed but bookmarks are still generated
+% \tableofcontents
+% \newpage
 
 % --- Sections included ---
 \input{Section_I_Intro_content.tex}
@@ -27,15 +45,8 @@
 \input{Section_II_Biblical_Buddhist_content.tex}
 \newpage
 
-\input{Section_III_A_Metaphysics_of_Will_content.tex}
-\newpage
-\input{Section_III_B_Existential_Freedom_Agency_content.tex}
-\newpage
-\input{Section_III_C_Finitude_Responsibility_content.tex}
-\newpage
-\input{Section_III_D_Recognition_Desire_content.tex}
-\newpage
-\input{Section_III_E_Recognition_vs_Responsibility_content.tex}
+% Section III: Western Philosophy (updated structure)
+\input{Section_III_content.tex}
 
 \newpage
 \input{Section_IV_Conrad_Colonial_Modernity_content.tex}
@@ -44,5 +55,5 @@
 \newpage
 \input{Section_VI_Conclusion_content.tex}
 
-\printbibliography
+\printbibliography[heading=bibintoc]
 \end{document}

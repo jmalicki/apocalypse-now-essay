@@ -1,0 +1,111 @@
+name: LaTeX CI
+
+on:
+  push:
+    branches: [ main, "cleanup/**" ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  lint-and-build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+
+    - name: Install LaTeX and dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y \
+          texlive-xetex \
+          texlive-bibtex-extra \
+          biber \
+          latexmk \
+          texlive-fonts-extra \
+          texlive-science \
+          ghostscript \
+          poppler-utils \
+          mupdf-tools \
+          fonts-libertinus
+
+    - name: Install pre-commit
+      run: |
+        pip install pre-commit
+
+    - name: Cache pre-commit hooks
+      uses: actions/cache@v3
+      with:
+        path: ~/.cache/pre-commit
+        key: pre-commit-${{ hashFiles('.pre-commit-config.yaml') }}
+
+    - name: Run pre-commit hooks
+      run: |
+        pre-commit run --all-files --show-diff-on-failure
+
+    - name: Build PDF
+      run: |
+        make cleanall
+        make
+
+    - name: Validate PDF quality
+      run: |
+        echo "==> Checking PDF was generated..."
+        if [ ! -f apocalypse-now-desire-and-will.pdf ]; then
+          echo "ERROR: PDF was not generated!"
+          exit 1
+        fi
+
+        echo "==> Checking PDF page count..."
+        PAGE_COUNT=$(pdfinfo apocalypse-now-desire-and-will.pdf | grep "Pages:" | awk '{print $2}')
+        echo "PDF has $PAGE_COUNT pages"
+        if [ "$PAGE_COUNT" -lt 10 ]; then
+          echo "ERROR: PDF has too few pages ($PAGE_COUNT < 10)"
+          exit 1
+        fi
+
+        echo "==> Checking PDF bookmarks..."
+        if command -v mutool &> /dev/null; then
+          BOOKMARK_COUNT=$(mutool show apocalypse-now-desire-and-will.pdf outline 2>/dev/null | grep -c "nameddest=" || echo "0")
+          echo "PDF has $BOOKMARK_COUNT bookmarks"
+          if [ "$BOOKMARK_COUNT" -lt 5 ]; then
+            echo "WARNING: PDF has few or no bookmarks ($BOOKMARK_COUNT < 5)"
+            echo "This makes navigation difficult."
+            # Don't fail, just warn for now
+          fi
+        else
+          echo "WARNING: mutool not available, skipping bookmark check"
+        fi
+
+        echo "==> Checking PDF file size..."
+        PDF_SIZE=$(stat -c%s apocalypse-now-desire-and-will.pdf)
+        PDF_SIZE_MB=$((PDF_SIZE / 1024 / 1024))
+        echo "PDF size: ${PDF_SIZE_MB}MB"
+        if [ "$PDF_SIZE_MB" -gt 50 ]; then
+          echo "WARNING: PDF is very large (${PDF_SIZE_MB}MB > 50MB)"
+        fi
+
+        echo "==> PDF quality checks passed!"
+
+    - name: Upload PDF artifact
+      uses: actions/upload-artifact@v4
+      if: success()
+      with:
+        name: apocalypse-now-desire-and-will-pdf
+        path: apocalypse-now-desire-and-will.pdf
+        retention-days: 30
+
+    - name: Upload build logs on failure
+      uses: actions/upload-artifact@v4
+      if: failure()
+      with:
+        name: build-logs
+        path: |
+          paper/*.log
+          paper/*.blg
+        retention-days: 7

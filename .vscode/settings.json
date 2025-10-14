@@ -16,9 +16,36 @@
     "*.bib": "bibtex"
   },
 
+  // Hide backup and auxiliary files from explorer
+  "files.exclude": {
+    "**/*.bak": true,
+    "**/*.bak[0-9]": true,
+    "**/*.bak[0-9][0-9]": true,
+    "**/*.aux": true,
+    "**/*.log": true,
+    "**/*.out": true,
+    "**/*.toc": true,
+    "**/*.bcf": true,
+    "**/*.bbl": true,
+    "**/*.blg": true,
+    "**/*.fls": true,
+    "**/*.fdb_latexmk": true,
+    "**/*.synctex.gz": true,
+    "**/*.xdv": true,
+    "**/*.run.xml": true,
+    "**/__pycache__": true,
+    "**/.venv": true
+  },
+
   // LaTeX Workshop settings
   "latex-workshop.latex.autoBuild.run": "never",
   "latex-workshop.latex.recipe.default": "latexmk (xelatex)",
+  "latex-workshop.latex.outDir": "./",
+  "latex-workshop.view.pdf.viewer": "tab",
+  "latex-workshop.view.pdf.internal.synctex.keybinding": "double-click",
+  "latex-workshop.view.pdf.zoom": "page-width",
+  "latex-workshop.view.pdf.scrollMode": 1,
+  "latex-workshop.view.pdf.spreadMode": 0,
   "latex-workshop.latex.recipes": [
     {
       "name": "latexmk (xelatex)",
@@ -40,5 +67,10 @@
       ],
       "env": {}
     }
-  ]
+  ],
+
+  // PDF viewer settings (for tomoki1207.pdf extension)
+  "pdf.default.scale": "page-width",
+  "pdf.default.scrollMode": "vertical",
+  "pdf.default.spreadMode": "none"
 }
