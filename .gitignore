@@ -187,3 +187,7 @@ Thumbs.db
 venv/
 __pycache__/
 *.pyc
+
+## Google Books citation files
+*.gbaux
+*.gblinks.tex
