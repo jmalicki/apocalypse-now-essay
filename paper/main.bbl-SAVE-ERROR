@@ -1,0 +1,4206 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/apasortcite//global/global/global}
+    \entry{AdornoHorkheimer2002}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=e4e68aa80bd065ec444004f0b1b852a2}{%
+           family={Adorno},
+           familyi={A\bibinitperiod},
+           given={Theodor\bibnamedelima W.},
+           giveni={T\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ced86ad6c954b137c1df50a10b3b9205}{%
+           family={Horkheimer},
+           familyi={H\bibinitperiod},
+           given={Max},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{translator}{1}{}{%
+        {{hash=75711a5d5521d4ffbfdd404d572d5bdc}{%
+           family={Jephcott},
+           familyi={J\bibinitperiod},
+           given={Edmund},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Stanford}%
+      }
+      \list{publisher}{1}{%
+        {Stanford University Press}%
+      }
+      \strng{namehash}{2eb37868ac43d8f39bec32c73084bf8b}
+      \strng{fullhash}{2eb37868ac43d8f39bec32c73084bf8b}
+      \strng{fullhashraw}{2eb37868ac43d8f39bec32c73084bf8b}
+      \strng{bibnamehash}{2eb37868ac43d8f39bec32c73084bf8b}
+      \strng{authorbibnamehash}{2eb37868ac43d8f39bec32c73084bf8b}
+      \strng{authornamehash}{2eb37868ac43d8f39bec32c73084bf8b}
+      \strng{authorfullhash}{2eb37868ac43d8f39bec32c73084bf8b}
+      \strng{authorfullhashraw}{2eb37868ac43d8f39bec32c73084bf8b}
+      \strng{translatorbibnamehash}{75711a5d5521d4ffbfdd404d572d5bdc}
+      \strng{translatornamehash}{75711a5d5521d4ffbfdd404d572d5bdc}
+      \strng{translatorfullhash}{75711a5d5521d4ffbfdd404d572d5bdc}
+      \strng{translatorfullhashraw}{75711a5d5521d4ffbfdd404d572d5bdc}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Original work published 1944}
+      \field{title}{Dialectic of Enlightenment: Philosophical Fragments}
+      \field{year}{2002}
+    \endentry
+    \entry{CursorAI2024}{software}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a01349fb00be3852ef79d5dd1c1851c6}{%
+           family={{Anysphere, Inc.}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{a01349fb00be3852ef79d5dd1c1851c6}
+      \strng{fullhash}{a01349fb00be3852ef79d5dd1c1851c6}
+      \strng{fullhashraw}{a01349fb00be3852ef79d5dd1c1851c6}
+      \strng{bibnamehash}{a01349fb00be3852ef79d5dd1c1851c6}
+      \strng{authorbibnamehash}{a01349fb00be3852ef79d5dd1c1851c6}
+      \strng{authornamehash}{a01349fb00be3852ef79d5dd1c1851c6}
+      \strng{authorfullhash}{a01349fb00be3852ef79d5dd1c1851c6}
+      \strng{authorfullhashraw}{a01349fb00be3852ef79d5dd1c1851c6}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{AI-powered code editor}
+      \field{title}{Cursor}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://cursor.sh
+      \endverb
+      \verb{url}
+      \verb https://cursor.sh
+      \endverb
+    \endentry
+    \entry{AquinasST1947}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e71d00346a622c3afd459b823f48a1bd}{%
+           family={Aquinas},
+           familyi={A\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{translator}{1}{}{%
+        {{hash=b13b972672e864e6fdf9ed1fbecfe220}{%
+           family={English\bibnamedelimb Dominican\bibnamedelima Province},
+           familyi={E\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim P\bibinitperiod},
+           given={Fathers},
+           giveni={F\bibinitperiod},
+           prefix={of\bibnamedelima the},
+           prefixi={o\bibinitperiod\bibinitdelim t\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Benziger Brothers}%
+      }
+      \strng{namehash}{e71d00346a622c3afd459b823f48a1bd}
+      \strng{fullhash}{e71d00346a622c3afd459b823f48a1bd}
+      \strng{fullhashraw}{e71d00346a622c3afd459b823f48a1bd}
+      \strng{bibnamehash}{e71d00346a622c3afd459b823f48a1bd}
+      \strng{authorbibnamehash}{e71d00346a622c3afd459b823f48a1bd}
+      \strng{authornamehash}{e71d00346a622c3afd459b823f48a1bd}
+      \strng{authorfullhash}{e71d00346a622c3afd459b823f48a1bd}
+      \strng{authorfullhashraw}{e71d00346a622c3afd459b823f48a1bd}
+      \strng{translatorbibnamehash}{b13b972672e864e6fdf9ed1fbecfe220}
+      \strng{translatornamehash}{b13b972672e864e6fdf9ed1fbecfe220}
+      \strng{translatorfullhash}{b13b972672e864e6fdf9ed1fbecfe220}
+      \strng{translatorfullhashraw}{b13b972672e864e6fdf9ed1fbecfe220}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Original work published 1265--1274}
+      \field{title}{Summa Theologiae}
+      \field{year}{1947}
+    \endentry
+    \entry{ArendtHC1958}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f50f57f3bb1808b3fd67c3e65baf025f}{%
+           family={Arendt},
+           familyi={A\bibinitperiod},
+           given={Hannah},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Chicago}%
+      }
+      \list{publisher}{1}{%
+        {University of Chicago Press}%
+      }
+      \strng{namehash}{f50f57f3bb1808b3fd67c3e65baf025f}
+      \strng{fullhash}{f50f57f3bb1808b3fd67c3e65baf025f}
+      \strng{fullhashraw}{f50f57f3bb1808b3fd67c3e65baf025f}
+      \strng{bibnamehash}{f50f57f3bb1808b3fd67c3e65baf025f}
+      \strng{authorbibnamehash}{f50f57f3bb1808b3fd67c3e65baf025f}
+      \strng{authornamehash}{f50f57f3bb1808b3fd67c3e65baf025f}
+      \strng{authorfullhash}{f50f57f3bb1808b3fd67c3e65baf025f}
+      \strng{authorfullhashraw}{f50f57f3bb1808b3fd67c3e65baf025f}
+      \field{extraname}{1}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Human Condition}
+      \field{year}{1958}
+    \endentry
+    \entry{ArendtEichmann1963}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f50f57f3bb1808b3fd67c3e65baf025f}{%
+           family={Arendt},
+           familyi={A\bibinitperiod},
+           given={Hannah},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Viking Press}%
+      }
+      \strng{namehash}{f50f57f3bb1808b3fd67c3e65baf025f}
+      \strng{fullhash}{f50f57f3bb1808b3fd67c3e65baf025f}
+      \strng{fullhashraw}{f50f57f3bb1808b3fd67c3e65baf025f}
+      \strng{bibnamehash}{f50f57f3bb1808b3fd67c3e65baf025f}
+      \strng{authorbibnamehash}{f50f57f3bb1808b3fd67c3e65baf025f}
+      \strng{authornamehash}{f50f57f3bb1808b3fd67c3e65baf025f}
+      \strng{authorfullhash}{f50f57f3bb1808b3fd67c3e65baf025f}
+      \strng{authorfullhashraw}{f50f57f3bb1808b3fd67c3e65baf025f}
+      \field{extraname}{2}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Eichmann in Jerusalem: A Report on the Banality of Evil}
+      \field{year}{1963}
+    \endentry
+    \entry{AugustineDeDoctrina1958}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=19d8ae528679c65dde17044a8aaa44d5}{%
+           family={Augustine},
+           familyi={A\bibinitperiod}}}%
+      }
+      \name{translator}{1}{}{%
+        {{hash=3dbdcc2013669087a8948c9041f9c802}{%
+           family={Robertson},
+           familyi={R\bibinitperiod},
+           given={D.\bibnamedelimi W.},
+           giveni={D\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Indianapolis}%
+      }
+      \list{publisher}{1}{%
+        {Bobbs-Merrill}%
+      }
+      \strng{namehash}{19d8ae528679c65dde17044a8aaa44d5}
+      \strng{fullhash}{19d8ae528679c65dde17044a8aaa44d5}
+      \strng{fullhashraw}{19d8ae528679c65dde17044a8aaa44d5}
+      \strng{bibnamehash}{19d8ae528679c65dde17044a8aaa44d5}
+      \strng{authorbibnamehash}{19d8ae528679c65dde17044a8aaa44d5}
+      \strng{authornamehash}{19d8ae528679c65dde17044a8aaa44d5}
+      \strng{authorfullhash}{19d8ae528679c65dde17044a8aaa44d5}
+      \strng{authorfullhashraw}{19d8ae528679c65dde17044a8aaa44d5}
+      \strng{translatorbibnamehash}{3dbdcc2013669087a8948c9041f9c802}
+      \strng{translatornamehash}{3dbdcc2013669087a8948c9041f9c802}
+      \strng{translatorfullhash}{3dbdcc2013669087a8948c9041f9c802}
+      \strng{translatorfullhashraw}{3dbdcc2013669087a8948c9041f9c802}
+      \field{extraname}{1}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Original work published 397--426 CE}
+      \field{title}{On Christian Doctrine}
+      \field{year}{1958}
+    \endentry
+    \entry{AugustineConfessions1998}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=19d8ae528679c65dde17044a8aaa44d5}{%
+           family={Augustine},
+           familyi={A\bibinitperiod}}}%
+      }
+      \name{translator}{1}{}{%
+        {{hash=b7973c5022d3cc532f75525538cfe624}{%
+           family={Pine-Coffin},
+           familyi={P\bibinithyphendelim C\bibinitperiod},
+           given={R.\bibnamedelimi S.},
+           giveni={R\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {London}%
+      }
+      \list{publisher}{1}{%
+        {Penguin Classics}%
+      }
+      \strng{namehash}{19d8ae528679c65dde17044a8aaa44d5}
+      \strng{fullhash}{19d8ae528679c65dde17044a8aaa44d5}
+      \strng{fullhashraw}{19d8ae528679c65dde17044a8aaa44d5}
+      \strng{bibnamehash}{19d8ae528679c65dde17044a8aaa44d5}
+      \strng{authorbibnamehash}{19d8ae528679c65dde17044a8aaa44d5}
+      \strng{authornamehash}{19d8ae528679c65dde17044a8aaa44d5}
+      \strng{authorfullhash}{19d8ae528679c65dde17044a8aaa44d5}
+      \strng{authorfullhashraw}{19d8ae528679c65dde17044a8aaa44d5}
+      \strng{translatorbibnamehash}{b7973c5022d3cc532f75525538cfe624}
+      \strng{translatornamehash}{b7973c5022d3cc532f75525538cfe624}
+      \strng{translatorfullhash}{b7973c5022d3cc532f75525538cfe624}
+      \strng{translatorfullhashraw}{b7973c5022d3cc532f75525538cfe624}
+      \field{extraname}{2}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Original work published 397 CE}
+      \field{title}{Confessions}
+      \field{year}{1998}
+      \verb{urlraw}
+      \verb https://books.google.com/books?id=Ur-2YBSU6JgC
+      \endverb
+      \verb{url}
+      \verb https://books.google.com/books?id=Ur-2YBSU6JgC
+      \endverb
+    \endentry
+    \entry{AugustineCity2003}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=19d8ae528679c65dde17044a8aaa44d5}{%
+           family={Augustine},
+           familyi={A\bibinitperiod}}}%
+      }
+      \name{translator}{1}{}{%
+        {{hash=583d0c6032395240cc1829e2a8257cee}{%
+           family={Bettenson},
+           familyi={B\bibinitperiod},
+           given={Henry},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {London}%
+      }
+      \list{publisher}{1}{%
+        {Penguin Classics}%
+      }
+      \strng{namehash}{19d8ae528679c65dde17044a8aaa44d5}
+      \strng{fullhash}{19d8ae528679c65dde17044a8aaa44d5}
+      \strng{fullhashraw}{19d8ae528679c65dde17044a8aaa44d5}
+      \strng{bibnamehash}{19d8ae528679c65dde17044a8aaa44d5}
+      \strng{authorbibnamehash}{19d8ae528679c65dde17044a8aaa44d5}
+      \strng{authornamehash}{19d8ae528679c65dde17044a8aaa44d5}
+      \strng{authorfullhash}{19d8ae528679c65dde17044a8aaa44d5}
+      \strng{authorfullhashraw}{19d8ae528679c65dde17044a8aaa44d5}
+      \strng{translatorbibnamehash}{583d0c6032395240cc1829e2a8257cee}
+      \strng{translatornamehash}{583d0c6032395240cc1829e2a8257cee}
+      \strng{translatorfullhash}{583d0c6032395240cc1829e2a8257cee}
+      \strng{translatorfullhashraw}{583d0c6032395240cc1829e2a8257cee}
+      \field{extraname}{3}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Original work published 426 CE}
+      \field{title}{The City of God}
+      \field{year}{2003}
+    \endentry
+    \entry{BeckerDenial1973}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=33543ecf043124288201244659643f2a}{%
+           family={Becker},
+           familyi={B\bibinitperiod},
+           given={Ernest},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Free Press}%
+      }
+      \strng{namehash}{33543ecf043124288201244659643f2a}
+      \strng{fullhash}{33543ecf043124288201244659643f2a}
+      \strng{fullhashraw}{33543ecf043124288201244659643f2a}
+      \strng{bibnamehash}{33543ecf043124288201244659643f2a}
+      \strng{authorbibnamehash}{33543ecf043124288201244659643f2a}
+      \strng{authornamehash}{33543ecf043124288201244659643f2a}
+      \strng{authorfullhash}{33543ecf043124288201244659643f2a}
+      \strng{authorfullhashraw}{33543ecf043124288201244659643f2a}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Denial of Death}
+      \field{year}{1973}
+    \endentry
+    \entry{BenjaminTheses1969}{inbook}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b5d39b16d16760e0e4573a45fc6f9f97}{%
+           family={Benjamin},
+           familyi={B\bibinitperiod},
+           given={Walter},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=f50f57f3bb1808b3fd67c3e65baf025f}{%
+           family={Arendt},
+           familyi={A\bibinitperiod},
+           given={Hannah},
+           giveni={H\bibinitperiod}}}%
+      }
+      \name{translator}{1}{}{%
+        {{hash=78ac3ea24d3a073d625320e9692d22ee}{%
+           family={Zohn},
+           familyi={Z\bibinitperiod},
+           given={Harry},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Schocken Books}%
+      }
+      \strng{namehash}{b5d39b16d16760e0e4573a45fc6f9f97}
+      \strng{fullhash}{b5d39b16d16760e0e4573a45fc6f9f97}
+      \strng{fullhashraw}{b5d39b16d16760e0e4573a45fc6f9f97}
+      \strng{bibnamehash}{b5d39b16d16760e0e4573a45fc6f9f97}
+      \strng{authorbibnamehash}{b5d39b16d16760e0e4573a45fc6f9f97}
+      \strng{authornamehash}{b5d39b16d16760e0e4573a45fc6f9f97}
+      \strng{authorfullhash}{b5d39b16d16760e0e4573a45fc6f9f97}
+      \strng{authorfullhashraw}{b5d39b16d16760e0e4573a45fc6f9f97}
+      \strng{editorbibnamehash}{f50f57f3bb1808b3fd67c3e65baf025f}
+      \strng{editornamehash}{f50f57f3bb1808b3fd67c3e65baf025f}
+      \strng{editorfullhash}{f50f57f3bb1808b3fd67c3e65baf025f}
+      \strng{editorfullhashraw}{f50f57f3bb1808b3fd67c3e65baf025f}
+      \strng{translatorbibnamehash}{78ac3ea24d3a073d625320e9692d22ee}
+      \strng{translatornamehash}{78ac3ea24d3a073d625320e9692d22ee}
+      \strng{translatorfullhash}{78ac3ea24d3a073d625320e9692d22ee}
+      \strng{translatorfullhashraw}{78ac3ea24d3a073d625320e9692d22ee}
+      \field{extraname}{1}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Illuminations}
+      \field{note}{Original work written 1940}
+      \field{title}{Theses on the Philosophy of History}
+      \field{year}{1969}
+      \field{pages}{253\bibrangedash 264}
+      \range{pages}{12}
+    \endentry
+    \entry{BenjaminArtwork1969}{inbook}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b5d39b16d16760e0e4573a45fc6f9f97}{%
+           family={Benjamin},
+           familyi={B\bibinitperiod},
+           given={Walter},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=f50f57f3bb1808b3fd67c3e65baf025f}{%
+           family={Arendt},
+           familyi={A\bibinitperiod},
+           given={Hannah},
+           giveni={H\bibinitperiod}}}%
+      }
+      \name{translator}{1}{}{%
+        {{hash=78ac3ea24d3a073d625320e9692d22ee}{%
+           family={Zohn},
+           familyi={Z\bibinitperiod},
+           given={Harry},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Schocken Books}%
+      }
+      \strng{namehash}{b5d39b16d16760e0e4573a45fc6f9f97}
+      \strng{fullhash}{b5d39b16d16760e0e4573a45fc6f9f97}
+      \strng{fullhashraw}{b5d39b16d16760e0e4573a45fc6f9f97}
+      \strng{bibnamehash}{b5d39b16d16760e0e4573a45fc6f9f97}
+      \strng{authorbibnamehash}{b5d39b16d16760e0e4573a45fc6f9f97}
+      \strng{authornamehash}{b5d39b16d16760e0e4573a45fc6f9f97}
+      \strng{authorfullhash}{b5d39b16d16760e0e4573a45fc6f9f97}
+      \strng{authorfullhashraw}{b5d39b16d16760e0e4573a45fc6f9f97}
+      \strng{editorbibnamehash}{f50f57f3bb1808b3fd67c3e65baf025f}
+      \strng{editornamehash}{f50f57f3bb1808b3fd67c3e65baf025f}
+      \strng{editorfullhash}{f50f57f3bb1808b3fd67c3e65baf025f}
+      \strng{editorfullhashraw}{f50f57f3bb1808b3fd67c3e65baf025f}
+      \strng{translatorbibnamehash}{78ac3ea24d3a073d625320e9692d22ee}
+      \strng{translatornamehash}{78ac3ea24d3a073d625320e9692d22ee}
+      \strng{translatorfullhash}{78ac3ea24d3a073d625320e9692d22ee}
+      \strng{translatorfullhashraw}{78ac3ea24d3a073d625320e9692d22ee}
+      \field{extraname}{2}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Illuminations}
+      \field{note}{Original work written 1935}
+      \field{title}{The Work of Art in the Age of Mechanical Reproduction}
+      \field{year}{1969}
+      \field{pages}{217\bibrangedash 251}
+      \range{pages}{35}
+    \endentry
+    \entry{BodhiSN2000}{book}{}{}
+      \name{editor}{1}{}{%
+        {{un=0,uniquepart=base,hash=710dca7074e0444c5fdffde66d349210}{%
+           family={Bodhi},
+           familyi={B\bibinitperiod},
+           given={Bhikkhu},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{translator}{1}{}{%
+        {{hash=710dca7074e0444c5fdffde66d349210}{%
+           family={Bodhi},
+           familyi={B\bibinitperiod},
+           given={Bhikkhu},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Boston}%
+      }
+      \list{publisher}{1}{%
+        {Wisdom Publications}%
+      }
+      \strng{namehash}{710dca7074e0444c5fdffde66d349210}
+      \strng{fullhash}{710dca7074e0444c5fdffde66d349210}
+      \strng{fullhashraw}{710dca7074e0444c5fdffde66d349210}
+      \strng{bibnamehash}{710dca7074e0444c5fdffde66d349210}
+      \strng{editorbibnamehash}{710dca7074e0444c5fdffde66d349210}
+      \strng{editornamehash}{710dca7074e0444c5fdffde66d349210}
+      \strng{editorfullhash}{710dca7074e0444c5fdffde66d349210}
+      \strng{editorfullhashraw}{710dca7074e0444c5fdffde66d349210}
+      \strng{translatorbibnamehash}{710dca7074e0444c5fdffde66d349210}
+      \strng{translatornamehash}{710dca7074e0444c5fdffde66d349210}
+      \strng{translatorfullhash}{710dca7074e0444c5fdffde66d349210}
+      \strng{translatorfullhashraw}{710dca7074e0444c5fdffde66d349210}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{title}{The Connected Discourses of the Buddha: A Translation of the Saṃyutta Nikāya}
+      \field{year}{2000}
+    \endentry
+    \entry{BuddharakkhitaDhp1993}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=204c0b1047d34639b678bbcbf9587948}{%
+           family={Buddharakkhita},
+           familyi={B\bibinitperiod},
+           given={Acharya},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Kandy}%
+      }
+      \list{publisher}{1}{%
+        {Buddhist Publication Society}%
+      }
+      \strng{namehash}{204c0b1047d34639b678bbcbf9587948}
+      \strng{fullhash}{204c0b1047d34639b678bbcbf9587948}
+      \strng{fullhashraw}{204c0b1047d34639b678bbcbf9587948}
+      \strng{bibnamehash}{204c0b1047d34639b678bbcbf9587948}
+      \strng{authorbibnamehash}{204c0b1047d34639b678bbcbf9587948}
+      \strng{authornamehash}{204c0b1047d34639b678bbcbf9587948}
+      \strng{authorfullhash}{204c0b1047d34639b678bbcbf9587948}
+      \strng{authorfullhashraw}{204c0b1047d34639b678bbcbf9587948}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{Revised}
+      \field{title}{The Dhammapada}
+      \field{year}{1993}
+    \endentry
+    \entry{CamusMyth1991}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a5e268415e78ba3110fa302f27b9021b}{%
+           family={Camus},
+           familyi={C\bibinitperiod},
+           given={Albert},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{translator}{1}{}{%
+        {{hash=799688690ccabdddd92e06a77fe262c4}{%
+           family={O'Brien},
+           familyi={O\bibinitperiod},
+           given={Justin},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Vintage}%
+      }
+      \strng{namehash}{a5e268415e78ba3110fa302f27b9021b}
+      \strng{fullhash}{a5e268415e78ba3110fa302f27b9021b}
+      \strng{fullhashraw}{a5e268415e78ba3110fa302f27b9021b}
+      \strng{bibnamehash}{a5e268415e78ba3110fa302f27b9021b}
+      \strng{authorbibnamehash}{a5e268415e78ba3110fa302f27b9021b}
+      \strng{authornamehash}{a5e268415e78ba3110fa302f27b9021b}
+      \strng{authorfullhash}{a5e268415e78ba3110fa302f27b9021b}
+      \strng{authorfullhashraw}{a5e268415e78ba3110fa302f27b9021b}
+      \strng{translatorbibnamehash}{799688690ccabdddd92e06a77fe262c4}
+      \strng{translatornamehash}{799688690ccabdddd92e06a77fe262c4}
+      \strng{translatorfullhash}{799688690ccabdddd92e06a77fe262c4}
+      \strng{translatorfullhashraw}{799688690ccabdddd92e06a77fe262c4}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Original work published 1942}
+      \field{title}{The Myth of Sisyphus}
+      \field{year}{1991}
+    \endentry
+    \entry{ConradHOD1990}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8675cf71f77657ddd8e94d99deefaace}{%
+           family={Conrad},
+           familyi={C\bibinitperiod},
+           given={Joseph},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=39823e6f47c286d6a208d67a616643bd}{%
+           family={Kimbrough},
+           familyi={K\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {W. W. Norton \& Company}%
+      }
+      \strng{namehash}{8675cf71f77657ddd8e94d99deefaace}
+      \strng{fullhash}{8675cf71f77657ddd8e94d99deefaace}
+      \strng{fullhashraw}{8675cf71f77657ddd8e94d99deefaace}
+      \strng{bibnamehash}{8675cf71f77657ddd8e94d99deefaace}
+      \strng{authorbibnamehash}{8675cf71f77657ddd8e94d99deefaace}
+      \strng{authornamehash}{8675cf71f77657ddd8e94d99deefaace}
+      \strng{authorfullhash}{8675cf71f77657ddd8e94d99deefaace}
+      \strng{authorfullhashraw}{8675cf71f77657ddd8e94d99deefaace}
+      \strng{editorbibnamehash}{39823e6f47c286d6a208d67a616643bd}
+      \strng{editornamehash}{39823e6f47c286d6a208d67a616643bd}
+      \strng{editorfullhash}{39823e6f47c286d6a208d67a616643bd}
+      \strng{editorfullhashraw}{39823e6f47c286d6a208d67a616643bd}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Original work published 1899}
+      \field{title}{Heart of Darkness}
+      \field{year}{1990}
+    \endentry
+    \entry{CoppolaApocalypse2019}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3dc844e09b6c4b683bd90b64eb2cf28f}{%
+           family={Coppola},
+           familyi={C\bibinitperiod},
+           given={Francis\bibnamedelima Ford},
+           giveni={F\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3dc844e09b6c4b683bd90b64eb2cf28f}
+      \strng{fullhash}{3dc844e09b6c4b683bd90b64eb2cf28f}
+      \strng{fullhashraw}{3dc844e09b6c4b683bd90b64eb2cf28f}
+      \strng{bibnamehash}{3dc844e09b6c4b683bd90b64eb2cf28f}
+      \strng{authorbibnamehash}{3dc844e09b6c4b683bd90b64eb2cf28f}
+      \strng{authornamehash}{3dc844e09b6c4b683bd90b64eb2cf28f}
+      \strng{authorfullhash}{3dc844e09b6c4b683bd90b64eb2cf28f}
+      \strng{authorfullhashraw}{3dc844e09b6c4b683bd90b64eb2cf28f}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Final Cut; Lionsgate; film; original theatrical release 1979}
+      \field{title}{Apocalypse Now}
+      \field{year}{2019}
+    \endentry
+    \entry{Beauvoir1976}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0806a7f30f904f1610898e4181877ca0}{%
+           family={Beauvoir},
+           familyi={B\bibinitperiod},
+           given={Simone},
+           giveni={S\bibinitperiod},
+           givenun=0,
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+      }
+      \name{translator}{1}{}{%
+        {{hash=52bae9a5bee5da3ab1bfb404a0fb9f7c}{%
+           family={Frechtman},
+           familyi={F\bibinitperiod},
+           given={Bernard},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Citadel Press}%
+      }
+      \strng{namehash}{0806a7f30f904f1610898e4181877ca0}
+      \strng{fullhash}{0806a7f30f904f1610898e4181877ca0}
+      \strng{fullhashraw}{0806a7f30f904f1610898e4181877ca0}
+      \strng{bibnamehash}{0806a7f30f904f1610898e4181877ca0}
+      \strng{authorbibnamehash}{0806a7f30f904f1610898e4181877ca0}
+      \strng{authornamehash}{0806a7f30f904f1610898e4181877ca0}
+      \strng{authorfullhash}{0806a7f30f904f1610898e4181877ca0}
+      \strng{authorfullhashraw}{0806a7f30f904f1610898e4181877ca0}
+      \strng{translatorbibnamehash}{52bae9a5bee5da3ab1bfb404a0fb9f7c}
+      \strng{translatornamehash}{52bae9a5bee5da3ab1bfb404a0fb9f7c}
+      \strng{translatorfullhash}{52bae9a5bee5da3ab1bfb404a0fb9f7c}
+      \strng{translatorfullhashraw}{52bae9a5bee5da3ab1bfb404a0fb9f7c}
+      \field{sortinit}{d}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Original work published 1947}
+      \field{title}{The Ethics of Ambiguity}
+      \field{year}{1976}
+    \endentry
+    \entry{DostoevskyNFU1994}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e26a0687e7dd59dd06c4106bf69e420b}{%
+           family={Dostoevsky},
+           familyi={D\bibinitperiod},
+           given={Fyodor},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{translator}{2}{}{%
+        {{hash=e3206da693ef709a6d5d8d5c0cf5693a}{%
+           family={Pevear},
+           familyi={P\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod}}}%
+        {{hash=130ecffe037c22cd039f9e90652d517f}{%
+           family={Volokhonsky},
+           familyi={V\bibinitperiod},
+           given={Larissa},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Vintage Classics}%
+      }
+      \strng{namehash}{e26a0687e7dd59dd06c4106bf69e420b}
+      \strng{fullhash}{e26a0687e7dd59dd06c4106bf69e420b}
+      \strng{fullhashraw}{e26a0687e7dd59dd06c4106bf69e420b}
+      \strng{bibnamehash}{e26a0687e7dd59dd06c4106bf69e420b}
+      \strng{authorbibnamehash}{e26a0687e7dd59dd06c4106bf69e420b}
+      \strng{authornamehash}{e26a0687e7dd59dd06c4106bf69e420b}
+      \strng{authorfullhash}{e26a0687e7dd59dd06c4106bf69e420b}
+      \strng{authorfullhashraw}{e26a0687e7dd59dd06c4106bf69e420b}
+      \strng{translatorbibnamehash}{ca287c4e00fcf9f1017947ff35fcbacd}
+      \strng{translatornamehash}{ca287c4e00fcf9f1017947ff35fcbacd}
+      \strng{translatorfullhash}{ca287c4e00fcf9f1017947ff35fcbacd}
+      \strng{translatorfullhashraw}{ca287c4e00fcf9f1017947ff35fcbacd}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Original work published 1864}
+      \field{title}{Notes from Underground}
+      \field{year}{1994}
+    \endentry
+    \entry{FanonWretched2004}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d49abb3f31d6b89a7b861c3f93017fbd}{%
+           family={Fanon},
+           familyi={F\bibinitperiod},
+           given={Frantz},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{translator}{1}{}{%
+        {{hash=611ba49829960caee08256803af282e8}{%
+           family={Philcox},
+           familyi={P\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Grove Press}%
+      }
+      \strng{namehash}{d49abb3f31d6b89a7b861c3f93017fbd}
+      \strng{fullhash}{d49abb3f31d6b89a7b861c3f93017fbd}
+      \strng{fullhashraw}{d49abb3f31d6b89a7b861c3f93017fbd}
+      \strng{bibnamehash}{d49abb3f31d6b89a7b861c3f93017fbd}
+      \strng{authorbibnamehash}{d49abb3f31d6b89a7b861c3f93017fbd}
+      \strng{authornamehash}{d49abb3f31d6b89a7b861c3f93017fbd}
+      \strng{authorfullhash}{d49abb3f31d6b89a7b861c3f93017fbd}
+      \strng{authorfullhashraw}{d49abb3f31d6b89a7b861c3f93017fbd}
+      \strng{translatorbibnamehash}{611ba49829960caee08256803af282e8}
+      \strng{translatornamehash}{611ba49829960caee08256803af282e8}
+      \strng{translatorfullhash}{611ba49829960caee08256803af282e8}
+      \strng{translatorfullhashraw}{611ba49829960caee08256803af282e8}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Original work published 1961}
+      \field{title}{The Wretched of the Earth}
+      \field{year}{2004}
+    \endentry
+    \entry{FitzmyerRomans1993}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8bfb9fdd1c0af5aa7c74d7f06d1193d6}{%
+           family={Fitzmyer},
+           familyi={F\bibinitperiod},
+           given={Joseph\bibnamedelima A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New Haven}%
+      }
+      \list{publisher}{1}{%
+        {Yale University Press}%
+      }
+      \strng{namehash}{8bfb9fdd1c0af5aa7c74d7f06d1193d6}
+      \strng{fullhash}{8bfb9fdd1c0af5aa7c74d7f06d1193d6}
+      \strng{fullhashraw}{8bfb9fdd1c0af5aa7c74d7f06d1193d6}
+      \strng{bibnamehash}{8bfb9fdd1c0af5aa7c74d7f06d1193d6}
+      \strng{authorbibnamehash}{8bfb9fdd1c0af5aa7c74d7f06d1193d6}
+      \strng{authornamehash}{8bfb9fdd1c0af5aa7c74d7f06d1193d6}
+      \strng{authorfullhash}{8bfb9fdd1c0af5aa7c74d7f06d1193d6}
+      \strng{authorfullhashraw}{8bfb9fdd1c0af5aa7c74d7f06d1193d6}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Romans: A New Translation with Introduction and Commentary}
+      \field{volume}{33}
+      \field{year}{1993}
+    \endentry
+    \entry{FoucaultDiscipline1995}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=984e5967448051538555a64aac11ed21}{%
+           family={Foucault},
+           familyi={F\bibinitperiod},
+           given={Michel},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{translator}{1}{}{%
+        {{hash=f43a60644c5bfc10b65457e980019a12}{%
+           family={Sheridan},
+           familyi={S\bibinitperiod},
+           given={Alan},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Vintage}%
+      }
+      \strng{namehash}{984e5967448051538555a64aac11ed21}
+      \strng{fullhash}{984e5967448051538555a64aac11ed21}
+      \strng{fullhashraw}{984e5967448051538555a64aac11ed21}
+      \strng{bibnamehash}{984e5967448051538555a64aac11ed21}
+      \strng{authorbibnamehash}{984e5967448051538555a64aac11ed21}
+      \strng{authornamehash}{984e5967448051538555a64aac11ed21}
+      \strng{authorfullhash}{984e5967448051538555a64aac11ed21}
+      \strng{authorfullhashraw}{984e5967448051538555a64aac11ed21}
+      \strng{translatorbibnamehash}{f43a60644c5bfc10b65457e980019a12}
+      \strng{translatornamehash}{f43a60644c5bfc10b65457e980019a12}
+      \strng{translatorfullhash}{f43a60644c5bfc10b65457e980019a12}
+      \strng{translatorfullhashraw}{f43a60644c5bfc10b65457e980019a12}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Original work published 1975}
+      \field{title}{Discipline and Punish: The Birth of the Prison}
+      \field{year}{1995}
+    \endentry
+    \entry{FranklMeaning2006}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=18e2c8c4b5fa6b147c14d2aaa3095c80}{%
+           family={Frankl},
+           familyi={F\bibinitperiod},
+           given={Viktor\bibnamedelima E.},
+           giveni={V\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Boston}%
+      }
+      \list{publisher}{1}{%
+        {Beacon Press}%
+      }
+      \strng{namehash}{18e2c8c4b5fa6b147c14d2aaa3095c80}
+      \strng{fullhash}{18e2c8c4b5fa6b147c14d2aaa3095c80}
+      \strng{fullhashraw}{18e2c8c4b5fa6b147c14d2aaa3095c80}
+      \strng{bibnamehash}{18e2c8c4b5fa6b147c14d2aaa3095c80}
+      \strng{authorbibnamehash}{18e2c8c4b5fa6b147c14d2aaa3095c80}
+      \strng{authornamehash}{18e2c8c4b5fa6b147c14d2aaa3095c80}
+      \strng{authorfullhash}{18e2c8c4b5fa6b147c14d2aaa3095c80}
+      \strng{authorfullhashraw}{18e2c8c4b5fa6b147c14d2aaa3095c80}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Original work published 1946}
+      \field{title}{Man's Search for Meaning}
+      \field{year}{2006}
+    \endentry
+    \entry{FreudBeyond1955}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=58227b8cb75750689aafd0bdb2b63408}{%
+           family={Freud},
+           familyi={F\bibinitperiod},
+           given={Sigmund},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{translator}{1}{}{%
+        {{hash=d82944639ecf1c78f4e5ed4f89b98452}{%
+           family={Strachey},
+           familyi={S\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {London}%
+      }
+      \list{publisher}{1}{%
+        {Hogarth Press}%
+      }
+      \strng{namehash}{58227b8cb75750689aafd0bdb2b63408}
+      \strng{fullhash}{58227b8cb75750689aafd0bdb2b63408}
+      \strng{fullhashraw}{58227b8cb75750689aafd0bdb2b63408}
+      \strng{bibnamehash}{58227b8cb75750689aafd0bdb2b63408}
+      \strng{authorbibnamehash}{58227b8cb75750689aafd0bdb2b63408}
+      \strng{authornamehash}{58227b8cb75750689aafd0bdb2b63408}
+      \strng{authorfullhash}{58227b8cb75750689aafd0bdb2b63408}
+      \strng{authorfullhashraw}{58227b8cb75750689aafd0bdb2b63408}
+      \strng{translatorbibnamehash}{d82944639ecf1c78f4e5ed4f89b98452}
+      \strng{translatornamehash}{d82944639ecf1c78f4e5ed4f89b98452}
+      \strng{translatorfullhash}{d82944639ecf1c78f4e5ed4f89b98452}
+      \strng{translatorfullhashraw}{d82944639ecf1c78f4e5ed4f89b98452}
+      \field{extraname}{1}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Original work published 1920}
+      \field{title}{Beyond the Pleasure Principle}
+      \field{year}{1955}
+    \endentry
+    \entry{FreudCivilization1961}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=58227b8cb75750689aafd0bdb2b63408}{%
+           family={Freud},
+           familyi={F\bibinitperiod},
+           given={Sigmund},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{translator}{1}{}{%
+        {{hash=d82944639ecf1c78f4e5ed4f89b98452}{%
+           family={Strachey},
+           familyi={S\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {W. W. Norton}%
+      }
+      \strng{namehash}{58227b8cb75750689aafd0bdb2b63408}
+      \strng{fullhash}{58227b8cb75750689aafd0bdb2b63408}
+      \strng{fullhashraw}{58227b8cb75750689aafd0bdb2b63408}
+      \strng{bibnamehash}{58227b8cb75750689aafd0bdb2b63408}
+      \strng{authorbibnamehash}{58227b8cb75750689aafd0bdb2b63408}
+      \strng{authornamehash}{58227b8cb75750689aafd0bdb2b63408}
+      \strng{authorfullhash}{58227b8cb75750689aafd0bdb2b63408}
+      \strng{authorfullhashraw}{58227b8cb75750689aafd0bdb2b63408}
+      \strng{translatorbibnamehash}{d82944639ecf1c78f4e5ed4f89b98452}
+      \strng{translatornamehash}{d82944639ecf1c78f4e5ed4f89b98452}
+      \strng{translatorfullhash}{d82944639ecf1c78f4e5ed4f89b98452}
+      \strng{translatorfullhashraw}{d82944639ecf1c78f4e5ed4f89b98452}
+      \field{extraname}{2}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Original work published 1930}
+      \field{title}{Civilization and Its Discontents}
+      \field{year}{1961}
+    \endentry
+    \entry{GregoryBeatitudes1954}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=45e5c2b105727095e303a4c53d0dd080}{%
+           family={{Gregory of Nyssa}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \name{translator}{2}{}{%
+        {{hash=f65f96b66cee404a3ec64a91b73e17a3}{%
+           family={Graef},
+           familyi={G\bibinitperiod},
+           given={Hilda\bibnamedelima C.},
+           giveni={H\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=b538b2ac5a9d766cdbfcb61463739f16}{%
+           family={Callahan},
+           familyi={C\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Newman Press}%
+      }
+      \strng{namehash}{45e5c2b105727095e303a4c53d0dd080}
+      \strng{fullhash}{45e5c2b105727095e303a4c53d0dd080}
+      \strng{fullhashraw}{45e5c2b105727095e303a4c53d0dd080}
+      \strng{bibnamehash}{45e5c2b105727095e303a4c53d0dd080}
+      \strng{authorbibnamehash}{45e5c2b105727095e303a4c53d0dd080}
+      \strng{authornamehash}{45e5c2b105727095e303a4c53d0dd080}
+      \strng{authorfullhash}{45e5c2b105727095e303a4c53d0dd080}
+      \strng{authorfullhashraw}{45e5c2b105727095e303a4c53d0dd080}
+      \strng{translatorbibnamehash}{028b0ae542aa765b93cca843e38067ac}
+      \strng{translatornamehash}{028b0ae542aa765b93cca843e38067ac}
+      \strng{translatorfullhash}{028b0ae542aa765b93cca843e38067ac}
+      \strng{translatorfullhashraw}{028b0ae542aa765b93cca843e38067ac}
+      \field{extraname}{1}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Lord's Prayer and the Beatitudes}
+      \field{year}{1954}
+    \endentry
+    \entry{GregoryMoses1978}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=45e5c2b105727095e303a4c53d0dd080}{%
+           family={{Gregory of Nyssa}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \name{translator}{2}{}{%
+        {{hash=577216f20b2bd7183fd180d1e6e5bf39}{%
+           family={Malherbe},
+           familyi={M\bibinitperiod},
+           given={Abraham\bibnamedelima J.},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=14f8235e4374b0811c907fef17726962}{%
+           family={Ferguson},
+           familyi={F\bibinitperiod},
+           given={Everett},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Paulist Press}%
+      }
+      \strng{namehash}{45e5c2b105727095e303a4c53d0dd080}
+      \strng{fullhash}{45e5c2b105727095e303a4c53d0dd080}
+      \strng{fullhashraw}{45e5c2b105727095e303a4c53d0dd080}
+      \strng{bibnamehash}{45e5c2b105727095e303a4c53d0dd080}
+      \strng{authorbibnamehash}{45e5c2b105727095e303a4c53d0dd080}
+      \strng{authornamehash}{45e5c2b105727095e303a4c53d0dd080}
+      \strng{authorfullhash}{45e5c2b105727095e303a4c53d0dd080}
+      \strng{authorfullhashraw}{45e5c2b105727095e303a4c53d0dd080}
+      \strng{translatorbibnamehash}{16a91f5f81f0a09e6d0c869c094c2811}
+      \strng{translatornamehash}{16a91f5f81f0a09e6d0c869c094c2811}
+      \strng{translatorfullhash}{16a91f5f81f0a09e6d0c869c094c2811}
+      \strng{translatorfullhashraw}{16a91f5f81f0a09e6d0c869c094c2811}
+      \field{extraname}{2}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Life of Moses}
+      \field{year}{1978}
+    \endentry
+    \entry{HegelPhenomenology1977}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d56805b99a1e2d9e4499b098b29157ff}{%
+           family={Hegel},
+           familyi={H\bibinitperiod},
+           given={G.\bibnamedelimi W.\bibnamedelimi F.},
+           giveni={G\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{translator}{1}{}{%
+        {{hash=b0967b0b5ec39d863dd038b265b1d192}{%
+           family={Miller},
+           familyi={M\bibinitperiod},
+           given={A.\bibnamedelimi V.},
+           giveni={A\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Oxford}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{d56805b99a1e2d9e4499b098b29157ff}
+      \strng{fullhash}{d56805b99a1e2d9e4499b098b29157ff}
+      \strng{fullhashraw}{d56805b99a1e2d9e4499b098b29157ff}
+      \strng{bibnamehash}{d56805b99a1e2d9e4499b098b29157ff}
+      \strng{authorbibnamehash}{d56805b99a1e2d9e4499b098b29157ff}
+      \strng{authornamehash}{d56805b99a1e2d9e4499b098b29157ff}
+      \strng{authorfullhash}{d56805b99a1e2d9e4499b098b29157ff}
+      \strng{authorfullhashraw}{d56805b99a1e2d9e4499b098b29157ff}
+      \strng{translatorbibnamehash}{b0967b0b5ec39d863dd038b265b1d192}
+      \strng{translatornamehash}{b0967b0b5ec39d863dd038b265b1d192}
+      \strng{translatorfullhash}{b0967b0b5ec39d863dd038b265b1d192}
+      \strng{translatorfullhashraw}{b0967b0b5ec39d863dd038b265b1d192}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Original work published 1807}
+      \field{title}{Phenomenology of Spirit}
+      \field{year}{1977}
+    \endentry
+    \entry{HeideggerBT1962}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=79b1e6f4199aeb3f853ca7cba607bfdc}{%
+           family={Heidegger},
+           familyi={H\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{translator}{2}{}{%
+        {{hash=c049344fee49846c5dfae43516b5bdec}{%
+           family={Macquarrie},
+           familyi={M\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+        {{hash=92a3ea0c62723c7c38c5598e8f1ccb75}{%
+           family={Robinson},
+           familyi={R\bibinitperiod},
+           given={Edward},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Harper \& Row}%
+      }
+      \strng{namehash}{79b1e6f4199aeb3f853ca7cba607bfdc}
+      \strng{fullhash}{79b1e6f4199aeb3f853ca7cba607bfdc}
+      \strng{fullhashraw}{79b1e6f4199aeb3f853ca7cba607bfdc}
+      \strng{bibnamehash}{79b1e6f4199aeb3f853ca7cba607bfdc}
+      \strng{authorbibnamehash}{79b1e6f4199aeb3f853ca7cba607bfdc}
+      \strng{authornamehash}{79b1e6f4199aeb3f853ca7cba607bfdc}
+      \strng{authorfullhash}{79b1e6f4199aeb3f853ca7cba607bfdc}
+      \strng{authorfullhashraw}{79b1e6f4199aeb3f853ca7cba607bfdc}
+      \strng{translatorbibnamehash}{a925a43c0b7f949af0e494f45d525498}
+      \strng{translatornamehash}{a925a43c0b7f949af0e494f45d525498}
+      \strng{translatorfullhash}{a925a43c0b7f949af0e494f45d525498}
+      \strng{translatorfullhashraw}{a925a43c0b7f949af0e494f45d525498}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Original work published 1927}
+      \field{title}{Being and Time}
+      \field{year}{1962}
+    \endentry
+    \entry{JungAion1969}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b510fd523fa8963360c262f09996cbee}{%
+           family={Jung},
+           familyi={J\bibinitperiod},
+           given={Carl\bibnamedelima Gustav},
+           giveni={C\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{translator}{1}{}{%
+        {{hash=7e60bff0e94bd9dc5254a3c203745a0e}{%
+           family={Hull},
+           familyi={H\bibinitperiod},
+           given={R.\bibnamedelimi F.\bibnamedelimi C.},
+           giveni={R\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Princeton}%
+      }
+      \list{publisher}{1}{%
+        {Princeton University Press}%
+      }
+      \strng{namehash}{b510fd523fa8963360c262f09996cbee}
+      \strng{fullhash}{b510fd523fa8963360c262f09996cbee}
+      \strng{fullhashraw}{b510fd523fa8963360c262f09996cbee}
+      \strng{bibnamehash}{b510fd523fa8963360c262f09996cbee}
+      \strng{authorbibnamehash}{b510fd523fa8963360c262f09996cbee}
+      \strng{authornamehash}{b510fd523fa8963360c262f09996cbee}
+      \strng{authorfullhash}{b510fd523fa8963360c262f09996cbee}
+      \strng{authorfullhashraw}{b510fd523fa8963360c262f09996cbee}
+      \strng{translatorbibnamehash}{7e60bff0e94bd9dc5254a3c203745a0e}
+      \strng{translatornamehash}{7e60bff0e94bd9dc5254a3c203745a0e}
+      \strng{translatorfullhash}{7e60bff0e94bd9dc5254a3c203745a0e}
+      \strng{translatorfullhashraw}{7e60bff0e94bd9dc5254a3c203745a0e}
+      \field{extraname}{1}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Original Collected Works vol. 9, part 2 (1959)}
+      \field{title}{Aion: Researches into the Phenomenology of the Self}
+      \field{year}{1969}
+    \endentry
+    \entry{JungArchetypes1969}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b510fd523fa8963360c262f09996cbee}{%
+           family={Jung},
+           familyi={J\bibinitperiod},
+           given={Carl\bibnamedelima Gustav},
+           giveni={C\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=fe82f0d25dcaecad96556b92f0fa6c2e}{%
+           family={Adler},
+           familyi={A\bibinitperiod},
+           given={Gerhard},
+           giveni={G\bibinitperiod}}}%
+        {{hash=7e60bff0e94bd9dc5254a3c203745a0e}{%
+           family={Hull},
+           familyi={H\bibinitperiod},
+           given={R.\bibnamedelimi F.\bibnamedelimi C.},
+           giveni={R\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \name{translator}{1}{}{%
+        {{hash=7e60bff0e94bd9dc5254a3c203745a0e}{%
+           family={Hull},
+           familyi={H\bibinitperiod},
+           given={R.\bibnamedelimi F.\bibnamedelimi C.},
+           giveni={R\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Princeton}%
+      }
+      \list{publisher}{1}{%
+        {Princeton University Press}%
+      }
+      \strng{namehash}{b510fd523fa8963360c262f09996cbee}
+      \strng{fullhash}{b510fd523fa8963360c262f09996cbee}
+      \strng{fullhashraw}{b510fd523fa8963360c262f09996cbee}
+      \strng{bibnamehash}{b510fd523fa8963360c262f09996cbee}
+      \strng{authorbibnamehash}{b510fd523fa8963360c262f09996cbee}
+      \strng{authornamehash}{b510fd523fa8963360c262f09996cbee}
+      \strng{authorfullhash}{b510fd523fa8963360c262f09996cbee}
+      \strng{authorfullhashraw}{b510fd523fa8963360c262f09996cbee}
+      \strng{editorbibnamehash}{ca374f2989e36843cc6ab4408d7f452f}
+      \strng{editornamehash}{ca374f2989e36843cc6ab4408d7f452f}
+      \strng{editorfullhash}{ca374f2989e36843cc6ab4408d7f452f}
+      \strng{editorfullhashraw}{ca374f2989e36843cc6ab4408d7f452f}
+      \strng{translatorbibnamehash}{7e60bff0e94bd9dc5254a3c203745a0e}
+      \strng{translatornamehash}{7e60bff0e94bd9dc5254a3c203745a0e}
+      \strng{translatorfullhash}{7e60bff0e94bd9dc5254a3c203745a0e}
+      \strng{translatorfullhashraw}{7e60bff0e94bd9dc5254a3c203745a0e}
+      \field{extraname}{2}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Original Collected Works vol. 9, part 1 (1959)}
+      \field{title}{The Archetypes and the Collective Unconscious}
+      \field{year}{1969}
+    \endentry
+    \entry{KantCPrR1996}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e1e09a59acd7633f469747be85d5edc0}{%
+           family={Kant},
+           familyi={K\bibinitperiod},
+           given={Immanuel},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{translator}{1}{}{%
+        {{hash=f6289054fed50f8a69dfd70d1e6f9dc5}{%
+           family={Gregor},
+           familyi={G\bibinitperiod},
+           given={Mary},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cambridge}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{e1e09a59acd7633f469747be85d5edc0}
+      \strng{fullhash}{e1e09a59acd7633f469747be85d5edc0}
+      \strng{fullhashraw}{e1e09a59acd7633f469747be85d5edc0}
+      \strng{bibnamehash}{e1e09a59acd7633f469747be85d5edc0}
+      \strng{authorbibnamehash}{e1e09a59acd7633f469747be85d5edc0}
+      \strng{authornamehash}{e1e09a59acd7633f469747be85d5edc0}
+      \strng{authorfullhash}{e1e09a59acd7633f469747be85d5edc0}
+      \strng{authorfullhashraw}{e1e09a59acd7633f469747be85d5edc0}
+      \strng{translatorbibnamehash}{f6289054fed50f8a69dfd70d1e6f9dc5}
+      \strng{translatornamehash}{f6289054fed50f8a69dfd70d1e6f9dc5}
+      \strng{translatorfullhash}{f6289054fed50f8a69dfd70d1e6f9dc5}
+      \strng{translatorfullhashraw}{f6289054fed50f8a69dfd70d1e6f9dc5}
+      \field{extraname}{1}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Original work published 1788}
+      \field{title}{Critique of Practical Reason}
+      \field{year}{1996}
+    \endentry
+    \entry{KantGroundwork1996}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e1e09a59acd7633f469747be85d5edc0}{%
+           family={Kant},
+           familyi={K\bibinitperiod},
+           given={Immanuel},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Cambridge}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{e1e09a59acd7633f469747be85d5edc0}
+      \strng{fullhash}{e1e09a59acd7633f469747be85d5edc0}
+      \strng{fullhashraw}{e1e09a59acd7633f469747be85d5edc0}
+      \strng{bibnamehash}{e1e09a59acd7633f469747be85d5edc0}
+      \strng{authorbibnamehash}{e1e09a59acd7633f469747be85d5edc0}
+      \strng{authornamehash}{e1e09a59acd7633f469747be85d5edc0}
+      \strng{authorfullhash}{e1e09a59acd7633f469747be85d5edc0}
+      \strng{authorfullhashraw}{e1e09a59acd7633f469747be85d5edc0}
+      \field{extraname}{2}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Trans. Mary Gregor. Original 1785}
+      \field{title}{Groundwork of the Metaphysics of Morals}
+      \field{year}{1996}
+    \endentry
+    \entry{KierkegaardSUD1980}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=79e7785297fe7db6d341156cc36fcaf8}{%
+           family={Kierkegaard},
+           familyi={K\bibinitperiod},
+           given={S{ø}ren},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{translator}{2}{}{%
+        {{hash=d298933624a7fb9b51af9ce19fec4bfe}{%
+           family={Hong},
+           familyi={H\bibinitperiod},
+           given={Howard\bibnamedelima V.},
+           giveni={H\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=4bb9e935b4d1713602e9a3579887c5c3}{%
+           family={Hong},
+           familyi={H\bibinitperiod},
+           given={Edna\bibnamedelima H.},
+           giveni={E\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Princeton}%
+      }
+      \list{publisher}{1}{%
+        {Princeton University Press}%
+      }
+      \strng{namehash}{79e7785297fe7db6d341156cc36fcaf8}
+      \strng{fullhash}{79e7785297fe7db6d341156cc36fcaf8}
+      \strng{fullhashraw}{79e7785297fe7db6d341156cc36fcaf8}
+      \strng{bibnamehash}{79e7785297fe7db6d341156cc36fcaf8}
+      \strng{authorbibnamehash}{79e7785297fe7db6d341156cc36fcaf8}
+      \strng{authornamehash}{79e7785297fe7db6d341156cc36fcaf8}
+      \strng{authorfullhash}{79e7785297fe7db6d341156cc36fcaf8}
+      \strng{authorfullhashraw}{79e7785297fe7db6d341156cc36fcaf8}
+      \strng{translatorbibnamehash}{fb730521fd28663ffe9b57a5f0c9bc92}
+      \strng{translatornamehash}{fb730521fd28663ffe9b57a5f0c9bc92}
+      \strng{translatorfullhash}{fb730521fd28663ffe9b57a5f0c9bc92}
+      \strng{translatorfullhashraw}{fb730521fd28663ffe9b57a5f0c9bc92}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Original work published 1849}
+      \field{title}{The Sickness Unto Death}
+      \field{year}{1980}
+    \endentry
+    \entry{KojeveIRH1980}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3f3ecdba770cfdc063403f74aadeb64e}{%
+           family={Kojève},
+           familyi={K\bibinitperiod},
+           given={Alexandre},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=85cd704223faad4c96e971e165001e91}{%
+           family={Bloom},
+           familyi={B\bibinitperiod},
+           given={Allan},
+           giveni={A\bibinitperiod}}}%
+      }
+      \name{translator}{1}{}{%
+        {{hash=53c296c6d2ba7c34defbbfb69eb1759c}{%
+           family={James\bibnamedelimb H.\bibnamedelimi Nichols},
+           familyi={J\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim N\bibinitperiod},
+           given={Jr.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Ithaca}%
+      }
+      \list{publisher}{1}{%
+        {Cornell University Press}%
+      }
+      \strng{namehash}{3f3ecdba770cfdc063403f74aadeb64e}
+      \strng{fullhash}{3f3ecdba770cfdc063403f74aadeb64e}
+      \strng{fullhashraw}{3f3ecdba770cfdc063403f74aadeb64e}
+      \strng{bibnamehash}{3f3ecdba770cfdc063403f74aadeb64e}
+      \strng{authorbibnamehash}{3f3ecdba770cfdc063403f74aadeb64e}
+      \strng{authornamehash}{3f3ecdba770cfdc063403f74aadeb64e}
+      \strng{authorfullhash}{3f3ecdba770cfdc063403f74aadeb64e}
+      \strng{authorfullhashraw}{3f3ecdba770cfdc063403f74aadeb64e}
+      \strng{editorbibnamehash}{85cd704223faad4c96e971e165001e91}
+      \strng{editornamehash}{85cd704223faad4c96e971e165001e91}
+      \strng{editorfullhash}{85cd704223faad4c96e971e165001e91}
+      \strng{editorfullhashraw}{85cd704223faad4c96e971e165001e91}
+      \strng{translatorbibnamehash}{53c296c6d2ba7c34defbbfb69eb1759c}
+      \strng{translatornamehash}{53c296c6d2ba7c34defbbfb69eb1759c}
+      \strng{translatorfullhash}{53c296c6d2ba7c34defbbfb69eb1759c}
+      \strng{translatorfullhashraw}{53c296c6d2ba7c34defbbfb69eb1759c}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Lectures 1933--1939; English trans. 1969/1980}
+      \field{title}{Introduction to the Reading of Hegel}
+      \field{year}{1980}
+    \endentry
+    \entry{LacanSeminarXI1991}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4d902d811257842fa4b0bd441b828090}{%
+           family={Lacan},
+           familyi={L\bibinitperiod},
+           given={Jacques},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{translator}{1}{}{%
+        {{hash=f43a60644c5bfc10b65457e980019a12}{%
+           family={Sheridan},
+           familyi={S\bibinitperiod},
+           given={Alan},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {W. W. Norton}%
+      }
+      \strng{namehash}{4d902d811257842fa4b0bd441b828090}
+      \strng{fullhash}{4d902d811257842fa4b0bd441b828090}
+      \strng{fullhashraw}{4d902d811257842fa4b0bd441b828090}
+      \strng{bibnamehash}{4d902d811257842fa4b0bd441b828090}
+      \strng{authorbibnamehash}{4d902d811257842fa4b0bd441b828090}
+      \strng{authornamehash}{4d902d811257842fa4b0bd441b828090}
+      \strng{authorfullhash}{4d902d811257842fa4b0bd441b828090}
+      \strng{authorfullhashraw}{4d902d811257842fa4b0bd441b828090}
+      \strng{translatorbibnamehash}{f43a60644c5bfc10b65457e980019a12}
+      \strng{translatornamehash}{f43a60644c5bfc10b65457e980019a12}
+      \strng{translatorfullhash}{f43a60644c5bfc10b65457e980019a12}
+      \strng{translatorfullhashraw}{f43a60644c5bfc10b65457e980019a12}
+      \field{extraname}{1}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Original French 1973; English edition 1977/1991}
+      \field{title}{The Seminar of Jacques Lacan, Book XI: The Four Fundamental Concepts of Psychoanalysis}
+      \field{year}{1991}
+    \endentry
+    \entry{LacanEcrits2006}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4d902d811257842fa4b0bd441b828090}{%
+           family={Lacan},
+           familyi={L\bibinitperiod},
+           given={Jacques},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{translator}{1}{}{%
+        {{hash=cf32982d326f76697ac16036f3ab3a27}{%
+           family={Fink},
+           familyi={F\bibinitperiod},
+           given={Bruce},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {W. W. Norton}%
+      }
+      \strng{namehash}{4d902d811257842fa4b0bd441b828090}
+      \strng{fullhash}{4d902d811257842fa4b0bd441b828090}
+      \strng{fullhashraw}{4d902d811257842fa4b0bd441b828090}
+      \strng{bibnamehash}{4d902d811257842fa4b0bd441b828090}
+      \strng{authorbibnamehash}{4d902d811257842fa4b0bd441b828090}
+      \strng{authornamehash}{4d902d811257842fa4b0bd441b828090}
+      \strng{authorfullhash}{4d902d811257842fa4b0bd441b828090}
+      \strng{authorfullhashraw}{4d902d811257842fa4b0bd441b828090}
+      \strng{translatorbibnamehash}{cf32982d326f76697ac16036f3ab3a27}
+      \strng{translatornamehash}{cf32982d326f76697ac16036f3ab3a27}
+      \strng{translatorfullhash}{cf32982d326f76697ac16036f3ab3a27}
+      \strng{translatorfullhashraw}{cf32982d326f76697ac16036f3ab3a27}
+      \field{extraname}{2}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Original collection published 1966}
+      \field{title}{Écrits: The First Complete Edition in English}
+      \field{year}{2006}
+    \endentry
+    \entry{LevinasTI1969}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a8d36406126d3d36c4e074b1733cbac8}{%
+           family={Levinas},
+           familyi={L\bibinitperiod},
+           given={Emmanuel},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{translator}{1}{}{%
+        {{hash=42ff0b6a5d9151566485c92ca296f0b2}{%
+           family={Lingis},
+           familyi={L\bibinitperiod},
+           given={Alphonso},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Pittsburgh}%
+      }
+      \list{publisher}{1}{%
+        {Duquesne University Press}%
+      }
+      \strng{namehash}{a8d36406126d3d36c4e074b1733cbac8}
+      \strng{fullhash}{a8d36406126d3d36c4e074b1733cbac8}
+      \strng{fullhashraw}{a8d36406126d3d36c4e074b1733cbac8}
+      \strng{bibnamehash}{a8d36406126d3d36c4e074b1733cbac8}
+      \strng{authorbibnamehash}{a8d36406126d3d36c4e074b1733cbac8}
+      \strng{authornamehash}{a8d36406126d3d36c4e074b1733cbac8}
+      \strng{authorfullhash}{a8d36406126d3d36c4e074b1733cbac8}
+      \strng{authorfullhashraw}{a8d36406126d3d36c4e074b1733cbac8}
+      \strng{translatorbibnamehash}{42ff0b6a5d9151566485c92ca296f0b2}
+      \strng{translatornamehash}{42ff0b6a5d9151566485c92ca296f0b2}
+      \strng{translatorfullhash}{42ff0b6a5d9151566485c92ca296f0b2}
+      \strng{translatorfullhashraw}{42ff0b6a5d9151566485c92ca296f0b2}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Original work published 1961}
+      \field{title}{Totality and Infinity: An Essay on Exteriority}
+      \field{year}{1969}
+    \endentry
+    \entry{MarcuseOneDim1964}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=02dec6de8c696e1bc6ab68ab5ab9ea6b}{%
+           family={Marcuse},
+           familyi={M\bibinitperiod},
+           given={Herbert},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Boston}%
+      }
+      \list{publisher}{1}{%
+        {Beacon Press}%
+      }
+      \strng{namehash}{02dec6de8c696e1bc6ab68ab5ab9ea6b}
+      \strng{fullhash}{02dec6de8c696e1bc6ab68ab5ab9ea6b}
+      \strng{fullhashraw}{02dec6de8c696e1bc6ab68ab5ab9ea6b}
+      \strng{bibnamehash}{02dec6de8c696e1bc6ab68ab5ab9ea6b}
+      \strng{authorbibnamehash}{02dec6de8c696e1bc6ab68ab5ab9ea6b}
+      \strng{authornamehash}{02dec6de8c696e1bc6ab68ab5ab9ea6b}
+      \strng{authorfullhash}{02dec6de8c696e1bc6ab68ab5ab9ea6b}
+      \strng{authorfullhashraw}{02dec6de8c696e1bc6ab68ab5ab9ea6b}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{One-Dimensional Man: Studies in the Ideology of Advanced Industrial Society}
+      \field{year}{1964}
+    \endentry
+    \entry{NietzscheBGE1990}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5d199ea59b68f8edfff8c5ae07d60d68}{%
+           family={Nietzsche},
+           familyi={N\bibinitperiod},
+           given={Friedrich},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{translator}{1}{}{%
+        {{hash=2ab6b919adc49f81c7c4e1525afdc315}{%
+           family={Kaufmann},
+           familyi={K\bibinitperiod},
+           given={Walter},
+           giveni={W\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Vintage}%
+      }
+      \strng{namehash}{5d199ea59b68f8edfff8c5ae07d60d68}
+      \strng{fullhash}{5d199ea59b68f8edfff8c5ae07d60d68}
+      \strng{fullhashraw}{5d199ea59b68f8edfff8c5ae07d60d68}
+      \strng{bibnamehash}{5d199ea59b68f8edfff8c5ae07d60d68}
+      \strng{authorbibnamehash}{5d199ea59b68f8edfff8c5ae07d60d68}
+      \strng{authornamehash}{5d199ea59b68f8edfff8c5ae07d60d68}
+      \strng{authorfullhash}{5d199ea59b68f8edfff8c5ae07d60d68}
+      \strng{authorfullhashraw}{5d199ea59b68f8edfff8c5ae07d60d68}
+      \strng{translatorbibnamehash}{2ab6b919adc49f81c7c4e1525afdc315}
+      \strng{translatornamehash}{2ab6b919adc49f81c7c4e1525afdc315}
+      \strng{translatorfullhash}{2ab6b919adc49f81c7c4e1525afdc315}
+      \strng{translatorfullhashraw}{2ab6b919adc49f81c7c4e1525afdc315}
+      \field{extraname}{1}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Original work published 1886}
+      \field{title}{Beyond Good and Evil}
+      \field{year}{1990}
+    \endentry
+    \entry{NietzscheGenealogy1994}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5d199ea59b68f8edfff8c5ae07d60d68}{%
+           family={Nietzsche},
+           familyi={N\bibinitperiod},
+           given={Friedrich},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{translator}{1}{}{%
+        {{hash=2ab6b919adc49f81c7c4e1525afdc315}{%
+           family={Kaufmann},
+           familyi={K\bibinitperiod},
+           given={Walter},
+           giveni={W\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Vintage}%
+      }
+      \strng{namehash}{5d199ea59b68f8edfff8c5ae07d60d68}
+      \strng{fullhash}{5d199ea59b68f8edfff8c5ae07d60d68}
+      \strng{fullhashraw}{5d199ea59b68f8edfff8c5ae07d60d68}
+      \strng{bibnamehash}{5d199ea59b68f8edfff8c5ae07d60d68}
+      \strng{authorbibnamehash}{5d199ea59b68f8edfff8c5ae07d60d68}
+      \strng{authornamehash}{5d199ea59b68f8edfff8c5ae07d60d68}
+      \strng{authorfullhash}{5d199ea59b68f8edfff8c5ae07d60d68}
+      \strng{authorfullhashraw}{5d199ea59b68f8edfff8c5ae07d60d68}
+      \strng{translatorbibnamehash}{2ab6b919adc49f81c7c4e1525afdc315}
+      \strng{translatornamehash}{2ab6b919adc49f81c7c4e1525afdc315}
+      \strng{translatorfullhash}{2ab6b919adc49f81c7c4e1525afdc315}
+      \strng{translatorfullhashraw}{2ab6b919adc49f81c7c4e1525afdc315}
+      \field{extraname}{2}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Original work published 1887}
+      \field{title}{On the Genealogy of Morals}
+      \field{year}{1994}
+    \endentry
+    \entry{OpenAIChatGPT2024}{software}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0523b13262b12c215d8009938f5c14f1}{%
+           family={{OpenAI}},
+           familyi={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{0523b13262b12c215d8009938f5c14f1}
+      \strng{fullhash}{0523b13262b12c215d8009938f5c14f1}
+      \strng{fullhashraw}{0523b13262b12c215d8009938f5c14f1}
+      \strng{bibnamehash}{0523b13262b12c215d8009938f5c14f1}
+      \strng{authorbibnamehash}{0523b13262b12c215d8009938f5c14f1}
+      \strng{authornamehash}{0523b13262b12c215d8009938f5c14f1}
+      \strng{authorfullhash}{0523b13262b12c215d8009938f5c14f1}
+      \strng{authorfullhashraw}{0523b13262b12c215d8009938f5c14f1}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Large language model}
+      \field{title}{ChatGPT (GPT-5)}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://chat.openai.com
+      \endverb
+      \verb{url}
+      \verb https://chat.openai.com
+      \endverb
+    \endentry
+    \entry{Rahula1959}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e968f5c2b9770aea8d4ef01d21685a94}{%
+           family={Rahula},
+           familyi={R\bibinitperiod},
+           given={Walpola},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Grove Press}%
+      }
+      \strng{namehash}{e968f5c2b9770aea8d4ef01d21685a94}
+      \strng{fullhash}{e968f5c2b9770aea8d4ef01d21685a94}
+      \strng{fullhashraw}{e968f5c2b9770aea8d4ef01d21685a94}
+      \strng{bibnamehash}{e968f5c2b9770aea8d4ef01d21685a94}
+      \strng{authorbibnamehash}{e968f5c2b9770aea8d4ef01d21685a94}
+      \strng{authornamehash}{e968f5c2b9770aea8d4ef01d21685a94}
+      \strng{authorfullhash}{e968f5c2b9770aea8d4ef01d21685a94}
+      \strng{authorfullhashraw}{e968f5c2b9770aea8d4ef01d21685a94}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{What the Buddha Taught}
+      \field{year}{1959}
+    \endentry
+    \entry{RicoeurSymbol1970}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3d20e6df30e34dcca4760bb31bddaa90}{%
+           family={Ricoeur},
+           familyi={R\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{translator}{1}{}{%
+        {{hash=f5f907df922ec844019f5034842d272b}{%
+           family={Savage},
+           familyi={S\bibinitperiod},
+           given={Denis},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New Haven}%
+      }
+      \list{publisher}{1}{%
+        {Yale University Press}%
+      }
+      \strng{namehash}{3d20e6df30e34dcca4760bb31bddaa90}
+      \strng{fullhash}{3d20e6df30e34dcca4760bb31bddaa90}
+      \strng{fullhashraw}{3d20e6df30e34dcca4760bb31bddaa90}
+      \strng{bibnamehash}{3d20e6df30e34dcca4760bb31bddaa90}
+      \strng{authorbibnamehash}{3d20e6df30e34dcca4760bb31bddaa90}
+      \strng{authornamehash}{3d20e6df30e34dcca4760bb31bddaa90}
+      \strng{authorfullhash}{3d20e6df30e34dcca4760bb31bddaa90}
+      \strng{authorfullhashraw}{3d20e6df30e34dcca4760bb31bddaa90}
+      \strng{translatorbibnamehash}{f5f907df922ec844019f5034842d272b}
+      \strng{translatornamehash}{f5f907df922ec844019f5034842d272b}
+      \strng{translatorfullhash}{f5f907df922ec844019f5034842d272b}
+      \strng{translatorfullhashraw}{f5f907df922ec844019f5034842d272b}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Freud and Philosophy: An Essay on Interpretation}
+      \field{year}{1970}
+    \endentry
+    \entry{SaidOrientalism1978}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a41ca7a97ad4c8dd51a0d6e647ae828e}{%
+           family={Said},
+           familyi={S\bibinitperiod},
+           given={Edward\bibnamedelima W.},
+           giveni={E\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Pantheon}%
+      }
+      \strng{namehash}{a41ca7a97ad4c8dd51a0d6e647ae828e}
+      \strng{fullhash}{a41ca7a97ad4c8dd51a0d6e647ae828e}
+      \strng{fullhashraw}{a41ca7a97ad4c8dd51a0d6e647ae828e}
+      \strng{bibnamehash}{a41ca7a97ad4c8dd51a0d6e647ae828e}
+      \strng{authorbibnamehash}{a41ca7a97ad4c8dd51a0d6e647ae828e}
+      \strng{authornamehash}{a41ca7a97ad4c8dd51a0d6e647ae828e}
+      \strng{authorfullhash}{a41ca7a97ad4c8dd51a0d6e647ae828e}
+      \strng{authorfullhashraw}{a41ca7a97ad4c8dd51a0d6e647ae828e}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Orientalism}
+      \field{year}{1978}
+    \endentry
+    \entry{SartreBN2003}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=684f70e5db29de904d130897d37e48bf}{%
+           family={Sartre},
+           familyi={S\bibinitperiod},
+           given={Jean-Paul},
+           giveni={J\bibinithyphendelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{translator}{1}{}{%
+        {{hash=f50b914db7befa4c228d5bed2da7c2be}{%
+           family={Barnes},
+           familyi={B\bibinitperiod},
+           given={Hazel\bibnamedelima E.},
+           giveni={H\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {London}%
+      }
+      \list{publisher}{1}{%
+        {Routledge}%
+      }
+      \strng{namehash}{684f70e5db29de904d130897d37e48bf}
+      \strng{fullhash}{684f70e5db29de904d130897d37e48bf}
+      \strng{fullhashraw}{684f70e5db29de904d130897d37e48bf}
+      \strng{bibnamehash}{684f70e5db29de904d130897d37e48bf}
+      \strng{authorbibnamehash}{684f70e5db29de904d130897d37e48bf}
+      \strng{authornamehash}{684f70e5db29de904d130897d37e48bf}
+      \strng{authorfullhash}{684f70e5db29de904d130897d37e48bf}
+      \strng{authorfullhashraw}{684f70e5db29de904d130897d37e48bf}
+      \strng{translatorbibnamehash}{f50b914db7befa4c228d5bed2da7c2be}
+      \strng{translatornamehash}{f50b914db7befa4c228d5bed2da7c2be}
+      \strng{translatorfullhash}{f50b914db7befa4c228d5bed2da7c2be}
+      \strng{translatorfullhashraw}{f50b914db7befa4c228d5bed2da7c2be}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Original work published 1943}
+      \field{title}{Being and Nothingness}
+      \field{year}{2003}
+    \endentry
+    \entry{SchopenhauerWWR1969}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0fdaf10661a49b1ba58001b2cbc307b1}{%
+           family={Schopenhauer},
+           familyi={S\bibinitperiod},
+           given={Arthur},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{translator}{1}{}{%
+        {{hash=e9100a75312d0d4c7da526d8445a2053}{%
+           family={Payne},
+           familyi={P\bibinitperiod},
+           given={E.\bibnamedelimi F.\bibnamedelimi J.},
+           giveni={E\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Dover}%
+      }
+      \strng{namehash}{0fdaf10661a49b1ba58001b2cbc307b1}
+      \strng{fullhash}{0fdaf10661a49b1ba58001b2cbc307b1}
+      \strng{fullhashraw}{0fdaf10661a49b1ba58001b2cbc307b1}
+      \strng{bibnamehash}{0fdaf10661a49b1ba58001b2cbc307b1}
+      \strng{authorbibnamehash}{0fdaf10661a49b1ba58001b2cbc307b1}
+      \strng{authornamehash}{0fdaf10661a49b1ba58001b2cbc307b1}
+      \strng{authorfullhash}{0fdaf10661a49b1ba58001b2cbc307b1}
+      \strng{authorfullhashraw}{0fdaf10661a49b1ba58001b2cbc307b1}
+      \strng{translatorbibnamehash}{e9100a75312d0d4c7da526d8445a2053}
+      \strng{translatornamehash}{e9100a75312d0d4c7da526d8445a2053}
+      \strng{translatorfullhash}{e9100a75312d0d4c7da526d8445a2053}
+      \strng{translatorfullhashraw}{e9100a75312d0d4c7da526d8445a2053}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Original work published 1818}
+      \field{title}{The World as Will and Representation, Volume I}
+      \field{year}{1969}
+    \endentry
+    \entry{WeberProtestant2002}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5c5b680247c92b67e657f8faab60250e}{%
+           family={Weber},
+           familyi={W\bibinitperiod},
+           given={Max},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{translator}{1}{}{%
+        {{hash=f94cd486741665d3d9e0f73226f186e3}{%
+           family={Kalberg},
+           familyi={K\bibinitperiod},
+           given={Stephen},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Los Angeles}%
+      }
+      \list{publisher}{1}{%
+        {Roxbury}%
+      }
+      \strng{namehash}{5c5b680247c92b67e657f8faab60250e}
+      \strng{fullhash}{5c5b680247c92b67e657f8faab60250e}
+      \strng{fullhashraw}{5c5b680247c92b67e657f8faab60250e}
+      \strng{bibnamehash}{5c5b680247c92b67e657f8faab60250e}
+      \strng{authorbibnamehash}{5c5b680247c92b67e657f8faab60250e}
+      \strng{authornamehash}{5c5b680247c92b67e657f8faab60250e}
+      \strng{authorfullhash}{5c5b680247c92b67e657f8faab60250e}
+      \strng{authorfullhashraw}{5c5b680247c92b67e657f8faab60250e}
+      \strng{translatorbibnamehash}{f94cd486741665d3d9e0f73226f186e3}
+      \strng{translatornamehash}{f94cd486741665d3d9e0f73226f186e3}
+      \strng{translatorfullhash}{f94cd486741665d3d9e0f73226f186e3}
+      \strng{translatorfullhashraw}{f94cd486741665d3d9e0f73226f186e3}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Original work published 1905}
+      \field{title}{The Protestant Ethic and the Spirit of Capitalism}
+      \field{year}{2002}
+    \endentry
+    \entry{ZizekSublime1999}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4287536cb16036c0e3b7c65fdb3c3c19}{%
+           family={Žižek},
+           familyi={Ž\bibinitperiod},
+           given={Slavoj},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {London}%
+      }
+      \list{publisher}{1}{%
+        {Verso}%
+      }
+      \strng{namehash}{4287536cb16036c0e3b7c65fdb3c3c19}
+      \strng{fullhash}{4287536cb16036c0e3b7c65fdb3c3c19}
+      \strng{fullhashraw}{4287536cb16036c0e3b7c65fdb3c3c19}
+      \strng{bibnamehash}{4287536cb16036c0e3b7c65fdb3c3c19}
+      \strng{authorbibnamehash}{4287536cb16036c0e3b7c65fdb3c3c19}
+      \strng{authornamehash}{4287536cb16036c0e3b7c65fdb3c3c19}
+      \strng{authorfullhash}{4287536cb16036c0e3b7c65fdb3c3c19}
+      \strng{authorfullhashraw}{4287536cb16036c0e3b7c65fdb3c3c19}
+      \field{sortinit}{Ž}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Original work published 1989}
+      \field{title}{The Sublime Object of Ideology}
+      \field{year}{1999}
+    \endentry
+  \enddatalist
+  \datalist[entry]{apa/global//global/global/global}
+    \entry{AdornoHorkheimer2002}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=e4e68aa80bd065ec444004f0b1b852a2}{%
+           family={Adorno},
+           familyi={A\bibinitperiod},
+           given={Theodor\bibnamedelima W.},
+           giveni={T\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ced86ad6c954b137c1df50a10b3b9205}{%
+           family={Horkheimer},
+           familyi={H\bibinitperiod},
+           given={Max},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{translator}{1}{}{%
+        {{hash=75711a5d5521d4ffbfdd404d572d5bdc}{%
+           family={Jephcott},
+           familyi={J\bibinitperiod},
+           given={Edmund},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Stanford}%
+      }
+      \list{publisher}{1}{%
+        {Stanford University Press}%
+      }
+      \strng{namehash}{2eb37868ac43d8f39bec32c73084bf8b}
+      \strng{fullhash}{2eb37868ac43d8f39bec32c73084bf8b}
+      \strng{fullhashraw}{2eb37868ac43d8f39bec32c73084bf8b}
+      \strng{bibnamehash}{2eb37868ac43d8f39bec32c73084bf8b}
+      \strng{authorbibnamehash}{2eb37868ac43d8f39bec32c73084bf8b}
+      \strng{authornamehash}{2eb37868ac43d8f39bec32c73084bf8b}
+      \strng{authorfullhash}{2eb37868ac43d8f39bec32c73084bf8b}
+      \strng{authorfullhashraw}{2eb37868ac43d8f39bec32c73084bf8b}
+      \strng{translatorbibnamehash}{75711a5d5521d4ffbfdd404d572d5bdc}
+      \strng{translatornamehash}{75711a5d5521d4ffbfdd404d572d5bdc}
+      \strng{translatorfullhash}{75711a5d5521d4ffbfdd404d572d5bdc}
+      \strng{translatorfullhashraw}{75711a5d5521d4ffbfdd404d572d5bdc}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Original work published 1944}
+      \field{title}{Dialectic of Enlightenment: Philosophical Fragments}
+      \field{year}{2002}
+    \endentry
+    \entry{CursorAI2024}{software}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a01349fb00be3852ef79d5dd1c1851c6}{%
+           family={{Anysphere, Inc.}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{a01349fb00be3852ef79d5dd1c1851c6}
+      \strng{fullhash}{a01349fb00be3852ef79d5dd1c1851c6}
+      \strng{fullhashraw}{a01349fb00be3852ef79d5dd1c1851c6}
+      \strng{bibnamehash}{a01349fb00be3852ef79d5dd1c1851c6}
+      \strng{authorbibnamehash}{a01349fb00be3852ef79d5dd1c1851c6}
+      \strng{authornamehash}{a01349fb00be3852ef79d5dd1c1851c6}
+      \strng{authorfullhash}{a01349fb00be3852ef79d5dd1c1851c6}
+      \strng{authorfullhashraw}{a01349fb00be3852ef79d5dd1c1851c6}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{AI-powered code editor}
+      \field{title}{Cursor}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://cursor.sh
+      \endverb
+      \verb{url}
+      \verb https://cursor.sh
+      \endverb
+    \endentry
+    \entry{AquinasST1947}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e71d00346a622c3afd459b823f48a1bd}{%
+           family={Aquinas},
+           familyi={A\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{translator}{1}{}{%
+        {{hash=b13b972672e864e6fdf9ed1fbecfe220}{%
+           family={English\bibnamedelimb Dominican\bibnamedelima Province},
+           familyi={E\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim P\bibinitperiod},
+           given={Fathers},
+           giveni={F\bibinitperiod},
+           prefix={of\bibnamedelima the},
+           prefixi={o\bibinitperiod\bibinitdelim t\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Benziger Brothers}%
+      }
+      \strng{namehash}{e71d00346a622c3afd459b823f48a1bd}
+      \strng{fullhash}{e71d00346a622c3afd459b823f48a1bd}
+      \strng{fullhashraw}{e71d00346a622c3afd459b823f48a1bd}
+      \strng{bibnamehash}{e71d00346a622c3afd459b823f48a1bd}
+      \strng{authorbibnamehash}{e71d00346a622c3afd459b823f48a1bd}
+      \strng{authornamehash}{e71d00346a622c3afd459b823f48a1bd}
+      \strng{authorfullhash}{e71d00346a622c3afd459b823f48a1bd}
+      \strng{authorfullhashraw}{e71d00346a622c3afd459b823f48a1bd}
+      \strng{translatorbibnamehash}{b13b972672e864e6fdf9ed1fbecfe220}
+      \strng{translatornamehash}{b13b972672e864e6fdf9ed1fbecfe220}
+      \strng{translatorfullhash}{b13b972672e864e6fdf9ed1fbecfe220}
+      \strng{translatorfullhashraw}{b13b972672e864e6fdf9ed1fbecfe220}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Original work published 1265--1274}
+      \field{title}{Summa Theologiae}
+      \field{year}{1947}
+    \endentry
+    \entry{ArendtHC1958}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f50f57f3bb1808b3fd67c3e65baf025f}{%
+           family={Arendt},
+           familyi={A\bibinitperiod},
+           given={Hannah},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Chicago}%
+      }
+      \list{publisher}{1}{%
+        {University of Chicago Press}%
+      }
+      \strng{namehash}{f50f57f3bb1808b3fd67c3e65baf025f}
+      \strng{fullhash}{f50f57f3bb1808b3fd67c3e65baf025f}
+      \strng{fullhashraw}{f50f57f3bb1808b3fd67c3e65baf025f}
+      \strng{bibnamehash}{f50f57f3bb1808b3fd67c3e65baf025f}
+      \strng{authorbibnamehash}{f50f57f3bb1808b3fd67c3e65baf025f}
+      \strng{authornamehash}{f50f57f3bb1808b3fd67c3e65baf025f}
+      \strng{authorfullhash}{f50f57f3bb1808b3fd67c3e65baf025f}
+      \strng{authorfullhashraw}{f50f57f3bb1808b3fd67c3e65baf025f}
+      \field{extraname}{1}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Human Condition}
+      \field{year}{1958}
+    \endentry
+    \entry{ArendtEichmann1963}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f50f57f3bb1808b3fd67c3e65baf025f}{%
+           family={Arendt},
+           familyi={A\bibinitperiod},
+           given={Hannah},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Viking Press}%
+      }
+      \strng{namehash}{f50f57f3bb1808b3fd67c3e65baf025f}
+      \strng{fullhash}{f50f57f3bb1808b3fd67c3e65baf025f}
+      \strng{fullhashraw}{f50f57f3bb1808b3fd67c3e65baf025f}
+      \strng{bibnamehash}{f50f57f3bb1808b3fd67c3e65baf025f}
+      \strng{authorbibnamehash}{f50f57f3bb1808b3fd67c3e65baf025f}
+      \strng{authornamehash}{f50f57f3bb1808b3fd67c3e65baf025f}
+      \strng{authorfullhash}{f50f57f3bb1808b3fd67c3e65baf025f}
+      \strng{authorfullhashraw}{f50f57f3bb1808b3fd67c3e65baf025f}
+      \field{extraname}{2}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Eichmann in Jerusalem: A Report on the Banality of Evil}
+      \field{year}{1963}
+    \endentry
+    \entry{AugustineDeDoctrina1958}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=19d8ae528679c65dde17044a8aaa44d5}{%
+           family={Augustine},
+           familyi={A\bibinitperiod}}}%
+      }
+      \name{translator}{1}{}{%
+        {{hash=3dbdcc2013669087a8948c9041f9c802}{%
+           family={Robertson},
+           familyi={R\bibinitperiod},
+           given={D.\bibnamedelimi W.},
+           giveni={D\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Indianapolis}%
+      }
+      \list{publisher}{1}{%
+        {Bobbs-Merrill}%
+      }
+      \strng{namehash}{19d8ae528679c65dde17044a8aaa44d5}
+      \strng{fullhash}{19d8ae528679c65dde17044a8aaa44d5}
+      \strng{fullhashraw}{19d8ae528679c65dde17044a8aaa44d5}
+      \strng{bibnamehash}{19d8ae528679c65dde17044a8aaa44d5}
+      \strng{authorbibnamehash}{19d8ae528679c65dde17044a8aaa44d5}
+      \strng{authornamehash}{19d8ae528679c65dde17044a8aaa44d5}
+      \strng{authorfullhash}{19d8ae528679c65dde17044a8aaa44d5}
+      \strng{authorfullhashraw}{19d8ae528679c65dde17044a8aaa44d5}
+      \strng{translatorbibnamehash}{3dbdcc2013669087a8948c9041f9c802}
+      \strng{translatornamehash}{3dbdcc2013669087a8948c9041f9c802}
+      \strng{translatorfullhash}{3dbdcc2013669087a8948c9041f9c802}
+      \strng{translatorfullhashraw}{3dbdcc2013669087a8948c9041f9c802}
+      \field{extraname}{1}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Original work published 397--426 CE}
+      \field{title}{On Christian Doctrine}
+      \field{year}{1958}
+    \endentry
+    \entry{AugustineConfessions1998}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=19d8ae528679c65dde17044a8aaa44d5}{%
+           family={Augustine},
+           familyi={A\bibinitperiod}}}%
+      }
+      \name{translator}{1}{}{%
+        {{hash=b7973c5022d3cc532f75525538cfe624}{%
+           family={Pine-Coffin},
+           familyi={P\bibinithyphendelim C\bibinitperiod},
+           given={R.\bibnamedelimi S.},
+           giveni={R\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {London}%
+      }
+      \list{publisher}{1}{%
+        {Penguin Classics}%
+      }
+      \strng{namehash}{19d8ae528679c65dde17044a8aaa44d5}
+      \strng{fullhash}{19d8ae528679c65dde17044a8aaa44d5}
+      \strng{fullhashraw}{19d8ae528679c65dde17044a8aaa44d5}
+      \strng{bibnamehash}{19d8ae528679c65dde17044a8aaa44d5}
+      \strng{authorbibnamehash}{19d8ae528679c65dde17044a8aaa44d5}
+      \strng{authornamehash}{19d8ae528679c65dde17044a8aaa44d5}
+      \strng{authorfullhash}{19d8ae528679c65dde17044a8aaa44d5}
+      \strng{authorfullhashraw}{19d8ae528679c65dde17044a8aaa44d5}
+      \strng{translatorbibnamehash}{b7973c5022d3cc532f75525538cfe624}
+      \strng{translatornamehash}{b7973c5022d3cc532f75525538cfe624}
+      \strng{translatorfullhash}{b7973c5022d3cc532f75525538cfe624}
+      \strng{translatorfullhashraw}{b7973c5022d3cc532f75525538cfe624}
+      \field{extraname}{2}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Original work published 397 CE}
+      \field{title}{Confessions}
+      \field{year}{1998}
+      \verb{urlraw}
+      \verb https://books.google.com/books?id=Ur-2YBSU6JgC
+      \endverb
+      \verb{url}
+      \verb https://books.google.com/books?id=Ur-2YBSU6JgC
+      \endverb
+    \endentry
+    \entry{AugustineCity2003}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=19d8ae528679c65dde17044a8aaa44d5}{%
+           family={Augustine},
+           familyi={A\bibinitperiod}}}%
+      }
+      \name{translator}{1}{}{%
+        {{hash=583d0c6032395240cc1829e2a8257cee}{%
+           family={Bettenson},
+           familyi={B\bibinitperiod},
+           given={Henry},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {London}%
+      }
+      \list{publisher}{1}{%
+        {Penguin Classics}%
+      }
+      \strng{namehash}{19d8ae528679c65dde17044a8aaa44d5}
+      \strng{fullhash}{19d8ae528679c65dde17044a8aaa44d5}
+      \strng{fullhashraw}{19d8ae528679c65dde17044a8aaa44d5}
+      \strng{bibnamehash}{19d8ae528679c65dde17044a8aaa44d5}
+      \strng{authorbibnamehash}{19d8ae528679c65dde17044a8aaa44d5}
+      \strng{authornamehash}{19d8ae528679c65dde17044a8aaa44d5}
+      \strng{authorfullhash}{19d8ae528679c65dde17044a8aaa44d5}
+      \strng{authorfullhashraw}{19d8ae528679c65dde17044a8aaa44d5}
+      \strng{translatorbibnamehash}{583d0c6032395240cc1829e2a8257cee}
+      \strng{translatornamehash}{583d0c6032395240cc1829e2a8257cee}
+      \strng{translatorfullhash}{583d0c6032395240cc1829e2a8257cee}
+      \strng{translatorfullhashraw}{583d0c6032395240cc1829e2a8257cee}
+      \field{extraname}{3}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Original work published 426 CE}
+      \field{title}{The City of God}
+      \field{year}{2003}
+    \endentry
+    \entry{BeckerDenial1973}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=33543ecf043124288201244659643f2a}{%
+           family={Becker},
+           familyi={B\bibinitperiod},
+           given={Ernest},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Free Press}%
+      }
+      \strng{namehash}{33543ecf043124288201244659643f2a}
+      \strng{fullhash}{33543ecf043124288201244659643f2a}
+      \strng{fullhashraw}{33543ecf043124288201244659643f2a}
+      \strng{bibnamehash}{33543ecf043124288201244659643f2a}
+      \strng{authorbibnamehash}{33543ecf043124288201244659643f2a}
+      \strng{authornamehash}{33543ecf043124288201244659643f2a}
+      \strng{authorfullhash}{33543ecf043124288201244659643f2a}
+      \strng{authorfullhashraw}{33543ecf043124288201244659643f2a}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Denial of Death}
+      \field{year}{1973}
+    \endentry
+    \entry{BenjaminTheses1969}{inbook}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b5d39b16d16760e0e4573a45fc6f9f97}{%
+           family={Benjamin},
+           familyi={B\bibinitperiod},
+           given={Walter},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=f50f57f3bb1808b3fd67c3e65baf025f}{%
+           family={Arendt},
+           familyi={A\bibinitperiod},
+           given={Hannah},
+           giveni={H\bibinitperiod}}}%
+      }
+      \name{translator}{1}{}{%
+        {{hash=78ac3ea24d3a073d625320e9692d22ee}{%
+           family={Zohn},
+           familyi={Z\bibinitperiod},
+           given={Harry},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Schocken Books}%
+      }
+      \strng{namehash}{b5d39b16d16760e0e4573a45fc6f9f97}
+      \strng{fullhash}{b5d39b16d16760e0e4573a45fc6f9f97}
+      \strng{fullhashraw}{b5d39b16d16760e0e4573a45fc6f9f97}
+      \strng{bibnamehash}{b5d39b16d16760e0e4573a45fc6f9f97}
+      \strng{authorbibnamehash}{b5d39b16d16760e0e4573a45fc6f9f97}
+      \strng{authornamehash}{b5d39b16d16760e0e4573a45fc6f9f97}
+      \strng{authorfullhash}{b5d39b16d16760e0e4573a45fc6f9f97}
+      \strng{authorfullhashraw}{b5d39b16d16760e0e4573a45fc6f9f97}
+      \strng{editorbibnamehash}{f50f57f3bb1808b3fd67c3e65baf025f}
+      \strng{editornamehash}{f50f57f3bb1808b3fd67c3e65baf025f}
+      \strng{editorfullhash}{f50f57f3bb1808b3fd67c3e65baf025f}
+      \strng{editorfullhashraw}{f50f57f3bb1808b3fd67c3e65baf025f}
+      \strng{translatorbibnamehash}{78ac3ea24d3a073d625320e9692d22ee}
+      \strng{translatornamehash}{78ac3ea24d3a073d625320e9692d22ee}
+      \strng{translatorfullhash}{78ac3ea24d3a073d625320e9692d22ee}
+      \strng{translatorfullhashraw}{78ac3ea24d3a073d625320e9692d22ee}
+      \field{extraname}{1}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Illuminations}
+      \field{note}{Original work written 1940}
+      \field{title}{Theses on the Philosophy of History}
+      \field{year}{1969}
+      \field{pages}{253\bibrangedash 264}
+      \range{pages}{12}
+    \endentry
+    \entry{BenjaminArtwork1969}{inbook}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b5d39b16d16760e0e4573a45fc6f9f97}{%
+           family={Benjamin},
+           familyi={B\bibinitperiod},
+           given={Walter},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=f50f57f3bb1808b3fd67c3e65baf025f}{%
+           family={Arendt},
+           familyi={A\bibinitperiod},
+           given={Hannah},
+           giveni={H\bibinitperiod}}}%
+      }
+      \name{translator}{1}{}{%
+        {{hash=78ac3ea24d3a073d625320e9692d22ee}{%
+           family={Zohn},
+           familyi={Z\bibinitperiod},
+           given={Harry},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Schocken Books}%
+      }
+      \strng{namehash}{b5d39b16d16760e0e4573a45fc6f9f97}
+      \strng{fullhash}{b5d39b16d16760e0e4573a45fc6f9f97}
+      \strng{fullhashraw}{b5d39b16d16760e0e4573a45fc6f9f97}
+      \strng{bibnamehash}{b5d39b16d16760e0e4573a45fc6f9f97}
+      \strng{authorbibnamehash}{b5d39b16d16760e0e4573a45fc6f9f97}
+      \strng{authornamehash}{b5d39b16d16760e0e4573a45fc6f9f97}
+      \strng{authorfullhash}{b5d39b16d16760e0e4573a45fc6f9f97}
+      \strng{authorfullhashraw}{b5d39b16d16760e0e4573a45fc6f9f97}
+      \strng{editorbibnamehash}{f50f57f3bb1808b3fd67c3e65baf025f}
+      \strng{editornamehash}{f50f57f3bb1808b3fd67c3e65baf025f}
+      \strng{editorfullhash}{f50f57f3bb1808b3fd67c3e65baf025f}
+      \strng{editorfullhashraw}{f50f57f3bb1808b3fd67c3e65baf025f}
+      \strng{translatorbibnamehash}{78ac3ea24d3a073d625320e9692d22ee}
+      \strng{translatornamehash}{78ac3ea24d3a073d625320e9692d22ee}
+      \strng{translatorfullhash}{78ac3ea24d3a073d625320e9692d22ee}
+      \strng{translatorfullhashraw}{78ac3ea24d3a073d625320e9692d22ee}
+      \field{extraname}{2}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Illuminations}
+      \field{note}{Original work written 1935}
+      \field{title}{The Work of Art in the Age of Mechanical Reproduction}
+      \field{year}{1969}
+      \field{pages}{217\bibrangedash 251}
+      \range{pages}{35}
+    \endentry
+    \entry{BodhiSN2000}{book}{}{}
+      \name{editor}{1}{}{%
+        {{un=0,uniquepart=base,hash=710dca7074e0444c5fdffde66d349210}{%
+           family={Bodhi},
+           familyi={B\bibinitperiod},
+           given={Bhikkhu},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{translator}{1}{}{%
+        {{hash=710dca7074e0444c5fdffde66d349210}{%
+           family={Bodhi},
+           familyi={B\bibinitperiod},
+           given={Bhikkhu},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Boston}%
+      }
+      \list{publisher}{1}{%
+        {Wisdom Publications}%
+      }
+      \strng{namehash}{710dca7074e0444c5fdffde66d349210}
+      \strng{fullhash}{710dca7074e0444c5fdffde66d349210}
+      \strng{fullhashraw}{710dca7074e0444c5fdffde66d349210}
+      \strng{bibnamehash}{710dca7074e0444c5fdffde66d349210}
+      \strng{editorbibnamehash}{710dca7074e0444c5fdffde66d349210}
+      \strng{editornamehash}{710dca7074e0444c5fdffde66d349210}
+      \strng{editorfullhash}{710dca7074e0444c5fdffde66d349210}
+      \strng{editorfullhashraw}{710dca7074e0444c5fdffde66d349210}
+      \strng{translatorbibnamehash}{710dca7074e0444c5fdffde66d349210}
+      \strng{translatornamehash}{710dca7074e0444c5fdffde66d349210}
+      \strng{translatorfullhash}{710dca7074e0444c5fdffde66d349210}
+      \strng{translatorfullhashraw}{710dca7074e0444c5fdffde66d349210}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{title}{The Connected Discourses of the Buddha: A Translation of the Saṃyutta Nikāya}
+      \field{year}{2000}
+    \endentry
+    \entry{BuddharakkhitaDhp1993}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=204c0b1047d34639b678bbcbf9587948}{%
+           family={Buddharakkhita},
+           familyi={B\bibinitperiod},
+           given={Acharya},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Kandy}%
+      }
+      \list{publisher}{1}{%
+        {Buddhist Publication Society}%
+      }
+      \strng{namehash}{204c0b1047d34639b678bbcbf9587948}
+      \strng{fullhash}{204c0b1047d34639b678bbcbf9587948}
+      \strng{fullhashraw}{204c0b1047d34639b678bbcbf9587948}
+      \strng{bibnamehash}{204c0b1047d34639b678bbcbf9587948}
+      \strng{authorbibnamehash}{204c0b1047d34639b678bbcbf9587948}
+      \strng{authornamehash}{204c0b1047d34639b678bbcbf9587948}
+      \strng{authorfullhash}{204c0b1047d34639b678bbcbf9587948}
+      \strng{authorfullhashraw}{204c0b1047d34639b678bbcbf9587948}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{Revised}
+      \field{title}{The Dhammapada}
+      \field{year}{1993}
+    \endentry
+    \entry{CamusMyth1991}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a5e268415e78ba3110fa302f27b9021b}{%
+           family={Camus},
+           familyi={C\bibinitperiod},
+           given={Albert},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{translator}{1}{}{%
+        {{hash=799688690ccabdddd92e06a77fe262c4}{%
+           family={O'Brien},
+           familyi={O\bibinitperiod},
+           given={Justin},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Vintage}%
+      }
+      \strng{namehash}{a5e268415e78ba3110fa302f27b9021b}
+      \strng{fullhash}{a5e268415e78ba3110fa302f27b9021b}
+      \strng{fullhashraw}{a5e268415e78ba3110fa302f27b9021b}
+      \strng{bibnamehash}{a5e268415e78ba3110fa302f27b9021b}
+      \strng{authorbibnamehash}{a5e268415e78ba3110fa302f27b9021b}
+      \strng{authornamehash}{a5e268415e78ba3110fa302f27b9021b}
+      \strng{authorfullhash}{a5e268415e78ba3110fa302f27b9021b}
+      \strng{authorfullhashraw}{a5e268415e78ba3110fa302f27b9021b}
+      \strng{translatorbibnamehash}{799688690ccabdddd92e06a77fe262c4}
+      \strng{translatornamehash}{799688690ccabdddd92e06a77fe262c4}
+      \strng{translatorfullhash}{799688690ccabdddd92e06a77fe262c4}
+      \strng{translatorfullhashraw}{799688690ccabdddd92e06a77fe262c4}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Original work published 1942}
+      \field{title}{The Myth of Sisyphus}
+      \field{year}{1991}
+    \endentry
+    \entry{ConradHOD1990}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8675cf71f77657ddd8e94d99deefaace}{%
+           family={Conrad},
+           familyi={C\bibinitperiod},
+           given={Joseph},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=39823e6f47c286d6a208d67a616643bd}{%
+           family={Kimbrough},
+           familyi={K\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {W. W. Norton \& Company}%
+      }
+      \strng{namehash}{8675cf71f77657ddd8e94d99deefaace}
+      \strng{fullhash}{8675cf71f77657ddd8e94d99deefaace}
+      \strng{fullhashraw}{8675cf71f77657ddd8e94d99deefaace}
+      \strng{bibnamehash}{8675cf71f77657ddd8e94d99deefaace}
+      \strng{authorbibnamehash}{8675cf71f77657ddd8e94d99deefaace}
+      \strng{authornamehash}{8675cf71f77657ddd8e94d99deefaace}
+      \strng{authorfullhash}{8675cf71f77657ddd8e94d99deefaace}
+      \strng{authorfullhashraw}{8675cf71f77657ddd8e94d99deefaace}
+      \strng{editorbibnamehash}{39823e6f47c286d6a208d67a616643bd}
+      \strng{editornamehash}{39823e6f47c286d6a208d67a616643bd}
+      \strng{editorfullhash}{39823e6f47c286d6a208d67a616643bd}
+      \strng{editorfullhashraw}{39823e6f47c286d6a208d67a616643bd}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Original work published 1899}
+      \field{title}{Heart of Darkness}
+      \field{year}{1990}
+    \endentry
+    \entry{CoppolaApocalypse2019}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3dc844e09b6c4b683bd90b64eb2cf28f}{%
+           family={Coppola},
+           familyi={C\bibinitperiod},
+           given={Francis\bibnamedelima Ford},
+           giveni={F\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3dc844e09b6c4b683bd90b64eb2cf28f}
+      \strng{fullhash}{3dc844e09b6c4b683bd90b64eb2cf28f}
+      \strng{fullhashraw}{3dc844e09b6c4b683bd90b64eb2cf28f}
+      \strng{bibnamehash}{3dc844e09b6c4b683bd90b64eb2cf28f}
+      \strng{authorbibnamehash}{3dc844e09b6c4b683bd90b64eb2cf28f}
+      \strng{authornamehash}{3dc844e09b6c4b683bd90b64eb2cf28f}
+      \strng{authorfullhash}{3dc844e09b6c4b683bd90b64eb2cf28f}
+      \strng{authorfullhashraw}{3dc844e09b6c4b683bd90b64eb2cf28f}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Final Cut; Lionsgate; film; original theatrical release 1979}
+      \field{title}{Apocalypse Now}
+      \field{year}{2019}
+    \endentry
+    \entry{Beauvoir1976}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0806a7f30f904f1610898e4181877ca0}{%
+           family={Beauvoir},
+           familyi={B\bibinitperiod},
+           given={Simone},
+           giveni={S\bibinitperiod},
+           givenun=0,
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+      }
+      \name{translator}{1}{}{%
+        {{hash=52bae9a5bee5da3ab1bfb404a0fb9f7c}{%
+           family={Frechtman},
+           familyi={F\bibinitperiod},
+           given={Bernard},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Citadel Press}%
+      }
+      \strng{namehash}{0806a7f30f904f1610898e4181877ca0}
+      \strng{fullhash}{0806a7f30f904f1610898e4181877ca0}
+      \strng{fullhashraw}{0806a7f30f904f1610898e4181877ca0}
+      \strng{bibnamehash}{0806a7f30f904f1610898e4181877ca0}
+      \strng{authorbibnamehash}{0806a7f30f904f1610898e4181877ca0}
+      \strng{authornamehash}{0806a7f30f904f1610898e4181877ca0}
+      \strng{authorfullhash}{0806a7f30f904f1610898e4181877ca0}
+      \strng{authorfullhashraw}{0806a7f30f904f1610898e4181877ca0}
+      \strng{translatorbibnamehash}{52bae9a5bee5da3ab1bfb404a0fb9f7c}
+      \strng{translatornamehash}{52bae9a5bee5da3ab1bfb404a0fb9f7c}
+      \strng{translatorfullhash}{52bae9a5bee5da3ab1bfb404a0fb9f7c}
+      \strng{translatorfullhashraw}{52bae9a5bee5da3ab1bfb404a0fb9f7c}
+      \field{sortinit}{d}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Original work published 1947}
+      \field{title}{The Ethics of Ambiguity}
+      \field{year}{1976}
+    \endentry
+    \entry{DostoevskyNFU1994}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e26a0687e7dd59dd06c4106bf69e420b}{%
+           family={Dostoevsky},
+           familyi={D\bibinitperiod},
+           given={Fyodor},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{translator}{2}{}{%
+        {{hash=e3206da693ef709a6d5d8d5c0cf5693a}{%
+           family={Pevear},
+           familyi={P\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod}}}%
+        {{hash=130ecffe037c22cd039f9e90652d517f}{%
+           family={Volokhonsky},
+           familyi={V\bibinitperiod},
+           given={Larissa},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Vintage Classics}%
+      }
+      \strng{namehash}{e26a0687e7dd59dd06c4106bf69e420b}
+      \strng{fullhash}{e26a0687e7dd59dd06c4106bf69e420b}
+      \strng{fullhashraw}{e26a0687e7dd59dd06c4106bf69e420b}
+      \strng{bibnamehash}{e26a0687e7dd59dd06c4106bf69e420b}
+      \strng{authorbibnamehash}{e26a0687e7dd59dd06c4106bf69e420b}
+      \strng{authornamehash}{e26a0687e7dd59dd06c4106bf69e420b}
+      \strng{authorfullhash}{e26a0687e7dd59dd06c4106bf69e420b}
+      \strng{authorfullhashraw}{e26a0687e7dd59dd06c4106bf69e420b}
+      \strng{translatorbibnamehash}{ca287c4e00fcf9f1017947ff35fcbacd}
+      \strng{translatornamehash}{ca287c4e00fcf9f1017947ff35fcbacd}
+      \strng{translatorfullhash}{ca287c4e00fcf9f1017947ff35fcbacd}
+      \strng{translatorfullhashraw}{ca287c4e00fcf9f1017947ff35fcbacd}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Original work published 1864}
+      \field{title}{Notes from Underground}
+      \field{year}{1994}
+    \endentry
+    \entry{FanonWretched2004}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d49abb3f31d6b89a7b861c3f93017fbd}{%
+           family={Fanon},
+           familyi={F\bibinitperiod},
+           given={Frantz},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{translator}{1}{}{%
+        {{hash=611ba49829960caee08256803af282e8}{%
+           family={Philcox},
+           familyi={P\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Grove Press}%
+      }
+      \strng{namehash}{d49abb3f31d6b89a7b861c3f93017fbd}
+      \strng{fullhash}{d49abb3f31d6b89a7b861c3f93017fbd}
+      \strng{fullhashraw}{d49abb3f31d6b89a7b861c3f93017fbd}
+      \strng{bibnamehash}{d49abb3f31d6b89a7b861c3f93017fbd}
+      \strng{authorbibnamehash}{d49abb3f31d6b89a7b861c3f93017fbd}
+      \strng{authornamehash}{d49abb3f31d6b89a7b861c3f93017fbd}
+      \strng{authorfullhash}{d49abb3f31d6b89a7b861c3f93017fbd}
+      \strng{authorfullhashraw}{d49abb3f31d6b89a7b861c3f93017fbd}
+      \strng{translatorbibnamehash}{611ba49829960caee08256803af282e8}
+      \strng{translatornamehash}{611ba49829960caee08256803af282e8}
+      \strng{translatorfullhash}{611ba49829960caee08256803af282e8}
+      \strng{translatorfullhashraw}{611ba49829960caee08256803af282e8}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Original work published 1961}
+      \field{title}{The Wretched of the Earth}
+      \field{year}{2004}
+    \endentry
+    \entry{FitzmyerRomans1993}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8bfb9fdd1c0af5aa7c74d7f06d1193d6}{%
+           family={Fitzmyer},
+           familyi={F\bibinitperiod},
+           given={Joseph\bibnamedelima A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New Haven}%
+      }
+      \list{publisher}{1}{%
+        {Yale University Press}%
+      }
+      \strng{namehash}{8bfb9fdd1c0af5aa7c74d7f06d1193d6}
+      \strng{fullhash}{8bfb9fdd1c0af5aa7c74d7f06d1193d6}
+      \strng{fullhashraw}{8bfb9fdd1c0af5aa7c74d7f06d1193d6}
+      \strng{bibnamehash}{8bfb9fdd1c0af5aa7c74d7f06d1193d6}
+      \strng{authorbibnamehash}{8bfb9fdd1c0af5aa7c74d7f06d1193d6}
+      \strng{authornamehash}{8bfb9fdd1c0af5aa7c74d7f06d1193d6}
+      \strng{authorfullhash}{8bfb9fdd1c0af5aa7c74d7f06d1193d6}
+      \strng{authorfullhashraw}{8bfb9fdd1c0af5aa7c74d7f06d1193d6}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Romans: A New Translation with Introduction and Commentary}
+      \field{volume}{33}
+      \field{year}{1993}
+    \endentry
+    \entry{FoucaultDiscipline1995}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=984e5967448051538555a64aac11ed21}{%
+           family={Foucault},
+           familyi={F\bibinitperiod},
+           given={Michel},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{translator}{1}{}{%
+        {{hash=f43a60644c5bfc10b65457e980019a12}{%
+           family={Sheridan},
+           familyi={S\bibinitperiod},
+           given={Alan},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Vintage}%
+      }
+      \strng{namehash}{984e5967448051538555a64aac11ed21}
+      \strng{fullhash}{984e5967448051538555a64aac11ed21}
+      \strng{fullhashraw}{984e5967448051538555a64aac11ed21}
+      \strng{bibnamehash}{984e5967448051538555a64aac11ed21}
+      \strng{authorbibnamehash}{984e5967448051538555a64aac11ed21}
+      \strng{authornamehash}{984e5967448051538555a64aac11ed21}
+      \strng{authorfullhash}{984e5967448051538555a64aac11ed21}
+      \strng{authorfullhashraw}{984e5967448051538555a64aac11ed21}
+      \strng{translatorbibnamehash}{f43a60644c5bfc10b65457e980019a12}
+      \strng{translatornamehash}{f43a60644c5bfc10b65457e980019a12}
+      \strng{translatorfullhash}{f43a60644c5bfc10b65457e980019a12}
+      \strng{translatorfullhashraw}{f43a60644c5bfc10b65457e980019a12}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Original work published 1975}
+      \field{title}{Discipline and Punish: The Birth of the Prison}
+      \field{year}{1995}
+    \endentry
+    \entry{FranklMeaning2006}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=18e2c8c4b5fa6b147c14d2aaa3095c80}{%
+           family={Frankl},
+           familyi={F\bibinitperiod},
+           given={Viktor\bibnamedelima E.},
+           giveni={V\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Boston}%
+      }
+      \list{publisher}{1}{%
+        {Beacon Press}%
+      }
+      \strng{namehash}{18e2c8c4b5fa6b147c14d2aaa3095c80}
+      \strng{fullhash}{18e2c8c4b5fa6b147c14d2aaa3095c80}
+      \strng{fullhashraw}{18e2c8c4b5fa6b147c14d2aaa3095c80}
+      \strng{bibnamehash}{18e2c8c4b5fa6b147c14d2aaa3095c80}
+      \strng{authorbibnamehash}{18e2c8c4b5fa6b147c14d2aaa3095c80}
+      \strng{authornamehash}{18e2c8c4b5fa6b147c14d2aaa3095c80}
+      \strng{authorfullhash}{18e2c8c4b5fa6b147c14d2aaa3095c80}
+      \strng{authorfullhashraw}{18e2c8c4b5fa6b147c14d2aaa3095c80}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Original work published 1946}
+      \field{title}{Man's Search for Meaning}
+      \field{year}{2006}
+    \endentry
+    \entry{FreudBeyond1955}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=58227b8cb75750689aafd0bdb2b63408}{%
+           family={Freud},
+           familyi={F\bibinitperiod},
+           given={Sigmund},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{translator}{1}{}{%
+        {{hash=d82944639ecf1c78f4e5ed4f89b98452}{%
+           family={Strachey},
+           familyi={S\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {London}%
+      }
+      \list{publisher}{1}{%
+        {Hogarth Press}%
+      }
+      \strng{namehash}{58227b8cb75750689aafd0bdb2b63408}
+      \strng{fullhash}{58227b8cb75750689aafd0bdb2b63408}
+      \strng{fullhashraw}{58227b8cb75750689aafd0bdb2b63408}
+      \strng{bibnamehash}{58227b8cb75750689aafd0bdb2b63408}
+      \strng{authorbibnamehash}{58227b8cb75750689aafd0bdb2b63408}
+      \strng{authornamehash}{58227b8cb75750689aafd0bdb2b63408}
+      \strng{authorfullhash}{58227b8cb75750689aafd0bdb2b63408}
+      \strng{authorfullhashraw}{58227b8cb75750689aafd0bdb2b63408}
+      \strng{translatorbibnamehash}{d82944639ecf1c78f4e5ed4f89b98452}
+      \strng{translatornamehash}{d82944639ecf1c78f4e5ed4f89b98452}
+      \strng{translatorfullhash}{d82944639ecf1c78f4e5ed4f89b98452}
+      \strng{translatorfullhashraw}{d82944639ecf1c78f4e5ed4f89b98452}
+      \field{extraname}{1}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Original work published 1920}
+      \field{title}{Beyond the Pleasure Principle}
+      \field{year}{1955}
+    \endentry
+    \entry{FreudCivilization1961}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=58227b8cb75750689aafd0bdb2b63408}{%
+           family={Freud},
+           familyi={F\bibinitperiod},
+           given={Sigmund},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{translator}{1}{}{%
+        {{hash=d82944639ecf1c78f4e5ed4f89b98452}{%
+           family={Strachey},
+           familyi={S\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {W. W. Norton}%
+      }
+      \strng{namehash}{58227b8cb75750689aafd0bdb2b63408}
+      \strng{fullhash}{58227b8cb75750689aafd0bdb2b63408}
+      \strng{fullhashraw}{58227b8cb75750689aafd0bdb2b63408}
+      \strng{bibnamehash}{58227b8cb75750689aafd0bdb2b63408}
+      \strng{authorbibnamehash}{58227b8cb75750689aafd0bdb2b63408}
+      \strng{authornamehash}{58227b8cb75750689aafd0bdb2b63408}
+      \strng{authorfullhash}{58227b8cb75750689aafd0bdb2b63408}
+      \strng{authorfullhashraw}{58227b8cb75750689aafd0bdb2b63408}
+      \strng{translatorbibnamehash}{d82944639ecf1c78f4e5ed4f89b98452}
+      \strng{translatornamehash}{d82944639ecf1c78f4e5ed4f89b98452}
+      \strng{translatorfullhash}{d82944639ecf1c78f4e5ed4f89b98452}
+      \strng{translatorfullhashraw}{d82944639ecf1c78f4e5ed4f89b98452}
+      \field{extraname}{2}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Original work published 1930}
+      \field{title}{Civilization and Its Discontents}
+      \field{year}{1961}
+    \endentry
+    \entry{GregoryBeatitudes1954}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=45e5c2b105727095e303a4c53d0dd080}{%
+           family={{Gregory of Nyssa}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \name{translator}{2}{}{%
+        {{hash=f65f96b66cee404a3ec64a91b73e17a3}{%
+           family={Graef},
+           familyi={G\bibinitperiod},
+           given={Hilda\bibnamedelima C.},
+           giveni={H\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=b538b2ac5a9d766cdbfcb61463739f16}{%
+           family={Callahan},
+           familyi={C\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Newman Press}%
+      }
+      \strng{namehash}{45e5c2b105727095e303a4c53d0dd080}
+      \strng{fullhash}{45e5c2b105727095e303a4c53d0dd080}
+      \strng{fullhashraw}{45e5c2b105727095e303a4c53d0dd080}
+      \strng{bibnamehash}{45e5c2b105727095e303a4c53d0dd080}
+      \strng{authorbibnamehash}{45e5c2b105727095e303a4c53d0dd080}
+      \strng{authornamehash}{45e5c2b105727095e303a4c53d0dd080}
+      \strng{authorfullhash}{45e5c2b105727095e303a4c53d0dd080}
+      \strng{authorfullhashraw}{45e5c2b105727095e303a4c53d0dd080}
+      \strng{translatorbibnamehash}{028b0ae542aa765b93cca843e38067ac}
+      \strng{translatornamehash}{028b0ae542aa765b93cca843e38067ac}
+      \strng{translatorfullhash}{028b0ae542aa765b93cca843e38067ac}
+      \strng{translatorfullhashraw}{028b0ae542aa765b93cca843e38067ac}
+      \field{extraname}{1}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Lord's Prayer and the Beatitudes}
+      \field{year}{1954}
+    \endentry
+    \entry{GregoryMoses1978}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=45e5c2b105727095e303a4c53d0dd080}{%
+           family={{Gregory of Nyssa}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \name{translator}{2}{}{%
+        {{hash=577216f20b2bd7183fd180d1e6e5bf39}{%
+           family={Malherbe},
+           familyi={M\bibinitperiod},
+           given={Abraham\bibnamedelima J.},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=14f8235e4374b0811c907fef17726962}{%
+           family={Ferguson},
+           familyi={F\bibinitperiod},
+           given={Everett},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Paulist Press}%
+      }
+      \strng{namehash}{45e5c2b105727095e303a4c53d0dd080}
+      \strng{fullhash}{45e5c2b105727095e303a4c53d0dd080}
+      \strng{fullhashraw}{45e5c2b105727095e303a4c53d0dd080}
+      \strng{bibnamehash}{45e5c2b105727095e303a4c53d0dd080}
+      \strng{authorbibnamehash}{45e5c2b105727095e303a4c53d0dd080}
+      \strng{authornamehash}{45e5c2b105727095e303a4c53d0dd080}
+      \strng{authorfullhash}{45e5c2b105727095e303a4c53d0dd080}
+      \strng{authorfullhashraw}{45e5c2b105727095e303a4c53d0dd080}
+      \strng{translatorbibnamehash}{16a91f5f81f0a09e6d0c869c094c2811}
+      \strng{translatornamehash}{16a91f5f81f0a09e6d0c869c094c2811}
+      \strng{translatorfullhash}{16a91f5f81f0a09e6d0c869c094c2811}
+      \strng{translatorfullhashraw}{16a91f5f81f0a09e6d0c869c094c2811}
+      \field{extraname}{2}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Life of Moses}
+      \field{year}{1978}
+    \endentry
+    \entry{HegelPhenomenology1977}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d56805b99a1e2d9e4499b098b29157ff}{%
+           family={Hegel},
+           familyi={H\bibinitperiod},
+           given={G.\bibnamedelimi W.\bibnamedelimi F.},
+           giveni={G\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{translator}{1}{}{%
+        {{hash=b0967b0b5ec39d863dd038b265b1d192}{%
+           family={Miller},
+           familyi={M\bibinitperiod},
+           given={A.\bibnamedelimi V.},
+           giveni={A\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Oxford}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{d56805b99a1e2d9e4499b098b29157ff}
+      \strng{fullhash}{d56805b99a1e2d9e4499b098b29157ff}
+      \strng{fullhashraw}{d56805b99a1e2d9e4499b098b29157ff}
+      \strng{bibnamehash}{d56805b99a1e2d9e4499b098b29157ff}
+      \strng{authorbibnamehash}{d56805b99a1e2d9e4499b098b29157ff}
+      \strng{authornamehash}{d56805b99a1e2d9e4499b098b29157ff}
+      \strng{authorfullhash}{d56805b99a1e2d9e4499b098b29157ff}
+      \strng{authorfullhashraw}{d56805b99a1e2d9e4499b098b29157ff}
+      \strng{translatorbibnamehash}{b0967b0b5ec39d863dd038b265b1d192}
+      \strng{translatornamehash}{b0967b0b5ec39d863dd038b265b1d192}
+      \strng{translatorfullhash}{b0967b0b5ec39d863dd038b265b1d192}
+      \strng{translatorfullhashraw}{b0967b0b5ec39d863dd038b265b1d192}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Original work published 1807}
+      \field{title}{Phenomenology of Spirit}
+      \field{year}{1977}
+    \endentry
+    \entry{HeideggerBT1962}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=79b1e6f4199aeb3f853ca7cba607bfdc}{%
+           family={Heidegger},
+           familyi={H\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{translator}{2}{}{%
+        {{hash=c049344fee49846c5dfae43516b5bdec}{%
+           family={Macquarrie},
+           familyi={M\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+        {{hash=92a3ea0c62723c7c38c5598e8f1ccb75}{%
+           family={Robinson},
+           familyi={R\bibinitperiod},
+           given={Edward},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Harper \& Row}%
+      }
+      \strng{namehash}{79b1e6f4199aeb3f853ca7cba607bfdc}
+      \strng{fullhash}{79b1e6f4199aeb3f853ca7cba607bfdc}
+      \strng{fullhashraw}{79b1e6f4199aeb3f853ca7cba607bfdc}
+      \strng{bibnamehash}{79b1e6f4199aeb3f853ca7cba607bfdc}
+      \strng{authorbibnamehash}{79b1e6f4199aeb3f853ca7cba607bfdc}
+      \strng{authornamehash}{79b1e6f4199aeb3f853ca7cba607bfdc}
+      \strng{authorfullhash}{79b1e6f4199aeb3f853ca7cba607bfdc}
+      \strng{authorfullhashraw}{79b1e6f4199aeb3f853ca7cba607bfdc}
+      \strng{translatorbibnamehash}{a925a43c0b7f949af0e494f45d525498}
+      \strng{translatornamehash}{a925a43c0b7f949af0e494f45d525498}
+      \strng{translatorfullhash}{a925a43c0b7f949af0e494f45d525498}
+      \strng{translatorfullhashraw}{a925a43c0b7f949af0e494f45d525498}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Original work published 1927}
+      \field{title}{Being and Time}
+      \field{year}{1962}
+    \endentry
+    \entry{JungAion1969}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b510fd523fa8963360c262f09996cbee}{%
+           family={Jung},
+           familyi={J\bibinitperiod},
+           given={Carl\bibnamedelima Gustav},
+           giveni={C\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{translator}{1}{}{%
+        {{hash=7e60bff0e94bd9dc5254a3c203745a0e}{%
+           family={Hull},
+           familyi={H\bibinitperiod},
+           given={R.\bibnamedelimi F.\bibnamedelimi C.},
+           giveni={R\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Princeton}%
+      }
+      \list{publisher}{1}{%
+        {Princeton University Press}%
+      }
+      \strng{namehash}{b510fd523fa8963360c262f09996cbee}
+      \strng{fullhash}{b510fd523fa8963360c262f09996cbee}
+      \strng{fullhashraw}{b510fd523fa8963360c262f09996cbee}
+      \strng{bibnamehash}{b510fd523fa8963360c262f09996cbee}
+      \strng{authorbibnamehash}{b510fd523fa8963360c262f09996cbee}
+      \strng{authornamehash}{b510fd523fa8963360c262f09996cbee}
+      \strng{authorfullhash}{b510fd523fa8963360c262f09996cbee}
+      \strng{authorfullhashraw}{b510fd523fa8963360c262f09996cbee}
+      \strng{translatorbibnamehash}{7e60bff0e94bd9dc5254a3c203745a0e}
+      \strng{translatornamehash}{7e60bff0e94bd9dc5254a3c203745a0e}
+      \strng{translatorfullhash}{7e60bff0e94bd9dc5254a3c203745a0e}
+      \strng{translatorfullhashraw}{7e60bff0e94bd9dc5254a3c203745a0e}
+      \field{extraname}{1}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Original Collected Works vol. 9, part 2 (1959)}
+      \field{title}{Aion: Researches into the Phenomenology of the Self}
+      \field{year}{1969}
+    \endentry
+    \entry{JungArchetypes1969}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b510fd523fa8963360c262f09996cbee}{%
+           family={Jung},
+           familyi={J\bibinitperiod},
+           given={Carl\bibnamedelima Gustav},
+           giveni={C\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=fe82f0d25dcaecad96556b92f0fa6c2e}{%
+           family={Adler},
+           familyi={A\bibinitperiod},
+           given={Gerhard},
+           giveni={G\bibinitperiod}}}%
+        {{hash=7e60bff0e94bd9dc5254a3c203745a0e}{%
+           family={Hull},
+           familyi={H\bibinitperiod},
+           given={R.\bibnamedelimi F.\bibnamedelimi C.},
+           giveni={R\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \name{translator}{1}{}{%
+        {{hash=7e60bff0e94bd9dc5254a3c203745a0e}{%
+           family={Hull},
+           familyi={H\bibinitperiod},
+           given={R.\bibnamedelimi F.\bibnamedelimi C.},
+           giveni={R\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Princeton}%
+      }
+      \list{publisher}{1}{%
+        {Princeton University Press}%
+      }
+      \strng{namehash}{b510fd523fa8963360c262f09996cbee}
+      \strng{fullhash}{b510fd523fa8963360c262f09996cbee}
+      \strng{fullhashraw}{b510fd523fa8963360c262f09996cbee}
+      \strng{bibnamehash}{b510fd523fa8963360c262f09996cbee}
+      \strng{authorbibnamehash}{b510fd523fa8963360c262f09996cbee}
+      \strng{authornamehash}{b510fd523fa8963360c262f09996cbee}
+      \strng{authorfullhash}{b510fd523fa8963360c262f09996cbee}
+      \strng{authorfullhashraw}{b510fd523fa8963360c262f09996cbee}
+      \strng{editorbibnamehash}{ca374f2989e36843cc6ab4408d7f452f}
+      \strng{editornamehash}{ca374f2989e36843cc6ab4408d7f452f}
+      \strng{editorfullhash}{ca374f2989e36843cc6ab4408d7f452f}
+      \strng{editorfullhashraw}{ca374f2989e36843cc6ab4408d7f452f}
+      \strng{translatorbibnamehash}{7e60bff0e94bd9dc5254a3c203745a0e}
+      \strng{translatornamehash}{7e60bff0e94bd9dc5254a3c203745a0e}
+      \strng{translatorfullhash}{7e60bff0e94bd9dc5254a3c203745a0e}
+      \strng{translatorfullhashraw}{7e60bff0e94bd9dc5254a3c203745a0e}
+      \field{extraname}{2}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Original Collected Works vol. 9, part 1 (1959)}
+      \field{title}{The Archetypes and the Collective Unconscious}
+      \field{year}{1969}
+    \endentry
+    \entry{KantCPrR1996}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e1e09a59acd7633f469747be85d5edc0}{%
+           family={Kant},
+           familyi={K\bibinitperiod},
+           given={Immanuel},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{translator}{1}{}{%
+        {{hash=f6289054fed50f8a69dfd70d1e6f9dc5}{%
+           family={Gregor},
+           familyi={G\bibinitperiod},
+           given={Mary},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cambridge}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{e1e09a59acd7633f469747be85d5edc0}
+      \strng{fullhash}{e1e09a59acd7633f469747be85d5edc0}
+      \strng{fullhashraw}{e1e09a59acd7633f469747be85d5edc0}
+      \strng{bibnamehash}{e1e09a59acd7633f469747be85d5edc0}
+      \strng{authorbibnamehash}{e1e09a59acd7633f469747be85d5edc0}
+      \strng{authornamehash}{e1e09a59acd7633f469747be85d5edc0}
+      \strng{authorfullhash}{e1e09a59acd7633f469747be85d5edc0}
+      \strng{authorfullhashraw}{e1e09a59acd7633f469747be85d5edc0}
+      \strng{translatorbibnamehash}{f6289054fed50f8a69dfd70d1e6f9dc5}
+      \strng{translatornamehash}{f6289054fed50f8a69dfd70d1e6f9dc5}
+      \strng{translatorfullhash}{f6289054fed50f8a69dfd70d1e6f9dc5}
+      \strng{translatorfullhashraw}{f6289054fed50f8a69dfd70d1e6f9dc5}
+      \field{extraname}{1}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Original work published 1788}
+      \field{title}{Critique of Practical Reason}
+      \field{year}{1996}
+    \endentry
+    \entry{KantGroundwork1996}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e1e09a59acd7633f469747be85d5edc0}{%
+           family={Kant},
+           familyi={K\bibinitperiod},
+           given={Immanuel},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Cambridge}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{e1e09a59acd7633f469747be85d5edc0}
+      \strng{fullhash}{e1e09a59acd7633f469747be85d5edc0}
+      \strng{fullhashraw}{e1e09a59acd7633f469747be85d5edc0}
+      \strng{bibnamehash}{e1e09a59acd7633f469747be85d5edc0}
+      \strng{authorbibnamehash}{e1e09a59acd7633f469747be85d5edc0}
+      \strng{authornamehash}{e1e09a59acd7633f469747be85d5edc0}
+      \strng{authorfullhash}{e1e09a59acd7633f469747be85d5edc0}
+      \strng{authorfullhashraw}{e1e09a59acd7633f469747be85d5edc0}
+      \field{extraname}{2}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Trans. Mary Gregor. Original 1785}
+      \field{title}{Groundwork of the Metaphysics of Morals}
+      \field{year}{1996}
+    \endentry
+    \entry{KierkegaardSUD1980}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=79e7785297fe7db6d341156cc36fcaf8}{%
+           family={Kierkegaard},
+           familyi={K\bibinitperiod},
+           given={S{ø}ren},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{translator}{2}{}{%
+        {{hash=d298933624a7fb9b51af9ce19fec4bfe}{%
+           family={Hong},
+           familyi={H\bibinitperiod},
+           given={Howard\bibnamedelima V.},
+           giveni={H\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=4bb9e935b4d1713602e9a3579887c5c3}{%
+           family={Hong},
+           familyi={H\bibinitperiod},
+           given={Edna\bibnamedelima H.},
+           giveni={E\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Princeton}%
+      }
+      \list{publisher}{1}{%
+        {Princeton University Press}%
+      }
+      \strng{namehash}{79e7785297fe7db6d341156cc36fcaf8}
+      \strng{fullhash}{79e7785297fe7db6d341156cc36fcaf8}
+      \strng{fullhashraw}{79e7785297fe7db6d341156cc36fcaf8}
+      \strng{bibnamehash}{79e7785297fe7db6d341156cc36fcaf8}
+      \strng{authorbibnamehash}{79e7785297fe7db6d341156cc36fcaf8}
+      \strng{authornamehash}{79e7785297fe7db6d341156cc36fcaf8}
+      \strng{authorfullhash}{79e7785297fe7db6d341156cc36fcaf8}
+      \strng{authorfullhashraw}{79e7785297fe7db6d341156cc36fcaf8}
+      \strng{translatorbibnamehash}{fb730521fd28663ffe9b57a5f0c9bc92}
+      \strng{translatornamehash}{fb730521fd28663ffe9b57a5f0c9bc92}
+      \strng{translatorfullhash}{fb730521fd28663ffe9b57a5f0c9bc92}
+      \strng{translatorfullhashraw}{fb730521fd28663ffe9b57a5f0c9bc92}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Original work published 1849}
+      \field{title}{The Sickness Unto Death}
+      \field{year}{1980}
+    \endentry
+    \entry{KojeveIRH1980}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3f3ecdba770cfdc063403f74aadeb64e}{%
+           family={Kojève},
+           familyi={K\bibinitperiod},
+           given={Alexandre},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=85cd704223faad4c96e971e165001e91}{%
+           family={Bloom},
+           familyi={B\bibinitperiod},
+           given={Allan},
+           giveni={A\bibinitperiod}}}%
+      }
+      \name{translator}{1}{}{%
+        {{hash=53c296c6d2ba7c34defbbfb69eb1759c}{%
+           family={James\bibnamedelimb H.\bibnamedelimi Nichols},
+           familyi={J\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim N\bibinitperiod},
+           given={Jr.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Ithaca}%
+      }
+      \list{publisher}{1}{%
+        {Cornell University Press}%
+      }
+      \strng{namehash}{3f3ecdba770cfdc063403f74aadeb64e}
+      \strng{fullhash}{3f3ecdba770cfdc063403f74aadeb64e}
+      \strng{fullhashraw}{3f3ecdba770cfdc063403f74aadeb64e}
+      \strng{bibnamehash}{3f3ecdba770cfdc063403f74aadeb64e}
+      \strng{authorbibnamehash}{3f3ecdba770cfdc063403f74aadeb64e}
+      \strng{authornamehash}{3f3ecdba770cfdc063403f74aadeb64e}
+      \strng{authorfullhash}{3f3ecdba770cfdc063403f74aadeb64e}
+      \strng{authorfullhashraw}{3f3ecdba770cfdc063403f74aadeb64e}
+      \strng{editorbibnamehash}{85cd704223faad4c96e971e165001e91}
+      \strng{editornamehash}{85cd704223faad4c96e971e165001e91}
+      \strng{editorfullhash}{85cd704223faad4c96e971e165001e91}
+      \strng{editorfullhashraw}{85cd704223faad4c96e971e165001e91}
+      \strng{translatorbibnamehash}{53c296c6d2ba7c34defbbfb69eb1759c}
+      \strng{translatornamehash}{53c296c6d2ba7c34defbbfb69eb1759c}
+      \strng{translatorfullhash}{53c296c6d2ba7c34defbbfb69eb1759c}
+      \strng{translatorfullhashraw}{53c296c6d2ba7c34defbbfb69eb1759c}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Lectures 1933--1939; English trans. 1969/1980}
+      \field{title}{Introduction to the Reading of Hegel}
+      \field{year}{1980}
+    \endentry
+    \entry{LacanSeminarXI1991}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4d902d811257842fa4b0bd441b828090}{%
+           family={Lacan},
+           familyi={L\bibinitperiod},
+           given={Jacques},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{translator}{1}{}{%
+        {{hash=f43a60644c5bfc10b65457e980019a12}{%
+           family={Sheridan},
+           familyi={S\bibinitperiod},
+           given={Alan},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {W. W. Norton}%
+      }
+      \strng{namehash}{4d902d811257842fa4b0bd441b828090}
+      \strng{fullhash}{4d902d811257842fa4b0bd441b828090}
+      \strng{fullhashraw}{4d902d811257842fa4b0bd441b828090}
+      \strng{bibnamehash}{4d902d811257842fa4b0bd441b828090}
+      \strng{authorbibnamehash}{4d902d811257842fa4b0bd441b828090}
+      \strng{authornamehash}{4d902d811257842fa4b0bd441b828090}
+      \strng{authorfullhash}{4d902d811257842fa4b0bd441b828090}
+      \strng{authorfullhashraw}{4d902d811257842fa4b0bd441b828090}
+      \strng{translatorbibnamehash}{f43a60644c5bfc10b65457e980019a12}
+      \strng{translatornamehash}{f43a60644c5bfc10b65457e980019a12}
+      \strng{translatorfullhash}{f43a60644c5bfc10b65457e980019a12}
+      \strng{translatorfullhashraw}{f43a60644c5bfc10b65457e980019a12}
+      \field{extraname}{1}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Original French 1973; English edition 1977/1991}
+      \field{title}{The Seminar of Jacques Lacan, Book XI: The Four Fundamental Concepts of Psychoanalysis}
+      \field{year}{1991}
+    \endentry
+    \entry{LacanEcrits2006}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4d902d811257842fa4b0bd441b828090}{%
+           family={Lacan},
+           familyi={L\bibinitperiod},
+           given={Jacques},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{translator}{1}{}{%
+        {{hash=cf32982d326f76697ac16036f3ab3a27}{%
+           family={Fink},
+           familyi={F\bibinitperiod},
+           given={Bruce},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {W. W. Norton}%
+      }
+      \strng{namehash}{4d902d811257842fa4b0bd441b828090}
+      \strng{fullhash}{4d902d811257842fa4b0bd441b828090}
+      \strng{fullhashraw}{4d902d811257842fa4b0bd441b828090}
+      \strng{bibnamehash}{4d902d811257842fa4b0bd441b828090}
+      \strng{authorbibnamehash}{4d902d811257842fa4b0bd441b828090}
+      \strng{authornamehash}{4d902d811257842fa4b0bd441b828090}
+      \strng{authorfullhash}{4d902d811257842fa4b0bd441b828090}
+      \strng{authorfullhashraw}{4d902d811257842fa4b0bd441b828090}
+      \strng{translatorbibnamehash}{cf32982d326f76697ac16036f3ab3a27}
+      \strng{translatornamehash}{cf32982d326f76697ac16036f3ab3a27}
+      \strng{translatorfullhash}{cf32982d326f76697ac16036f3ab3a27}
+      \strng{translatorfullhashraw}{cf32982d326f76697ac16036f3ab3a27}
+      \field{extraname}{2}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Original collection published 1966}
+      \field{title}{Écrits: The First Complete Edition in English}
+      \field{year}{2006}
+    \endentry
+    \entry{LevinasTI1969}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a8d36406126d3d36c4e074b1733cbac8}{%
+           family={Levinas},
+           familyi={L\bibinitperiod},
+           given={Emmanuel},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{translator}{1}{}{%
+        {{hash=42ff0b6a5d9151566485c92ca296f0b2}{%
+           family={Lingis},
+           familyi={L\bibinitperiod},
+           given={Alphonso},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Pittsburgh}%
+      }
+      \list{publisher}{1}{%
+        {Duquesne University Press}%
+      }
+      \strng{namehash}{a8d36406126d3d36c4e074b1733cbac8}
+      \strng{fullhash}{a8d36406126d3d36c4e074b1733cbac8}
+      \strng{fullhashraw}{a8d36406126d3d36c4e074b1733cbac8}
+      \strng{bibnamehash}{a8d36406126d3d36c4e074b1733cbac8}
+      \strng{authorbibnamehash}{a8d36406126d3d36c4e074b1733cbac8}
+      \strng{authornamehash}{a8d36406126d3d36c4e074b1733cbac8}
+      \strng{authorfullhash}{a8d36406126d3d36c4e074b1733cbac8}
+      \strng{authorfullhashraw}{a8d36406126d3d36c4e074b1733cbac8}
+      \strng{translatorbibnamehash}{42ff0b6a5d9151566485c92ca296f0b2}
+      \strng{translatornamehash}{42ff0b6a5d9151566485c92ca296f0b2}
+      \strng{translatorfullhash}{42ff0b6a5d9151566485c92ca296f0b2}
+      \strng{translatorfullhashraw}{42ff0b6a5d9151566485c92ca296f0b2}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Original work published 1961}
+      \field{title}{Totality and Infinity: An Essay on Exteriority}
+      \field{year}{1969}
+    \endentry
+    \entry{MarcuseOneDim1964}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=02dec6de8c696e1bc6ab68ab5ab9ea6b}{%
+           family={Marcuse},
+           familyi={M\bibinitperiod},
+           given={Herbert},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Boston}%
+      }
+      \list{publisher}{1}{%
+        {Beacon Press}%
+      }
+      \strng{namehash}{02dec6de8c696e1bc6ab68ab5ab9ea6b}
+      \strng{fullhash}{02dec6de8c696e1bc6ab68ab5ab9ea6b}
+      \strng{fullhashraw}{02dec6de8c696e1bc6ab68ab5ab9ea6b}
+      \strng{bibnamehash}{02dec6de8c696e1bc6ab68ab5ab9ea6b}
+      \strng{authorbibnamehash}{02dec6de8c696e1bc6ab68ab5ab9ea6b}
+      \strng{authornamehash}{02dec6de8c696e1bc6ab68ab5ab9ea6b}
+      \strng{authorfullhash}{02dec6de8c696e1bc6ab68ab5ab9ea6b}
+      \strng{authorfullhashraw}{02dec6de8c696e1bc6ab68ab5ab9ea6b}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{One-Dimensional Man: Studies in the Ideology of Advanced Industrial Society}
+      \field{year}{1964}
+    \endentry
+    \entry{NietzscheBGE1990}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5d199ea59b68f8edfff8c5ae07d60d68}{%
+           family={Nietzsche},
+           familyi={N\bibinitperiod},
+           given={Friedrich},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{translator}{1}{}{%
+        {{hash=2ab6b919adc49f81c7c4e1525afdc315}{%
+           family={Kaufmann},
+           familyi={K\bibinitperiod},
+           given={Walter},
+           giveni={W\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Vintage}%
+      }
+      \strng{namehash}{5d199ea59b68f8edfff8c5ae07d60d68}
+      \strng{fullhash}{5d199ea59b68f8edfff8c5ae07d60d68}
+      \strng{fullhashraw}{5d199ea59b68f8edfff8c5ae07d60d68}
+      \strng{bibnamehash}{5d199ea59b68f8edfff8c5ae07d60d68}
+      \strng{authorbibnamehash}{5d199ea59b68f8edfff8c5ae07d60d68}
+      \strng{authornamehash}{5d199ea59b68f8edfff8c5ae07d60d68}
+      \strng{authorfullhash}{5d199ea59b68f8edfff8c5ae07d60d68}
+      \strng{authorfullhashraw}{5d199ea59b68f8edfff8c5ae07d60d68}
+      \strng{translatorbibnamehash}{2ab6b919adc49f81c7c4e1525afdc315}
+      \strng{translatornamehash}{2ab6b919adc49f81c7c4e1525afdc315}
+      \strng{translatorfullhash}{2ab6b919adc49f81c7c4e1525afdc315}
+      \strng{translatorfullhashraw}{2ab6b919adc49f81c7c4e1525afdc315}
+      \field{extraname}{1}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Original work published 1886}
+      \field{title}{Beyond Good and Evil}
+      \field{year}{1990}
+    \endentry
+    \entry{NietzscheGenealogy1994}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5d199ea59b68f8edfff8c5ae07d60d68}{%
+           family={Nietzsche},
+           familyi={N\bibinitperiod},
+           given={Friedrich},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{translator}{1}{}{%
+        {{hash=2ab6b919adc49f81c7c4e1525afdc315}{%
+           family={Kaufmann},
+           familyi={K\bibinitperiod},
+           given={Walter},
+           giveni={W\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Vintage}%
+      }
+      \strng{namehash}{5d199ea59b68f8edfff8c5ae07d60d68}
+      \strng{fullhash}{5d199ea59b68f8edfff8c5ae07d60d68}
+      \strng{fullhashraw}{5d199ea59b68f8edfff8c5ae07d60d68}
+      \strng{bibnamehash}{5d199ea59b68f8edfff8c5ae07d60d68}
+      \strng{authorbibnamehash}{5d199ea59b68f8edfff8c5ae07d60d68}
+      \strng{authornamehash}{5d199ea59b68f8edfff8c5ae07d60d68}
+      \strng{authorfullhash}{5d199ea59b68f8edfff8c5ae07d60d68}
+      \strng{authorfullhashraw}{5d199ea59b68f8edfff8c5ae07d60d68}
+      \strng{translatorbibnamehash}{2ab6b919adc49f81c7c4e1525afdc315}
+      \strng{translatornamehash}{2ab6b919adc49f81c7c4e1525afdc315}
+      \strng{translatorfullhash}{2ab6b919adc49f81c7c4e1525afdc315}
+      \strng{translatorfullhashraw}{2ab6b919adc49f81c7c4e1525afdc315}
+      \field{extraname}{2}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Original work published 1887}
+      \field{title}{On the Genealogy of Morals}
+      \field{year}{1994}
+    \endentry
+    \entry{OpenAIChatGPT2024}{software}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0523b13262b12c215d8009938f5c14f1}{%
+           family={{OpenAI}},
+           familyi={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{0523b13262b12c215d8009938f5c14f1}
+      \strng{fullhash}{0523b13262b12c215d8009938f5c14f1}
+      \strng{fullhashraw}{0523b13262b12c215d8009938f5c14f1}
+      \strng{bibnamehash}{0523b13262b12c215d8009938f5c14f1}
+      \strng{authorbibnamehash}{0523b13262b12c215d8009938f5c14f1}
+      \strng{authornamehash}{0523b13262b12c215d8009938f5c14f1}
+      \strng{authorfullhash}{0523b13262b12c215d8009938f5c14f1}
+      \strng{authorfullhashraw}{0523b13262b12c215d8009938f5c14f1}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Large language model}
+      \field{title}{ChatGPT (GPT-5)}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://chat.openai.com
+      \endverb
+      \verb{url}
+      \verb https://chat.openai.com
+      \endverb
+    \endentry
+    \entry{Rahula1959}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e968f5c2b9770aea8d4ef01d21685a94}{%
+           family={Rahula},
+           familyi={R\bibinitperiod},
+           given={Walpola},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Grove Press}%
+      }
+      \strng{namehash}{e968f5c2b9770aea8d4ef01d21685a94}
+      \strng{fullhash}{e968f5c2b9770aea8d4ef01d21685a94}
+      \strng{fullhashraw}{e968f5c2b9770aea8d4ef01d21685a94}
+      \strng{bibnamehash}{e968f5c2b9770aea8d4ef01d21685a94}
+      \strng{authorbibnamehash}{e968f5c2b9770aea8d4ef01d21685a94}
+      \strng{authornamehash}{e968f5c2b9770aea8d4ef01d21685a94}
+      \strng{authorfullhash}{e968f5c2b9770aea8d4ef01d21685a94}
+      \strng{authorfullhashraw}{e968f5c2b9770aea8d4ef01d21685a94}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{What the Buddha Taught}
+      \field{year}{1959}
+    \endentry
+    \entry{RicoeurSymbol1970}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3d20e6df30e34dcca4760bb31bddaa90}{%
+           family={Ricoeur},
+           familyi={R\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{translator}{1}{}{%
+        {{hash=f5f907df922ec844019f5034842d272b}{%
+           family={Savage},
+           familyi={S\bibinitperiod},
+           given={Denis},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New Haven}%
+      }
+      \list{publisher}{1}{%
+        {Yale University Press}%
+      }
+      \strng{namehash}{3d20e6df30e34dcca4760bb31bddaa90}
+      \strng{fullhash}{3d20e6df30e34dcca4760bb31bddaa90}
+      \strng{fullhashraw}{3d20e6df30e34dcca4760bb31bddaa90}
+      \strng{bibnamehash}{3d20e6df30e34dcca4760bb31bddaa90}
+      \strng{authorbibnamehash}{3d20e6df30e34dcca4760bb31bddaa90}
+      \strng{authornamehash}{3d20e6df30e34dcca4760bb31bddaa90}
+      \strng{authorfullhash}{3d20e6df30e34dcca4760bb31bddaa90}
+      \strng{authorfullhashraw}{3d20e6df30e34dcca4760bb31bddaa90}
+      \strng{translatorbibnamehash}{f5f907df922ec844019f5034842d272b}
+      \strng{translatornamehash}{f5f907df922ec844019f5034842d272b}
+      \strng{translatorfullhash}{f5f907df922ec844019f5034842d272b}
+      \strng{translatorfullhashraw}{f5f907df922ec844019f5034842d272b}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Freud and Philosophy: An Essay on Interpretation}
+      \field{year}{1970}
+    \endentry
+    \entry{SaidOrientalism1978}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a41ca7a97ad4c8dd51a0d6e647ae828e}{%
+           family={Said},
+           familyi={S\bibinitperiod},
+           given={Edward\bibnamedelima W.},
+           giveni={E\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Pantheon}%
+      }
+      \strng{namehash}{a41ca7a97ad4c8dd51a0d6e647ae828e}
+      \strng{fullhash}{a41ca7a97ad4c8dd51a0d6e647ae828e}
+      \strng{fullhashraw}{a41ca7a97ad4c8dd51a0d6e647ae828e}
+      \strng{bibnamehash}{a41ca7a97ad4c8dd51a0d6e647ae828e}
+      \strng{authorbibnamehash}{a41ca7a97ad4c8dd51a0d6e647ae828e}
+      \strng{authornamehash}{a41ca7a97ad4c8dd51a0d6e647ae828e}
+      \strng{authorfullhash}{a41ca7a97ad4c8dd51a0d6e647ae828e}
+      \strng{authorfullhashraw}{a41ca7a97ad4c8dd51a0d6e647ae828e}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Orientalism}
+      \field{year}{1978}
+    \endentry
+    \entry{SartreBN2003}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=684f70e5db29de904d130897d37e48bf}{%
+           family={Sartre},
+           familyi={S\bibinitperiod},
+           given={Jean-Paul},
+           giveni={J\bibinithyphendelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{translator}{1}{}{%
+        {{hash=f50b914db7befa4c228d5bed2da7c2be}{%
+           family={Barnes},
+           familyi={B\bibinitperiod},
+           given={Hazel\bibnamedelima E.},
+           giveni={H\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {London}%
+      }
+      \list{publisher}{1}{%
+        {Routledge}%
+      }
+      \strng{namehash}{684f70e5db29de904d130897d37e48bf}
+      \strng{fullhash}{684f70e5db29de904d130897d37e48bf}
+      \strng{fullhashraw}{684f70e5db29de904d130897d37e48bf}
+      \strng{bibnamehash}{684f70e5db29de904d130897d37e48bf}
+      \strng{authorbibnamehash}{684f70e5db29de904d130897d37e48bf}
+      \strng{authornamehash}{684f70e5db29de904d130897d37e48bf}
+      \strng{authorfullhash}{684f70e5db29de904d130897d37e48bf}
+      \strng{authorfullhashraw}{684f70e5db29de904d130897d37e48bf}
+      \strng{translatorbibnamehash}{f50b914db7befa4c228d5bed2da7c2be}
+      \strng{translatornamehash}{f50b914db7befa4c228d5bed2da7c2be}
+      \strng{translatorfullhash}{f50b914db7befa4c228d5bed2da7c2be}
+      \strng{translatorfullhashraw}{f50b914db7befa4c228d5bed2da7c2be}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Original work published 1943}
+      \field{title}{Being and Nothingness}
+      \field{year}{2003}
+    \endentry
+    \entry{SchopenhauerWWR1969}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0fdaf10661a49b1ba58001b2cbc307b1}{%
+           family={Schopenhauer},
+           familyi={S\bibinitperiod},
+           given={Arthur},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{translator}{1}{}{%
+        {{hash=e9100a75312d0d4c7da526d8445a2053}{%
+           family={Payne},
+           familyi={P\bibinitperiod},
+           given={E.\bibnamedelimi F.\bibnamedelimi J.},
+           giveni={E\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Dover}%
+      }
+      \strng{namehash}{0fdaf10661a49b1ba58001b2cbc307b1}
+      \strng{fullhash}{0fdaf10661a49b1ba58001b2cbc307b1}
+      \strng{fullhashraw}{0fdaf10661a49b1ba58001b2cbc307b1}
+      \strng{bibnamehash}{0fdaf10661a49b1ba58001b2cbc307b1}
+      \strng{authorbibnamehash}{0fdaf10661a49b1ba58001b2cbc307b1}
+      \strng{authornamehash}{0fdaf10661a49b1ba58001b2cbc307b1}
+      \strng{authorfullhash}{0fdaf10661a49b1ba58001b2cbc307b1}
+      \strng{authorfullhashraw}{0fdaf10661a49b1ba58001b2cbc307b1}
+      \strng{translatorbibnamehash}{e9100a75312d0d4c7da526d8445a2053}
+      \strng{translatornamehash}{e9100a75312d0d4c7da526d8445a2053}
+      \strng{translatorfullhash}{e9100a75312d0d4c7da526d8445a2053}
+      \strng{translatorfullhashraw}{e9100a75312d0d4c7da526d8445a2053}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Original work published 1818}
+      \field{title}{The World as Will and Representation, Volume I}
+      \field{year}{1969}
+    \endentry
+    \entry{WeberProtestant2002}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5c5b680247c92b67e657f8faab60250e}{%
+           family={Weber},
+           familyi={W\bibinitperiod},
+           given={Max},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{translator}{1}{}{%
+        {{hash=f94cd486741665d3d9e0f73226f186e3}{%
+           family={Kalberg},
+           familyi={K\bibinitperiod},
+           given={Stephen},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Los Angeles}%
+      }
+      \list{publisher}{1}{%
+        {Roxbury}%
+      }
+      \strng{namehash}{5c5b680247c92b67e657f8faab60250e}
+      \strng{fullhash}{5c5b680247c92b67e657f8faab60250e}
+      \strng{fullhashraw}{5c5b680247c92b67e657f8faab60250e}
+      \strng{bibnamehash}{5c5b680247c92b67e657f8faab60250e}
+      \strng{authorbibnamehash}{5c5b680247c92b67e657f8faab60250e}
+      \strng{authornamehash}{5c5b680247c92b67e657f8faab60250e}
+      \strng{authorfullhash}{5c5b680247c92b67e657f8faab60250e}
+      \strng{authorfullhashraw}{5c5b680247c92b67e657f8faab60250e}
+      \strng{translatorbibnamehash}{f94cd486741665d3d9e0f73226f186e3}
+      \strng{translatornamehash}{f94cd486741665d3d9e0f73226f186e3}
+      \strng{translatorfullhash}{f94cd486741665d3d9e0f73226f186e3}
+      \strng{translatorfullhashraw}{f94cd486741665d3d9e0f73226f186e3}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Original work published 1905}
+      \field{title}{The Protestant Ethic and the Spirit of Capitalism}
+      \field{year}{2002}
+    \endentry
+    \entry{ZizekSublime1999}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4287536cb16036c0e3b7c65fdb3c3c19}{%
+           family={Žižek},
+           familyi={Ž\bibinitperiod},
+           given={Slavoj},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {London}%
+      }
+      \list{publisher}{1}{%
+        {Verso}%
+      }
+      \strng{namehash}{4287536cb16036c0e3b7c65fdb3c3c19}
+      \strng{fullhash}{4287536cb16036c0e3b7c65fdb3c3c19}
+      \strng{fullhashraw}{4287536cb16036c0e3b7c65fdb3c3c19}
+      \strng{bibnamehash}{4287536cb16036c0e3b7c65fdb3c3c19}
+      \strng{authorbibnamehash}{4287536cb16036c0e3b7c65fdb3c3c19}
+      \strng{authornamehash}{4287536cb16036c0e3b7c65fdb3c3c19}
+      \strng{authorfullhash}{4287536cb16036c0e3b7c65fdb3c3c19}
+      \strng{authorfullhashraw}{4287536cb16036c0e3b7c65fdb3c3c19}
+      \field{sortinit}{Ž}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Original work published 1989}
+      \field{title}{The Sublime Object of Ideology}
+      \field{year}{1999}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
