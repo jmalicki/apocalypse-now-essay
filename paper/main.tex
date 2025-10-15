@@ -18,7 +18,6 @@
   urlcolor=blue,
   breaklinks=true]{hyperref}
 \usepackage[style=apa,backend=biber]{biblatex}
-\usepackage{../google-books-cite/google-books-cite}
 \addbibresource{everyone.bib}
 
 % Configure BibLaTeX to make titles clickable but hide URL text
@@ -39,7 +38,8 @@
 
 \title{"Everyone Gets Everything He Wants":\\
   Desire, Fulfillment, and the Tragic Logic of Will in \textit{Apocalypse Now}}
-\author{OpenAI ChatGPT-5 and Cursor\\
+\author{OpenAI ChatGPT-5 and Cursor\thanks{See Appendix (\hyperref[app:ai-authorship]{page 
+  \pageref{app:ai-authorship}}) for explanation of AI authorship and process.}\\
   as directed by Joseph Malicki}
 \date{\today}
 
@@ -55,7 +55,7 @@
 \pagebreak[2]
 \input{Section_II_Conrad_content.tex}
 \pagebreak[2]
-\input{Section_III_Biblical_Buddhist_content.tex}
+\input{Section_III_content.tex}
 \pagebreak[2]
 
 % Section IV: Western Philosophy (updated structure)
@@ -69,4 +69,8 @@
 \input{Section_VII_Conclusion_content.tex}
 
 \printbibliography[heading=bibintoc]
+
+\newpage
+\input{Appendix_AI_Authorship.tex}
+
 \end{document}
