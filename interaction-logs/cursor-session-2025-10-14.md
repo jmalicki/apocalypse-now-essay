@@ -744,3 +744,92 @@ The essay is now a complete, academically rigorous, fully navigable philosophica
 - **Film Scene Hyperlinks**: ~80+ links throughout text
 
 **All changes committed with complete interaction log for full transparency. Ready for final v1.0 tag.**
+
+### 38. Repository Made Public & Link Styling
+
+**User**: "can you push and then tell me why the ci seems to be failing"
+
+**Assistant Response**: Checked GitHub Actions and found billing issue: "recent account payments have failed or your spending limit needs to be increased." Not a code problem - repository was private and hit Actions minutes limit.
+
+**User**: "is this a public github repo?"
+**User**: "make it public"
+
+**Implementation**: Made repository public using `gh repo edit --visibility public --accept-visibility-change-consequences`
+- Result: Unlimited GitHub Actions minutes for public repos
+- CI immediately started working again
+- URL: https://github.com/jmalicki/apocalypse-now-essay
+
+**User**: "an earlier revision had hyperlinks from citations to the bibliography so you could mouseover a reference in the pdf browser and see the entry, just like the film references"
+
+**Assistant Response**: Explained current setup - citations already link to bibliography, but `citecolor=black` makes them invisible.
+
+**User**: "can we do a more subtle indication?"
+
+**Assistant proposed**: Dark navy, dotted borders, or light grey options.
+
+**User**: "is it possible to do a very light greyscale dashed underline that is vvisually unobtrusive?"
+
+**Implementation attempt**: Added `pdfborder` with dashed style - but this creates boxes around links, not underlines. PDF/hyperref doesn't support underline-only.
+
+**User**: "while the current way only supports boxes, we can't make the other 3 sides invisible?"
+
+**Assistant Response**: No - `pdfborder` applies uniformly to all 4 sides. No per-side control.
+
+**User**: "can we just drop the boxes then"
+
+**Implementation**: Reverted to `colorlinks=true` with black text - links invisible but functional, discoverable on hover.
+
+### 39. Appendix B Navigation Improvements
+
+**User**: "can we also make sure that in appendix b: 1. the subsections appear in the toc, just like in other sections 2. subsections will try really really hard to not cross page boundaries, as that breaks pdf viewers' hover behavior"
+
+**Implementation**:
+1. Added `\phantomsection` and `\addcontentsline{toc}{subsection}{...}` to all 11 scenes
+2. Initially tried `\pagebreak[0]` and `\nopagebreak` - didn't prevent breaks within content
+3. Switched to `\begin{samepage}...\end{samepage}` - better but not guaranteed
+
+**User**: "is it possible to tune samepage to make it more aggressively preserve it"
+
+**Assistant Options**:
+- minipage (HARD constraint)
+- needspace (smart prevention)
+- Increased penalties (stronger hints)
+
+**User**: "minipage sounds like what we want"
+
+**Implementation**: Replaced all `samepage` with `minipage{\textwidth}` for HARD constraint - scenes cannot split across pages.
+
+Result: Document temporarily 68 pages (more efficient breaks)
+
+**User**: "one thing minipage did was make the whitespace after one scense before the start of the next smaller"
+
+**Fix**: Added `\bigskip` after each `\end{minipage}` to restore proper vertical spacing between scenes.
+
+Final result: 69 pages, all scenes on single pages, proper spacing maintained.
+
+---
+
+## Final Statistics (v1.0 - October 15, 2025, FINAL)
+- **Document Length**: 69 pages
+- **Total Sections**: 7 main sections + 2 appendices
+- **Section III (Biblical/Buddhist)**: 5 thematic files
+- **Section IV (Western Philosophy)**: 12 philosophers + 1 comparative (13 files, 25 subsubsections)
+- **Section V (Colonial Modernity)**: 7 theorist perspectives (6 files, 2 subsubsections)
+  - Weber, Adorno & Horkheimer & Marcuse, Foucault, Said & Fanon, Benjamin, Arendt
+- **Section VI (Psychology & Death)**: 8 theorists (8 files)
+- **Appendices**:
+  - Appendix A: AI authorship explanation
+  - Appendix B: 11 film scene references (all in PDF outline, forced to single pages)
+- **Bibliography Entries**: 61 entries
+- **Film Scene Hyperlinks**: 80+ invisible links throughout text
+- **Repository**: Public at https://github.com/jmalicki/apocalypse-now-essay
+
+**Navigation Features**:
+- All hyperlinks invisible but functional (discoverable on hover)
+- Citations link to bibliography entries
+- Scene references link to Appendix B descriptions
+- Scene descriptions forced to single pages with minipage (preserves PDF hover tooltips)
+- Proper vertical spacing between scenes with \bigskip
+- All 11 scenes appear in PDF bookmark outline for navigation
+
+**v1.0 Complete - All features implemented with full transparency.**
