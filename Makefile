@@ -20,8 +20,8 @@ LATEX_FLAGS = -interaction=nonstopmode -halt-on-error -file-line-error
 # Output directory
 OUT_DIR = build
 
-# Source files
-TEX_FILES = $(wildcard $(PAPER_DIR)/*.tex)
+# Source files (including subdirectories)
+TEX_FILES = $(shell find $(PAPER_DIR) -name '*.tex')
 BIB_FILES = $(wildcard $(PAPER_DIR)/*.bib)
 
 .PHONY: all clean cleanall view help watch markdown optimize-pdf
