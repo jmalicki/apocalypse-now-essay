@@ -40,7 +40,7 @@ The essay examines Willard's confession through seven major lenses:
 2. **Conrad**: *Heart of Darkness* as structural template
 3. **Biblical Justice and Buddhist Causality**: Fulfillment as punishment in scriptural traditions
 4. **Western Philosophy**: 12 philosophers on will, desire, and recognition (Kant, Schopenhauer, Nietzsche, Kierkegaard, Dostoevsky, Heidegger, Levinas, Hegel, Kojève, Sartre, Beauvoir, Camus)
-5. **Colonial Modernity**: Critical theory perspectives (Weber, Adorno & Horkheimer, Foucault, Said & Fanon, Benjamin, Arendt)
+5. **Colonial Modernity**: Critical theory perspectives (Weber, Adorno & Horkheimer & Marcuse, Foucault, Said & Fanon, Benjamin, Arendt)
 6. **Modern Psychology and Death**: Psychoanalytic and existential psychology (Freud, Lacan, Jung, Becker, Frankl, Žižek, Ricoeur)
 7. **Conclusion**: The extinction of desire
 
