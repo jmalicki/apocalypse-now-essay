@@ -33,6 +33,16 @@ all: $(MAIN).pdf
 $(MAIN).pdf: $(TEX_FILES) $(BIB_FILES)
 	@echo "==> Compiling with latexmk (auto-detects passes needed)..."
 	@cd $(PAPER_DIR) && latexmk -xelatex -bibtex -interaction=nonstopmode -halt-on-error $(MAIN_TEX).tex
+	@echo "==> Generating Google Books page links..."
+	@if [ -f .venv/bin/gbfind ]; then \
+		.venv/bin/gbfind --make-links $(PAPER_DIR)/$(MAIN_TEX) 2>/dev/null || echo "Note: No Google Books links generated"; \
+	elif command -v gbfind >/dev/null 2>&1; then \
+		gbfind --make-links $(PAPER_DIR)/$(MAIN_TEX) 2>/dev/null || echo "Note: No Google Books links generated"; \
+	else \
+		echo "Note: gbfind not installed, skipping Google Books links"; \
+	fi
+	@echo "==> Final LaTeX pass with links..."
+	@cd $(PAPER_DIR) && xelatex -interaction=nonstopmode -halt-on-error $(MAIN_TEX).tex
 	@cp $(PAPER_DIR)/$(MAIN_TEX).pdf $(MAIN).pdf
 	@rm -f $(PAPER_DIR)/$(MAIN_TEX).pdf
 	@echo "==> PDF compilation complete: $(MAIN).pdf"
