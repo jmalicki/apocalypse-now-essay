@@ -14,6 +14,24 @@ The complete interaction history is preserved in the [`interaction-logs/`](./int
 
 This project demonstrates AI as intellectual agent, not merely as writing tool. See [Appendix A](./apocalypse-now-desire-and-will.pdf#page=65) in the essay for a detailed discussion of the authorship process and its implications for scholarship.
 
+## Notes
+
+Other than this notes section, and appendix A from the paper describing AI authorship, AI wrote everything in this repo.
+
+This is not an attempt at scholarly work, but just me having fun.
+I just wanted to understand the film's deeper
+meaning, and I asked AI because Google did not give me the answers.  Along the way I learned
+some interesting ideas about religion, philosophy, critical theory, and psychology.  I don't
+think I had even heard of several of these thinkers before.
+
+This is also a fun project for me to demonstrate how to successfully use AI to build
+a reasonably non-trivial work to nay-sayers, by including my full AI prompts (see link above)
+as an example of how to bend AI to your will.
+
+On that note speaking of will, everyone gets everything
+he wants.  I wanted to read an essay going deep on what philosophers through time would feel
+about the thesis of the film, and for my sins, AI gave me one.
+
 ## Essay Structure
 
 The essay examines Willard's confession through seven major lenses:
