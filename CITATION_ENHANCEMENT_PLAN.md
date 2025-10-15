@@ -1,10 +1,24 @@
 # Citation Enhancement Plan
 
+## Status: ✅ Proof of Concept Complete
+
+The google-books-cite package is working! See: https://github.com/jmalicki/google-books-cite
+
+**Verified working:**
+- ✅ Clickable page numbers link to exact Google Books pages
+- ✅ Bibliography titles are clickable (URLs hidden from print)
+- ✅ Two-pass compilation system (.gbaux → Python → .gblinks.tex → PDF)
+- ✅ Tested in Evince with real Google Books links
+
+**Current limitation:**
+- ⚠️ Automatic ID search finds wrong books for many entries
+- Need manual verification/correction of Google Books IDs
+
 ## Goal
 Add Google Books links to public domain works while maintaining classical print citation style.
 
-**Note**: Research confirms that **no existing LaTeX package provides this functionality**.
-The standard approach is manual `\href` commands, which is tedious and error-prone. Our custom
+**Note**: Research confirms that **no existing LaTeX package provides this functionality**. 
+The standard approach is manual `\href` commands, which is tedious and error-prone. Our custom 
 `\gbparencite` command automates this process and is a novel contribution to the LaTeX citation ecosystem.
 
 ## Approach
